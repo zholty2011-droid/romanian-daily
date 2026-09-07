@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  data:
+    name: Данные словаря
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Валидация words-part*.json
+        run: node ./tests/validate-data.mjs
+
+  app:
+    name: Сборка и тесты
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Тесты (данные + интерфейс)
+        run: npm test
+      - name: styles.css актуальна
+        run: |
+          npm run build:css
+          git diff --exit-code -- styles.css \
+            || { echo "styles.css устарела — выполните npm run build:css"; exit 1; }
