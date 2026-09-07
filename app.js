@@ -182,6 +182,9 @@ function showToast(message) {
 /* --------------------------------------------------------------- загрузка данных */
 
 async function loadWords() {
+  // Один файл-сборка (romanian-daily-offline.html) хранит слова прямо в HTML.
+  if (Array.isArray(window.__ROMANIAN_DAILY_WORDS__)) return normalizeWords(window.__ROMANIAN_DAILY_WORDS__);
+
   const packs = [];
   for (let i = 1; i <= PACK_MAX; i += 1) {
     const name = `words-part${i}.json`;
@@ -195,10 +198,13 @@ async function loadWords() {
     }
   }
   if (!packs.length) throw new Error("Не найден ни один файл words-partN.json");
+  return normalizeWords(packs.flat());
+}
 
+/** Приводит сырые записи словаря к рабочему виду: чинит поля, убирает дубликаты id. */
+function normalizeWords(raw) {
   const seenIds = new Set();
-  return packs
-    .flat()
+  return raw
     .filter((w) => w && typeof w.word === "string" && w.word.trim())
     .map((w, i) => ({
       id: String(w.id ?? `w${String(i + 1).padStart(3, "0")}`),

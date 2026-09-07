@@ -38,7 +38,8 @@ npm test        # валидация словаря + дымовой тест и
 | `sw.js` | Service worker: офлайн-кэш |
 | `manifest.json`, `icon*.png`, `icon.svg` | PWA-манифест и иконки |
 | `words-part1.json` … `words-partN.json` | Словарь, 10 слов на день |
-| `scripts/` | `serve.mjs` (dev-сервер), `generate-icons.mjs` (PNG из SVG) |
+| `romanian-daily-offline.html` | Автономная сборка одним файлом (генерируется) |
+| `scripts/` | `serve.mjs` (dev-сервер), `generate-icons.mjs`, `build-offline.mjs` |
 | `tests/` | `validate-data.mjs` (схема словаря), `app.test.mjs` (jsdom-тест UI) |
 
 Tailwind используется как генератор CSS на этапе разработки:
@@ -48,10 +49,12 @@ Tailwind используется как генератор CSS на этапе 
 npm run build:css     # пересобрать styles.css после правки классов
 npm run watch:css     # то же в режиме наблюдения
 npm run build:icons   # пересоздать PNG-иконки
+npm run build:offline # пересобрать romanian-daily-offline.html
+npm run build         # всё сразу
 ```
 
-> В CI есть проверка, что `styles.css` актуален: если классы в разметке изменились,
-> а CSS не пересобран, сборка упадёт.
+> В CI есть проверка актуальности артефактов: если разметка или словарь изменились,
+> а `styles.css` и `romanian-daily-offline.html` не пересобраны, сборка упадёт.
 
 ## Формат словаря
 
@@ -81,6 +84,19 @@ npm run build:icons   # пересоздать PNG-иконки
 
 Транскрипция — практическая, кириллицей, для русскоязычного читателя
 (упрощённая передача звучания, без знаков ударения).
+
+## Один файл без установки
+
+`romanian-daily-offline.html` — автономная сборка: стили, скрипт и все 300 слов внутри,
+работает двойным кликом, в том числе по `file://` и без интернета.
+Её можно переслать в мессенджер или открыть на телефоне.
+
+```bash
+npm run build:offline     # пересоздать romanian-daily-offline.html
+```
+
+Файл генерируется из исходников — править надо `index.html`, `app.js` и
+`words-partN.json`, затем пересобирать. Актуальность сборки проверяет CI.
 
 ## Установка на телефон
 

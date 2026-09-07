@@ -28,8 +28,9 @@ jobs:
       - run: npm ci
       - name: Тесты (данные + интерфейс)
         run: npm test
-      - name: styles.css актуальна
+      - name: Пересборка артефактов
+        run: npm run build
+      - name: Артефакты актуальны
         run: |
-          npm run build:css
-          git diff --exit-code -- styles.css \
-            || { echo "styles.css устарела — выполните npm run build:css"; exit 1; }
+          git diff --exit-code -- styles.css romanian-daily-offline.html \
+            || { echo "Артефакты устарели — выполните npm run build"; exit 1; }

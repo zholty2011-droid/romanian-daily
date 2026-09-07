@@ -21,11 +21,23 @@ const check = (ok, message) => {
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /** Поднимает приложение в jsdom; fetch читает файлы с диска. */
-async function bootApp({ fetchImpl } = {}) {
+async function bootApp({ html, fetchImpl, inline = false } = {}) {
   const { JSDOM } = createRequire(import.meta.url)("jsdom");
-  const dom = new JSDOM(await read("index.html"), { url: "http://localhost/", runScripts: "dangerously" });
+  const spoken = [];
+  const dom = new JSDOM(html ?? (await read("index.html")), {
+    url: "http://localhost/",
+    runScripts: "dangerously",
+    beforeParse(window) {
+      installPolyfills(window, { fetchImpl, spoken });
+    },
+  });
   const { window } = dom;
+  if (!inline) window.eval(await read("app.js"));
+  await wait(200);
+  return { window, doc: window.document, spoken };
+}
 
+function installPolyfills(window, { fetchImpl, spoken }) {
   window.matchMedia = () => ({ matches: false });
   Object.defineProperty(window.navigator, "userAgent", { value: "Mozilla/5.0 (X11; Linux x86_64) Chrome" });
   Object.defineProperty(window.navigator, "serviceWorker", { value: { register: async () => {} } });
@@ -35,7 +47,6 @@ async function bootApp({ fetchImpl } = {}) {
       this.text = text;
     }
   };
-  const spoken = [];
   window.speechSynthesis = {
     getVoices: () => [{ name: "Romanian", lang: "ro-RO" }],
     cancel() {},
@@ -55,10 +66,6 @@ async function bootApp({ fetchImpl } = {}) {
         return { ok: false, status: 404, json: async () => { throw new Error("404"); } };
       }
     });
-
-  window.eval(await read("app.js"));
-  await wait(200);
-  return { window, doc: window.document, spoken };
 }
 
 /* ------------------------------------------------------------------ helpers */
@@ -159,6 +166,29 @@ check(JSON.parse(window.localStorage.getItem("romanian_daily_v2")).learnedWordId
 
 const broken = await bootApp({ fetchImpl: async () => ({ ok: false, status: 404, json: async () => { throw new Error("404"); } }) });
 check(broken.doc.body.textContent.includes("Не удалось загрузить слова"), "При 404 показывается экран ошибки, а не белый лист");
+
+/* --------------------------------------------------- одиночная офлайн-сборка */
+
+const offlineHtml = await read("romanian-daily-offline.html").catch(() => null);
+if (offlineHtml) {
+  // Имитируем file:// — fetch недоступен, работать должны встроенные данные
+  const off = await bootApp({
+    html: offlineHtml,
+    inline: true,
+    fetchImpl: async () => {
+      throw new Error("file:// — fetch недоступен");
+    },
+  });
+  const offText = () => off.doc.body.textContent.replace(/\s+/g, " ");
+  check(offText().includes("День 1"), "Офлайн-сборка: рендерится из встроенных данных без fetch");
+  check(offText().includes("10 слов сегодня"), "Офлайн-сборка: словарь полностью внутри файла");
+  check(
+    off.doc.querySelectorAll('link[rel="stylesheet"], script[src]').length === 0,
+    "Офлайн-сборка: без внешних стилей и скриптов"
+  );
+} else {
+  console.log("· romanian-daily-offline.html не найден — пропуск (npm run build:offline)");
+}
 
 console.log(failed ? `\nПровалено проверок: ${failed}` : "\nВсе проверки интерфейса пройдены");
 process.exit(failed ? 1 : 0);
