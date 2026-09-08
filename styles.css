@@ -124,39 +124,39 @@ html[data-theme="dark"] .bad{background:#3a2422;color:#ffc2bd}
 .daybtn{padding:9px 0;border-radius:12px;background:var(--paper);font-size:12px;font-weight:750;box-shadow:var(--shadow)}
 .daybtn.on{background:var(--ink);color:var(--bg)}
 .daybtn.done{color:var(--good)}
-
 .page.study{padding-bottom:210px}
 .dock{position:fixed;left:0;right:0;bottom:88px;z-index:60;max-width:26rem;margin:0 auto;padding:8px 18px 10px;background:color-mix(in srgb,var(--bg) 88%, transparent);backdrop-filter:blur(14px)}
 .dock .btn{margin-top:8px}
 .pill.on.good{box-shadow:0 0 0 3px var(--good);transform:scale(1.03)}
 .pill.on.bad{box-shadow:0 0 0 3px var(--bad);transform:scale(1.03)}
-
 .ex-know{box-shadow:inset 3px 0 0 var(--good)}
 .ex-unknow{box-shadow:inset 3px 0 0 var(--bad)}
 .ex-mark{margin-top:8px;font-size:12px;font-weight:700;color:var(--muted)}
 .ex-mark.know{color:var(--good)}
 .ex-mark.unknow{color:var(--bad)}
-
 .diac{display:flex;gap:6px;justify-content:center;margin:8px 0}
 .diac button{width:42px;height:42px;border-radius:12px;background:var(--paper);font-weight:800;box-shadow:var(--shadow)}
 .tabs button.on{background:var(--ink);color:var(--bg)}
-
 .block{background:var(--paper);border-radius:24px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
 .block-h{display:flex;justify-content:space-between;align-items:baseline}
 .block-h h3{margin:0;font-family:Georgia,ui-serif,serif;font-size:20px}
 .block-h span{color:var(--muted);font-size:12px;font-weight:700}
 .mini{display:flex;flex-direction:column;gap:6px;max-height:220px;overflow:auto}
 .home .btn{margin-top:0}
-
 .hints{background:var(--paper);border-radius:20px;padding:12px 14px;box-shadow:var(--shadow)}
 .mask{font-family:Georgia,ui-serif,serif;font-size:22px;letter-spacing:.08em}
 .len{font-size:12px;color:var(--muted);letter-spacing:0;font-family:system-ui,sans-serif}
 .assoc{margin:8px 0 0;color:var(--muted);font-size:13px;line-height:1.4}
 .bank{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .tilech{min-width:36px;height:36px;padding:0 8px;border-radius:10px;background:var(--bg);font-weight:800;box-shadow:var(--shadow)}
-
 .letter-pad{margin-top:10px}
 .typed{min-height:44px;padding:10px 12px;border-radius:14px;background:var(--paper);font-family:Georgia,ui-serif,serif;font-size:28px;font-weight:700;letter-spacing:.02em;word-break:break-word}
-
 .tilech.del{min-width:52px;background:var(--ink);color:var(--bg);font-size:18px}
 .letter-pad .diac{flex-wrap:wrap}
+.due-line{margin:12px 0 0;font-size:13px;opacity:.8}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:8px}
+.cal i{display:block;aspect-ratio:1;border-radius:6px;background:var(--line)}
+.cal i.on{background:var(--blue)}
+.upd{position:sticky;top:0;z-index:60;display:flex;justify-content:space-between;align-items:center;gap:10px;max-width:26rem;margin:0 auto;padding:8px 14px;background:var(--ink);color:var(--bg);border-radius:0 0 16px 16px;font-size:13px;font-weight:700}
+.upd button{background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 12px}
+select#voice-name,input#voice-rate,input#reminder-time{width:100%;margin-top:8px;padding:10px;border-radius:14px;border:1px solid var(--line);background:var(--bg)}
