@@ -1051,5 +1051,83 @@
   ],
   "a": 1,
   "why": "fac + занятие."
+ },
+ {
+  "id": "g82",
+  "tag": "mod",
+  "q": "«Я могу помочь»",
+  "opts": [
+   "pot să ajut",
+   "trebuie să ajut",
+   "vreau să ajut",
+   "știu să ajut"
+  ],
+  "a": 0,
+  "why": "a putea — мочь: pot să ajut — могу помочь; trebuie — нужно."
+ },
+ {
+  "id": "g83",
+  "tag": "mod",
+  "q": "«Мне нужно уйти»",
+  "opts": [
+   "trebuie să plec",
+   "pot să plec",
+   "vreau să plec",
+   "știu să plec"
+  ],
+  "a": 0,
+  "why": "trebuie să + глагол — нужно что-то сделать."
+ },
+ {
+  "id": "g84",
+  "tag": "ask",
+  "q": "«Можно спросить?»",
+  "opts": [
+   "Pot să întreb?",
+   "Pot să răspund?",
+   "Trebuie să întreb?",
+   "Vreau să răspund?"
+  ],
+  "a": 0,
+  "why": "a întreba — спрашивать, a răspunde — отвечать."
+ },
+ {
+  "id": "g85",
+  "tag": "begin",
+  "q": "«Я закончил работу»",
+  "opts": [
+   "am terminat lucrul",
+   "am început lucrul",
+   "am uitat lucrul",
+   "am repetat lucrul"
+  ],
+  "a": 0,
+  "why": "a termina — заканчивать, a începe — начинать."
+ },
+ {
+  "id": "g86",
+  "tag": "think",
+  "q": "«Думаю, да»",
+  "opts": [
+   "cred că nu",
+   "cred că da",
+   "mă gândesc că da",
+   "știu că da"
+  ],
+  "a": 1,
+  "why": "cred că — думаю, что; mă gândesc la — думаю о."
+ },
+ {
+  "id": "g87",
+  "tag": "lang",
+  "q": "«Я не понимаю это слово»",
+  "opts": [
+   "Nu înțeleg acest cuvânt.",
+   "Nu uit acest cuvânt.",
+   "Nu repet acest cuvânt.",
+   "Nu cred acest cuvânt."
+  ],
+  "a": 0,
+  "why": "a înțelege — понимать, cuvânt — слово."
  }
 ]

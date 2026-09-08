@@ -46,7 +46,7 @@
   "examples": [
    {
     "ro": "Cumpăr pâine.",
-    "transcription": "кумпэр пыне",
+    "transcription": "кумпэр пыйне",
     "ru": "Я покупаю хлеб."
    },
    {
@@ -89,7 +89,7 @@
    },
    {
     "ro": "Deschide fereastra, te rog.",
-    "transcription": "дескиде фереастра те рог",
+    "transcription": "дескиде ферястра те рог",
     "ru": "Открой окно, пожалуйста."
    }
   ]
@@ -578,7 +578,7 @@
   "examples": [
    {
     "ro": "Îmi place aici.",
-    "transcription": "ыми плаче аич",
+    "transcription": "ыми плаче айчь",
     "ru": "Мне здесь нравится."
    },
    {
@@ -697,7 +697,7 @@
    },
    {
     "ro": "Vin rar aici.",
-    "transcription": "вин рар аич",
+    "transcription": "вин рар айчь",
     "ru": "Я редко здесь бываю."
    }
   ]
@@ -982,7 +982,7 @@
    },
    {
     "ro": "Lângă fereastră.",
-    "transcription": "лынгэ фереастрэ",
+    "transcription": "лынгэ ферястрэ",
     "ru": "Рядом с окном."
    }
   ]
@@ -1077,7 +1077,7 @@
    },
    {
     "ro": "Aici se vinde pâine.",
-    "transcription": "аич се винде пыне",
+    "transcription": "айчь се винде пыйне",
     "ru": "Здесь продаётся хлеб."
    }
   ]
@@ -1224,7 +1224,7 @@
   "examples": [
    {
     "ro": "Stai aici.",
-    "transcription": "стай аич",
+    "transcription": "стай айчь",
     "ru": "Оставайся здесь."
    },
    {
@@ -1267,7 +1267,7 @@
    },
    {
     "ro": "Ne plimbăm seara.",
-    "transcription": "не плимбэм сеара",
+    "transcription": "не плимбэм сяра",
     "ru": "Мы гуляем по вечерам."
    }
   ]
@@ -1281,7 +1281,7 @@
   "examples": [
    {
     "ro": "Mă întorc la ora cinci.",
-    "transcription": "мэ ынторк ла ора чинч",
+    "transcription": "мэ ынторк ла ора чинчь",
     "ru": "Я возвращаюсь в пять."
    },
    {
@@ -1395,7 +1395,7 @@
   "examples": [
    {
     "ro": "Dansăm toată seara.",
-    "transcription": "дансэм тоатэ сеара",
+    "transcription": "дансэм тоатэ сяра",
     "ru": "Мы танцуем весь вечер."
    },
    {
@@ -1438,7 +1438,7 @@
    },
    {
     "ro": "Privește pe fereastră.",
-    "transcription": "привеште пе фереастрэ",
+    "transcription": "привеште пе ферястрэ",
     "ru": "Он смотрит в окно."
    }
   ]
@@ -1466,7 +1466,7 @@
   "id": "w290",
   "day": 48,
   "word": "teatru",
-  "transcription": "тятру",
+  "transcription": "театру",
   "translation": "театр",
   "examples": [
    {
@@ -1523,7 +1523,7 @@
   "id": "w294",
   "day": 49,
   "word": "exemplu",
-  "transcription": "ексемплу",
+  "transcription": "екземплу",
   "translation": "пример",
   "examples": [
    {
@@ -1611,6 +1611,291 @@
     "ro": "Reușești să vii?",
     "transcription": "реушешть сэ вий",
     "ru": "Ты сможешь прийти?"
+   }
+  ]
+ },
+ {
+  "id": "w301",
+  "day": 49,
+  "word": "cuvânt",
+  "transcription": "кувынт",
+  "translation": "слово",
+  "examples": [
+   {
+    "ro": "Un cuvânt nou.",
+    "transcription": "ун кувынт ноу",
+    "ru": "Новое слово."
+   },
+   {
+    "ro": "Nu cunosc acest cuvânt.",
+    "transcription": "ну куноск ачест кувынт",
+    "ru": "Я не знаю этого слова."
+   }
+  ]
+ },
+ {
+  "id": "w302",
+  "day": 49,
+  "word": "limbă",
+  "transcription": "лимбэ",
+  "translation": "язык (речь)",
+  "examples": [
+   {
+    "ro": "Limba română.",
+    "transcription": "лимба ромынэ",
+    "ru": "Румынский язык."
+   },
+   {
+    "ro": "Vorbesc două limbi.",
+    "transcription": "ворбеск доуэ лимби",
+    "ru": "Я говорю на двух языках."
+   }
+  ]
+ },
+ {
+  "id": "w303",
+  "day": 49,
+  "word": "a înțelege",
+  "transcription": "а ынцележе",
+  "translation": "понимать",
+  "examples": [
+   {
+    "ro": "Nu înțeleg.",
+    "transcription": "ну ынцелег",
+    "ru": "Я не понимаю."
+   },
+   {
+    "ro": "Înțelegi?",
+    "transcription": "ынцележь",
+    "ru": "Ты понимаешь?"
+   }
+  ]
+ },
+ {
+  "id": "w304",
+  "day": 49,
+  "word": "a uita",
+  "transcription": "а уйта",
+  "translation": "забывать",
+  "examples": [
+   {
+    "ro": "Am uitat cheile.",
+    "transcription": "ам уйтат кейле",
+    "ru": "Я забыл ключи."
+   },
+   {
+    "ro": "Nu uita!",
+    "transcription": "ну уйта",
+    "ru": "Не забудь!"
+   }
+  ]
+ },
+ {
+  "id": "w305",
+  "day": 49,
+  "word": "a repeta",
+  "transcription": "а репета",
+  "translation": "повторять",
+  "examples": [
+   {
+    "ro": "Repetă, te rog.",
+    "transcription": "репетэ те рог",
+    "ru": "Повтори, пожалуйста."
+   },
+   {
+    "ro": "Repet cuvintele seara.",
+    "transcription": "репет кувинтеле сяра",
+    "ru": "Я повторяю слова вечером."
+   }
+  ]
+ },
+ {
+  "id": "w306",
+  "day": 50,
+  "word": "a putea",
+  "transcription": "а путеа",
+  "translation": "мочь",
+  "examples": [
+   {
+    "ro": "Pot să te ajut?",
+    "transcription": "пот сэ те ажут",
+    "ru": "Могу я тебе помочь?"
+   },
+   {
+    "ro": "Nu pot veni azi.",
+    "transcription": "ну пот вени ази",
+    "ru": "Я не могу прийти сегодня."
+   }
+  ]
+ },
+ {
+  "id": "w307",
+  "day": 50,
+  "word": "a trebui",
+  "transcription": "а требуй",
+  "translation": "быть должным, нужно",
+  "examples": [
+   {
+    "ro": "Trebuie să plec.",
+    "transcription": "требуйе сэ плек",
+    "ru": "Мне нужно уйти."
+   },
+   {
+    "ro": "Nu trebuie.",
+    "transcription": "ну требуйе",
+    "ru": "Не нужно."
+   }
+  ]
+ },
+ {
+  "id": "w308",
+  "day": 50,
+  "word": "a întreba",
+  "transcription": "а ынтреба",
+  "translation": "спрашивать",
+  "examples": [
+   {
+    "ro": "Pot să întreb?",
+    "transcription": "пот сэ ынтреб",
+    "ru": "Можно спросить?"
+   },
+   {
+    "ro": "Mă întreabă des.",
+    "transcription": "мэ ынтрябэ дес",
+    "ru": "Он часто меня спрашивает."
+   }
+  ]
+ },
+ {
+  "id": "w309",
+  "day": 50,
+  "word": "a răspunde",
+  "transcription": "а рэспунде",
+  "translation": "отвечать",
+  "examples": [
+   {
+    "ro": "Răspunde la întrebare.",
+    "transcription": "рэспунде ла ынтребаре",
+    "ru": "Он отвечает на вопрос."
+   },
+   {
+    "ro": "Nu răspund la telefon.",
+    "transcription": "ну рэспунд ла телефон",
+    "ru": "Я не отвечаю на телефон."
+   }
+  ]
+ },
+ {
+  "id": "w310",
+  "day": 50,
+  "word": "a ajuta",
+  "transcription": "а ажута",
+  "translation": "помогать",
+  "examples": [
+   {
+    "ro": "Te ajut.",
+    "transcription": "те ажут",
+    "ru": "Я тебе помогаю."
+   },
+   {
+    "ro": "Mă ajuți, te rog?",
+    "transcription": "мэ ажуць те рог",
+    "ru": "Поможешь мне, пожалуйста?"
+   }
+  ]
+ },
+ {
+  "id": "w311",
+  "day": 50,
+  "word": "a începe",
+  "transcription": "а ынчепе",
+  "translation": "начинать",
+  "examples": [
+   {
+    "ro": "Încep la ora nouă.",
+    "transcription": "ынчеп ла ора ноуэ",
+    "ru": "Я начинаю в девять."
+   },
+   {
+    "ro": "Începem acum.",
+    "transcription": "ынчепем акум",
+    "ru": "Мы начинаем сейчас."
+   }
+  ]
+ },
+ {
+  "id": "w312",
+  "day": 50,
+  "word": "a termina",
+  "transcription": "а термина",
+  "translation": "заканчивать",
+  "examples": [
+   {
+    "ro": "Am terminat!",
+    "transcription": "ам терминат",
+    "ru": "Я закончил!"
+   },
+   {
+    "ro": "Termin la ora cinci.",
+    "transcription": "термин ла ора чинчь",
+    "ru": "Я заканчиваю в пять."
+   }
+  ]
+ },
+ {
+  "id": "w313",
+  "day": 50,
+  "word": "sfârșit",
+  "transcription": "сфыршит",
+  "translation": "конец",
+  "examples": [
+   {
+    "ro": "La sfârșit.",
+    "transcription": "ла сфыршит",
+    "ru": "В конце."
+   },
+   {
+    "ro": "Sfârșitul săptămânii.",
+    "transcription": "сфыршитул сэптэмыний",
+    "ru": "Конец недели."
+   }
+  ]
+ },
+ {
+  "id": "w314",
+  "day": 50,
+  "word": "a gândi",
+  "transcription": "а гынди",
+  "translation": "думать",
+  "examples": [
+   {
+    "ro": "La ce te gândești?",
+    "transcription": "ла че те гындешть",
+    "ru": "О чём ты думаешь?"
+   },
+   {
+    "ro": "Mă gândesc la tine.",
+    "transcription": "мэ гындеск ла тине",
+    "ru": "Я думаю о тебе."
+   }
+  ]
+ },
+ {
+  "id": "w315",
+  "day": 50,
+  "word": "a crede",
+  "transcription": "а креде",
+  "translation": "думать, полагать; верить",
+  "examples": [
+   {
+    "ro": "Cred că da.",
+    "transcription": "кред кэ да",
+    "ru": "Думаю, да."
+   },
+   {
+    "ro": "Nu cred.",
+    "transcription": "ну кред",
+    "ru": "Не думаю."
    }
   ]
  }

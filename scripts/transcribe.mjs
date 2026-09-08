@@ -20,6 +20,9 @@ const isVowel = (ch) => RO_VOWELS.includes(ch);
 const EXCEPTIONS = {
   site: "сайт",
   email: "имеил",
+  emailul: "имеилул",
+  teatru: "театру",
+  exemplu: "екземплу",
   computer: "компьютер",
   manager: "менеджер",
   weekend: "уикенд",
@@ -32,7 +35,8 @@ const normalize = (text) =>
     .toLowerCase()
     .replace(/ş/g, "ș")
     .replace(/ţ/g, "ț")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/-/g, ""); // e-mail → email
 
 /* Согласные, после которых конечное -i звучит мягко и пишется как «ь». */
 const SOFT = new Set(["ч", "ж", "ц", "к", "г"]);
@@ -113,7 +117,7 @@ function word2ru(rawWord) {
       const nextIsVowel = nx && "aeiouăâî".includes(nx);
       if (i === 0 && nx === "u") { push("ю"); i += 1; continue; }        // iubire → юбире
       if (endOfWord) {
-        if (prevIsVowel) { push(prev === "u" ? "и" : "й"); continue; }   // doi → дой, locui → локуи
+        if (prevIsVowel) { push("й"); continue; }                       // doi → дой, pui → пуй
         if (prev === "t" && (at(i - 2) === "s" || at(i - 2) === "ș")) { push("ь"); continue; } // ești → ешть
         push(SOFT.has(last()) ? "ь" : "и");                              // găti → гэти, ochi → окь
         continue;

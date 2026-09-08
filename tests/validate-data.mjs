@@ -121,9 +121,48 @@ async function checkWords() {
   return words;
 }
 
+/* --------------------------------------------- согласованность транскрипций */
+
+/**
+ * Одно и то же румынское слово должно транскрибироваться одинаково везде:
+ * и в словарной статье, и в примерах. Иначе ученик видит «аич» и «айчь».
+ */
+function checkTranscriptions(words) {
+  const normRo = (s) =>
+    String(s ?? "")
+      .toLowerCase()
+      .replace(/[?!.,;:"“”«»()]/g, " ")
+      .replace(/ş/g, "ș")
+      .replace(/ţ/g, "ț");
+  const normRu = (s) => String(s ?? "").toLowerCase().replace(/[?!.,;:"“”«»()]/g, " ");
+
+  let problems = 0;
+  for (const w of words) {
+    const token = String(w.word ?? "").toLowerCase();
+    const own = normRu(w.transcription).trim();
+    if (!own || /\s/.test(token)) continue;
+
+    for (const host of words) {
+      for (const ex of host.examples ?? []) {
+        if (!normRo(ex.ro).split(/\s+/).includes(token)) continue;
+        const toks = normRu(ex.transcription).split(/\s+/).filter(Boolean);
+        if (toks.includes(own)) continue;
+        // формы слова (cuvinte → кувинтеле) — не расхождение
+        if (toks.some((t) => t.startsWith(own.slice(0, Math.max(3, own.length - 2))))) continue;
+        fail(
+          `«${w.word}» = [${w.transcription}], но в примере ${host.id} ` +
+            `«${ex.ro}» стоит [${ex.transcription}]`
+        );
+        problems += 1;
+      }
+    }
+  }
+  if (!problems) console.log("Транскрипции: согласованы");
+}
+
 /* ------------------------------------------------------------ грамматика/квиз/фразы */
 
-async function checkGrammar() {
+async function checkGrammar(words) {
   const g = await readJson("grammar.json");
   if (!g) {
     fail("grammar.json не найден");
@@ -143,6 +182,12 @@ async function checkGrammar() {
     block.forEach((line, i) => {
       if (typeof line !== "string" || !line.trim()) fail(`grammar.json: день ${day}, строка ${i + 1} пуста`);
     });
+  }
+  if (words?.length) {
+    const courseDays = new Set(words.map((w) => Number(w.day)).filter((d) => Number.isInteger(d)));
+    for (const day of [...courseDays].sort((a, b) => a - b)) {
+      if (!g[String(day)]) fail(`grammar.json: нет заметки для дня ${day}`);
+    }
   }
   console.log(`Грамматика: заметок на ${days.length} дней`);
 }
@@ -200,8 +245,9 @@ async function checkPhrases() {
 
 /* ----------------------------------------------------------------------- итог */
 
-await checkWords();
-await checkGrammar();
+const words = await checkWords();
+checkTranscriptions(words);
+await checkGrammar(words);
 await checkQuiz();
 await checkPhrases();
 

@@ -46,12 +46,12 @@
   "examples": [
    {
     "ro": "Bună seara!",
-    "transcription": "бунэ сеара",
+    "transcription": "бунэ сяра",
     "ru": "Добрый вечер!"
    },
    {
     "ro": "Seara citesc o carte.",
-    "transcription": "сеара читеск о карте",
+    "transcription": "сяра читеск о карте",
     "ru": "Вечером я читаю книгу."
    }
   ]
@@ -426,7 +426,7 @@
   "examples": [
    {
     "ro": "Voi sunteți aici.",
-    "transcription": "вой сунтець аич",
+    "transcription": "вой сунтець айчь",
     "ru": "Вы здесь."
    },
    {
@@ -735,7 +735,7 @@
    },
    {
     "ro": "Vreau brânză și pâine.",
-    "transcription": "вряу брынзэ ши пыне",
+    "transcription": "вряу брынзэ ши пыйне",
     "ru": "Я хочу сыр и хлеб."
    }
   ]
@@ -1552,7 +1552,7 @@
    },
    {
     "ro": "Scrie numele tău aici.",
-    "transcription": "скрие нумеле тэу аич",
+    "transcription": "скрие нумеле тэу айчь",
     "ru": "Напиши своё имя здесь."
    }
   ]
@@ -1590,7 +1590,7 @@
    },
    {
     "ro": "Am o lecție la ora cinci.",
-    "transcription": "ам о лекцие ла ора чинч",
+    "transcription": "ам о лекцие ла ора чинчь",
     "ru": "У меня урок в пять."
    }
   ]
@@ -1865,7 +1865,7 @@
   "id": "w181",
   "day": 40,
   "word": "a locui",
-  "transcription": "а локуи",
+  "transcription": "а локуй",
   "translation": "жить, проживать",
   "examples": [
    {

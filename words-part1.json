@@ -1561,18 +1561,18 @@
   "id": "9-3",
   "word": "e-mail",
   "translation": "электронная почта",
-  "transcription": "е майл",
+  "transcription": "имеил",
   "day": 9,
   "examples": [
    {
     "ro": "Trimite-mi un e-mail.",
     "ru": "Отправь мне письмо.",
-    "transcription": "тримите ми ун е майл"
+    "transcription": "тримите ми ун имеил"
    },
    {
     "ro": "Verific e-mailul.",
     "ru": "Я проверяю почту.",
-    "transcription": "верифик е майлул"
+    "transcription": "верифик имеилул"
    }
   ]
  },
