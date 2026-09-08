@@ -521,7 +521,7 @@
   "examples": [
    {
     "ro": "Mi-e frică.",
-    "transcription": "ми-е фрикэ",
+    "transcription": "ми е фрикэ",
     "ru": "Мне страшно."
    },
    {
@@ -573,7 +573,7 @@
   "id": "w228",
   "day": 44,
   "word": "a plăcea",
-  "transcription": "а плэчя",
+  "transcription": "а плэча",
   "translation": "нравиться",
   "examples": [
    {
@@ -801,7 +801,7 @@
   "id": "w245",
   "day": 45,
   "word": "deci",
-  "transcription": "дечи",
+  "transcription": "дечь",
   "translation": "значит, итак",
   "examples": [
    {
@@ -877,7 +877,7 @@
   "id": "w249",
   "day": 45,
   "word": "deși",
-  "transcription": "дешь",
+  "transcription": "деши",
   "translation": "хотя",
   "examples": [
    {
@@ -1124,7 +1124,7 @@
   "id": "w272",
   "day": 46,
   "word": "a ajunge",
-  "transcription": "а ажундже",
+  "transcription": "а ажунже",
   "translation": "прибывать, добираться",
   "examples": [
    {
@@ -1162,7 +1162,7 @@
   "id": "w274",
   "day": 47,
   "word": "a ieși",
-  "transcription": "а еши",
+  "transcription": "а йеши",
   "translation": "выходить",
   "examples": [
    {
@@ -1466,7 +1466,7 @@
   "id": "w290",
   "day": 48,
   "word": "teatru",
-  "transcription": "театру",
+  "transcription": "тятру",
   "translation": "театр",
   "examples": [
    {
@@ -1523,7 +1523,7 @@
   "id": "w294",
   "day": 49,
   "word": "exemplu",
-  "transcription": "екземплу",
+  "transcription": "ексемплу",
   "translation": "пример",
   "examples": [
    {
@@ -1580,7 +1580,7 @@
   "id": "w298",
   "day": 49,
   "word": "nevoie",
-  "transcription": "невое",
+  "transcription": "невойе",
   "translation": "нужда, потребность",
   "examples": [
    {

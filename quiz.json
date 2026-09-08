@@ -778,5 +778,278 @@
   ],
   "a": 1,
   "why": "mulțumesc."
+ },
+ {
+  "id": "g61",
+  "tag": "fi",
+  "q": "«Eu … student.» (я — студент)",
+  "opts": [
+   "sunt",
+   "ești",
+   "este",
+   "suntem"
+  ],
+  "a": 0,
+  "why": "eu sunt — 1-е лицо a fi."
+ },
+ {
+  "id": "g62",
+  "tag": "fi",
+  "q": "Форма a fi для «ты»",
+  "opts": [
+   "sunt",
+   "ești",
+   "este",
+   "suntem"
+  ],
+  "a": 1,
+  "why": "tu ești."
+ },
+ {
+  "id": "g63",
+  "tag": "avea",
+  "q": "«У меня есть время»",
+  "opts": [
+   "eu sunt timp",
+   "am timp",
+   "am este timp",
+   "timp am eu"
+  ],
+  "a": 1,
+  "why": "a avea: eu am."
+ },
+ {
+  "id": "g64",
+  "tag": "neg",
+  "q": "«У меня нет времени»",
+  "opts": [
+   "nu am timp",
+   "nu sunt timp",
+   "am nu timp",
+   "nu avea timp"
+  ],
+  "a": 0,
+  "why": "nu am — у меня нет."
+ },
+ {
+  "id": "g65",
+  "tag": "să",
+  "q": "«Я хочу спать»",
+  "opts": [
+   "vreau dorm",
+   "vreau să dorm",
+   "să vreau dorm",
+   "dorm vreau"
+  ],
+  "a": 1,
+  "why": "vreau să + глагол."
+ },
+ {
+  "id": "g66",
+  "tag": "verb",
+  "q": "«Я учу румынский»",
+  "opts": [
+   "învăț română",
+   "învăț româna",
+   "învăț de româna",
+   "învăț la româna"
+  ],
+  "a": 1,
+  "why": "Прямое дополнение без предлога, с артиклем: româna."
+ },
+ {
+  "id": "g67",
+  "tag": "adj",
+  "q": "Где стоит прилагательное?",
+  "opts": [
+   "перед существительным",
+   "после существительного",
+   "в начале фразы",
+   "не имеет значения"
+  ],
+  "a": 1,
+  "why": "o casă mare — после существительного."
+ },
+ {
+  "id": "g68",
+  "tag": "adj",
+  "q": "«Хорошая книга»",
+  "opts": [
+   "o carte bun",
+   "o carte bună",
+   "un carte bună",
+   "o carte bunul"
+  ],
+  "a": 1,
+  "why": "Женский род: carte bună."
+ },
+ {
+  "id": "g69",
+  "tag": "prep",
+  "q": "«На машине»",
+  "opts": [
+   "în mașina",
+   "pe mașina",
+   "cu mașina",
+   "la mașina"
+  ],
+  "a": 2,
+  "why": "Транспорт — предлог cu."
+ },
+ {
+  "id": "g70",
+  "tag": "prep",
+  "q": "«В парке»",
+  "opts": [
+   "la parc",
+   "în parc",
+   "pe parc",
+   "cu parc"
+  ],
+  "a": 1,
+  "why": "în + пространство."
+ },
+ {
+  "id": "g71",
+  "tag": "prep",
+  "q": "«В школу (на учёбу)»",
+  "opts": [
+   "în școală",
+   "la școală",
+   "pe școală",
+   "cu școală"
+  ],
+  "a": 1,
+  "why": "la + учреждение."
+ },
+ {
+  "id": "g72",
+  "tag": "feel",
+  "q": "«У меня болит голова»",
+  "opts": [
+   "Am cap rău",
+   "Mă doare capul",
+   "Capul meu e rău",
+   "Sunt cu durere"
+  ],
+  "a": 1,
+  "why": "mă doare + часть тела."
+ },
+ {
+  "id": "g73",
+  "tag": "need",
+  "q": "«Мне нужен врач»",
+  "opts": [
+   "Sunt un medic",
+   "Am nevoie de un medic",
+   "Vreau de medic",
+   "Am medic"
+  ],
+  "a": 1,
+  "why": "am nevoie de — мне нужно."
+ },
+ {
+  "id": "g74",
+  "tag": "prep",
+  "q": "«Я живу в Бухаресте»",
+  "opts": [
+   "locuiesc București",
+   "locuiesc în București",
+   "locuiesc la București",
+   "sunt locuit București"
+  ],
+  "a": 1,
+  "why": "locuiesc în + город."
+ },
+ {
+  "id": "g75",
+  "tag": "verb",
+  "q": "«Я ищу, но не нахожу»",
+  "opts": [
+   "caut și găsesc",
+   "caut, dar nu găsesc",
+   "găsesc, dar nu caut",
+   "caut și nu caut"
+  ],
+  "a": 1,
+  "why": "caut — искать, găsesc — находить."
+ },
+ {
+  "id": "g76",
+  "tag": "home",
+  "q": "«Я мою посуду»",
+  "opts": [
+   "spăl vasele",
+   "spăl rufele",
+   "fac vasele",
+   "curăț vasele"
+  ],
+  "a": 0,
+  "why": "spăl vasele — мою посуду; spăl rufele — стираю."
+ },
+ {
+  "id": "g77",
+  "tag": "conj",
+  "q": "«Потому что» по-румынски",
+  "opts": [
+   "deși",
+   "pentru că",
+   "dacă",
+   "ca să"
+  ],
+  "a": 1,
+  "why": "pentru că — потому что."
+ },
+ {
+  "id": "g78",
+  "tag": "conj",
+  "q": "«Я учу, чтобы говорить»",
+  "opts": [
+   "învăț pentru vorbesc",
+   "învăț ca să vorbesc",
+   "învăț de vorbesc",
+   "învăț că vorbesc"
+  ],
+  "a": 1,
+  "why": "ca să — чтобы."
+ },
+ {
+  "id": "g79",
+  "tag": "dir",
+  "q": "«Я выхожу на остановке»",
+  "opts": [
+   "cobor la stație",
+   "urc la stație",
+   "intru la stație",
+   "plec la stație"
+  ],
+  "a": 0,
+  "why": "cobor — спускаться / выходить из транспорта."
+ },
+ {
+  "id": "g80",
+  "tag": "verb",
+  "q": "«Я гуляю»",
+  "opts": [
+   "plimb",
+   "mă plimb",
+   "îmi plimb",
+   "se plimb"
+  ],
+  "a": 1,
+  "why": "Возвратный глагол: mă plimb."
+ },
+ {
+  "id": "g81",
+  "tag": "hobby",
+  "q": "«Я занимаюсь спортом»",
+  "opts": [
+   "joc sport",
+   "fac sport",
+   "am sport",
+   "sunt sport"
+  ],
+  "a": 1,
+  "why": "fac + занятие."
  }
 ]

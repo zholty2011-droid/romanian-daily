@@ -3,18 +3,18 @@
   "id": "21-1",
   "word": "unu",
   "translation": "один (число)",
-  "transcription": "у-ну",
+  "transcription": "уну",
   "day": 21,
   "examples": [
    {
     "ro": "Numărul unu.",
     "ru": "Номер один.",
-    "transcription": "у-ну"
+    "transcription": "нумэрул уну"
    },
    {
     "ro": "Primul e numărul unu.",
     "ru": "Первый — номер один.",
-    "transcription": "у-ну"
+    "transcription": "примул е нумэрул уну"
    }
   ]
  },
@@ -28,12 +28,12 @@
    {
     "ro": "Suntem doi.",
     "ru": "Нас двое.",
-    "transcription": "дой"
+    "transcription": "сунтем дой"
    },
    {
     "ro": "Două bilete, vă rog.",
     "ru": "Два билета, пожалуйста.",
-    "transcription": "дой"
+    "transcription": "доуэ билете вэ рог"
    }
   ]
  },
@@ -41,18 +41,18 @@
   "id": "21-3",
   "word": "trei",
   "translation": "три",
-  "transcription": "трэй",
+  "transcription": "трей",
   "day": 21,
   "examples": [
    {
     "ro": "Trei minute.",
     "ru": "Три минуты.",
-    "transcription": "трэй"
+    "transcription": "трей минуте"
    },
    {
     "ro": "De trei ori.",
     "ru": "Три раза.",
-    "transcription": "трэй"
+    "transcription": "де трей ори"
    }
   ]
  },
@@ -60,18 +60,18 @@
   "id": "21-4",
   "word": "patru",
   "translation": "четыре",
-  "transcription": "па-тру",
+  "transcription": "патру",
   "day": 21,
   "examples": [
    {
     "ro": "Patru ore.",
     "ru": "Четыре часа.",
-    "transcription": "па-тру"
+    "transcription": "патру оре"
    },
    {
     "ro": "Numărul patru.",
     "ru": "Номер четыре.",
-    "transcription": "па-тру"
+    "transcription": "нумэрул патру"
    }
   ]
  },
@@ -79,18 +79,18 @@
   "id": "21-5",
   "word": "cinci",
   "translation": "пять",
-  "transcription": "чинч",
+  "transcription": "чинчь",
   "day": 21,
   "examples": [
    {
     "ro": "Cinci minute.",
     "ru": "Пять минут.",
-    "transcription": "чинч"
+    "transcription": "чинчь минуте"
    },
    {
     "ro": "Cinci euro.",
     "ru": "Пять евро.",
-    "transcription": "чинч"
+    "transcription": "чинчь еуро"
    }
   ]
  },
@@ -98,18 +98,18 @@
   "id": "21-6",
   "word": "zece",
   "translation": "десять",
-  "transcription": "зэ-че",
+  "transcription": "зече",
   "day": 21,
   "examples": [
    {
     "ro": "Zece minute.",
     "ru": "Десять минут.",
-    "transcription": "зэ-че"
+    "transcription": "зече минуте"
    },
    {
     "ro": "Zece euro.",
     "ru": "Десять евро.",
-    "transcription": "зэ-че"
+    "transcription": "зече еуро"
    }
   ]
  },
@@ -117,18 +117,18 @@
   "id": "21-7",
   "word": "jumătate",
   "translation": "половина",
-  "transcription": "жу-мэ-та-тэ",
+  "transcription": "жумэтате",
   "day": 21,
   "examples": [
    {
     "ro": "Jumătate de oră.",
     "ru": "Половина часа.",
-    "transcription": "жу-мэ-та-тэ"
+    "transcription": "жумэтате де орэ"
    },
    {
     "ro": "Jumătate de porție.",
     "ru": "Половина порции.",
-    "transcription": "жу-мэ-та-тэ"
+    "transcription": "жумэтате де порцие"
    }
   ]
  },
@@ -136,18 +136,18 @@
   "id": "21-8",
   "word": "puțin",
   "translation": "мало / немного",
-  "transcription": "пу-цин",
+  "transcription": "пуцин",
   "day": 21,
   "examples": [
    {
     "ro": "Am nevoie de puțin timp.",
     "ru": "Мне нужно немного времени.",
-    "transcription": "пу-цин"
+    "transcription": "ам невойе де пуцин тимп"
    },
    {
     "ro": "Puțină sare.",
     "ru": "Немного соли.",
-    "transcription": "пу-цин"
+    "transcription": "пуцинэ саре"
    }
   ]
  },
@@ -161,12 +161,12 @@
    {
     "ro": "Am multă muncă.",
     "ru": "У меня много работы.",
-    "transcription": "мулт"
+    "transcription": "ам мултэ мункэ"
    },
    {
     "ro": "Prea mult.",
     "ru": "Слишком много.",
-    "transcription": "мулт"
+    "transcription": "преа мулт"
    }
   ]
  },
@@ -174,18 +174,18 @@
   "id": "21-10",
   "word": "destul",
   "translation": "достаточно",
-  "transcription": "дэ-стул",
+  "transcription": "дестул",
   "day": 21,
   "examples": [
    {
     "ro": "Destul, mulțumesc.",
     "ru": "Достаточно, спасибо.",
-    "transcription": "дэ-стул"
+    "transcription": "дестул мулцумеск"
    },
    {
     "ro": "E destul.",
     "ru": "Этого достаточно.",
-    "transcription": "дэ-стул"
+    "transcription": "е дестул"
    }
   ]
  },
@@ -199,12 +199,12 @@
    {
     "ro": "Luni lucrez.",
     "ru": "В понедельник я работаю.",
-    "transcription": "луни"
+    "transcription": "луни лукрез"
    },
    {
     "ro": "Întâlnire luni.",
     "ru": "Встреча в понедельник.",
-    "transcription": "луни"
+    "transcription": "ынтылнире луни"
    }
   ]
  },
@@ -218,12 +218,12 @@
    {
     "ro": "Marți sunt liber.",
     "ru": "Во вторник свободно.",
-    "transcription": "марць"
+    "transcription": "марць сунт либер"
    },
    {
     "ro": "Ne vedem marți.",
     "ru": "Увидимся во вторник.",
-    "transcription": "марць"
+    "transcription": "не ведем марць"
    }
   ]
  },
@@ -231,18 +231,18 @@
   "id": "22-3",
   "word": "miercuri",
   "translation": "среда",
-  "transcription": "ми-эр-курь",
+  "transcription": "миеркури",
   "day": 22,
   "examples": [
    {
     "ro": "Miercuri am tură.",
     "ru": "В среду у меня смена.",
-    "transcription": "ми-эр-курь"
+    "transcription": "миеркури ам турэ"
    },
    {
     "ro": "Miercuri seara.",
     "ru": "В среду вечером.",
-    "transcription": "ми-эр-курь"
+    "transcription": "миеркури сяра"
    }
   ]
  },
@@ -256,12 +256,12 @@
    {
     "ro": "Joi am întâlnire.",
     "ru": "В четверг встреча.",
-    "transcription": "жой"
+    "transcription": "жой ам ынтылнире"
    },
    {
     "ro": "Joi dimineața.",
     "ru": "В четверг утром.",
-    "transcription": "жой"
+    "transcription": "жой диминяца"
    }
   ]
  },
@@ -269,18 +269,18 @@
   "id": "22-5",
   "word": "vineri",
   "translation": "пятница",
-  "transcription": "ви-нэрь",
+  "transcription": "винери",
   "day": 22,
   "examples": [
    {
     "ro": "Vineri am liber.",
     "ru": "В пятницу выходной.",
-    "transcription": "ви-нэрь"
+    "transcription": "винери ам либер"
    },
    {
     "ro": "Vineri seara.",
     "ru": "В пятницу вечером.",
-    "transcription": "ви-нэрь"
+    "transcription": "винери сяра"
    }
   ]
  },
@@ -288,18 +288,18 @@
   "id": "22-6",
   "word": "sâmbătă",
   "translation": "суббота",
-  "transcription": "сым-бэ-тэ",
+  "transcription": "сымбэтэ",
   "day": 22,
   "examples": [
    {
     "ro": "Sâmbătă mă odihnesc.",
     "ru": "В субботу отдых.",
-    "transcription": "сым-бэ-тэ"
+    "transcription": "сымбэтэ мэ одихнеск"
    },
    {
     "ro": "Sâmbătă dimineața.",
     "ru": "В субботу утром.",
-    "transcription": "сым-бэ-тэ"
+    "transcription": "сымбэтэ диминяца"
    }
   ]
  },
@@ -307,18 +307,18 @@
   "id": "22-7",
   "word": "duminică",
   "translation": "воскресенье",
-  "transcription": "ду-ми-ни-кэ",
+  "transcription": "думиникэ",
   "day": 22,
   "examples": [
    {
     "ro": "Duminică sunt acasă.",
     "ru": "В воскресенье дома.",
-    "transcription": "ду-ми-ни-кэ"
+    "transcription": "думиникэ сунт акасэ"
    },
    {
     "ro": "Duminică seara.",
     "ru": "В воскресенье вечером.",
-    "transcription": "ду-ми-ни-кэ"
+    "transcription": "думиникэ сяра"
    }
   ]
  },
@@ -326,18 +326,18 @@
   "id": "22-8",
   "word": "weekend",
   "translation": "выходные (уикенд)",
-  "transcription": "уик-энд",
+  "transcription": "уикенд",
   "day": 22,
   "examples": [
    {
     "ro": "În weekend mă odihnesc.",
     "ru": "На выходных я отдыхаю.",
-    "transcription": "уик-энд"
+    "transcription": "ын уикенд мэ одихнеск"
    },
    {
     "ro": "Plan pentru weekend.",
     "ru": "План на выходные.",
-    "transcription": "уик-энд"
+    "transcription": "план пентру уикенд"
    }
   ]
  },
@@ -345,18 +345,18 @@
   "id": "22-9",
   "word": "sărbătoare",
   "translation": "праздник",
-  "transcription": "сэр-бэ-тоа-рэ",
+  "transcription": "сэрбэтоаре",
   "day": 22,
   "examples": [
    {
     "ro": "Astăzi e sărbătoare.",
     "ru": "Сегодня праздник.",
-    "transcription": "сэр-бэ-тоа-рэ"
+    "transcription": "астэзи е сэрбэтоаре"
    },
    {
     "ro": "Sărbători fericite!",
     "ru": "С праздником!",
-    "transcription": "сэр-бэ-тоа-рэ"
+    "transcription": "сэрбэтори феричите"
    }
   ]
  },
@@ -364,18 +364,18 @@
   "id": "22-10",
   "word": "concediu",
   "translation": "отпуск",
-  "transcription": "кон-че-ди-у",
+  "transcription": "кончедиу",
   "day": 22,
   "examples": [
    {
     "ro": "Sunt în concediu.",
     "ru": "У меня отпуск.",
-    "transcription": "кон-че-ди-у"
+    "transcription": "сунт ын кончедиу"
    },
    {
     "ro": "Când ai concediu?",
     "ru": "Когда отпуск?",
-    "transcription": "кон-че-ди-у"
+    "transcription": "кынд ай кончедиу"
    }
   ]
  },
@@ -383,18 +383,18 @@
   "id": "23-1",
   "word": "magazin",
   "translation": "магазин",
-  "transcription": "ма-га-зин",
+  "transcription": "магазин",
   "day": 23,
   "examples": [
    {
     "ro": "Unde este magazinul?",
     "ru": "Где магазин?",
-    "transcription": "ма-га-зин"
+    "transcription": "унде есте магазинул"
    },
    {
     "ro": "Merg la magazin.",
     "ru": "Я иду в магазин.",
-    "transcription": "ма-га-зин"
+    "transcription": "мерг ла магазин"
    }
   ]
  },
@@ -402,18 +402,18 @@
   "id": "23-2",
   "word": "piață",
   "translation": "рынок",
-  "transcription": "пя-цэ",
+  "transcription": "пиацэ",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e piața?",
     "ru": "Где рынок?",
-    "transcription": "пя-цэ"
+    "transcription": "унде е пиаца"
    },
    {
     "ro": "Cumpăr din piață.",
     "ru": "Я покупаю на рынке.",
-    "transcription": "пя-цэ"
+    "transcription": "кумпэр дин пиацэ"
    }
   ]
  },
@@ -421,18 +421,18 @@
   "id": "23-3",
   "word": "parcare",
   "translation": "парковка",
-  "transcription": "пар-ка-рэ",
+  "transcription": "паркаре",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e parcarea?",
     "ru": "Где парковка?",
-    "transcription": "пар-ка-рэ"
+    "transcription": "унде е паркареа"
    },
    {
     "ro": "Parcarea e plină.",
     "ru": "Парковка занята.",
-    "transcription": "пар-ка-рэ"
+    "transcription": "паркареа е плинэ"
    }
   ]
  },
@@ -440,18 +440,18 @@
   "id": "23-4",
   "word": "spital",
   "translation": "больница",
-  "transcription": "спи-тал",
+  "transcription": "спитал",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e spitalul?",
     "ru": "Где больница?",
-    "transcription": "спи-тал"
+    "transcription": "унде е спиталул"
    },
    {
     "ro": "Trebuie să merg la spital.",
     "ru": "Мне нужно в больницу.",
-    "transcription": "спи-тал"
+    "transcription": "требуйе сэ мерг ла спитал"
    }
   ]
  },
@@ -459,18 +459,18 @@
   "id": "23-5",
   "word": "poliție",
   "translation": "полиция",
-  "transcription": "по-ли-ци-е",
+  "transcription": "полицие",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e poliția?",
     "ru": "Где полиция?",
-    "transcription": "по-ли-ци-е"
+    "transcription": "унде е полициа"
    },
    {
     "ro": "Am nevoie de poliție.",
     "ru": "Мне нужна полиция.",
-    "transcription": "по-ли-ци-е"
+    "transcription": "ам невойе де полицие"
    }
   ]
  },
@@ -478,18 +478,18 @@
   "id": "23-6",
   "word": "muzeu",
   "translation": "музей",
-  "transcription": "му-зэ-у",
+  "transcription": "музеу",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e muzeul?",
     "ru": "Где музей?",
-    "transcription": "му-зэ-у"
+    "transcription": "унде е музеул"
    },
    {
     "ro": "Vreau la muzeu.",
     "ru": "Я хочу в музей.",
-    "transcription": "му-зэ-у"
+    "transcription": "вряу ла музеу"
    }
   ]
  },
@@ -497,18 +497,18 @@
   "id": "23-7",
   "word": "gară",
   "translation": "вокзал (ж/д)",
-  "transcription": "га-рэ",
+  "transcription": "гарэ",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e gara?",
     "ru": "Где вокзал?",
-    "transcription": "га-рэ"
+    "transcription": "унде е гара"
    },
    {
     "ro": "Merg la gară.",
     "ru": "Я иду на вокзал.",
-    "transcription": "га-рэ"
+    "transcription": "мерг ла гарэ"
    }
   ]
  },
@@ -516,18 +516,18 @@
   "id": "23-8",
   "word": "autogară",
   "translation": "автовокзал",
-  "transcription": "ау-то-га-рэ",
+  "transcription": "аутогарэ",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e autogara?",
     "ru": "Где автовокзал?",
-    "transcription": "ау-то-га-рэ"
+    "transcription": "унде е аутогара"
    },
    {
     "ro": "Autogara e departe.",
     "ru": "Автовокзал далеко.",
-    "transcription": "ау-то-га-рэ"
+    "transcription": "аутогара е департе"
    }
   ]
  },
@@ -535,18 +535,18 @@
   "id": "23-9",
   "word": "bibliotecă",
   "translation": "библиотека",
-  "transcription": "би-бли-о-тэ-кэ",
+  "transcription": "библиотекэ",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e biblioteca?",
     "ru": "Где библиотека?",
-    "transcription": "би-бли-о-тэ-кэ"
+    "transcription": "унде е библиотека"
    },
    {
     "ro": "Merg la bibliotecă.",
     "ru": "Я иду в библиотеку.",
-    "transcription": "би-бли-о-тэ-кэ"
+    "transcription": "мерг ла библиотекэ"
    }
   ]
  },
@@ -554,18 +554,18 @@
   "id": "23-10",
   "word": "primărie",
   "translation": "мэрия / муниципалитет",
-  "transcription": "при-мэ-ри-е",
+  "transcription": "примэрие",
   "day": 23,
   "examples": [
    {
     "ro": "Unde e primăria?",
     "ru": "Где мэрия?",
-    "transcription": "при-мэ-ри-е"
+    "transcription": "унде е примэриа"
    },
    {
     "ro": "Am nevoie la primărie.",
     "ru": "Мне нужно в мэрию.",
-    "transcription": "при-мэ-ри-е"
+    "transcription": "ам невойе ла примэрие"
    }
   ]
  },
@@ -573,18 +573,18 @@
   "id": "24-1",
   "word": "prieten",
   "translation": "друг",
-  "transcription": "при-этэн",
+  "transcription": "приетен",
   "day": 24,
   "examples": [
    {
     "ro": "Acesta e prietenul meu.",
     "ru": "Это мой друг.",
-    "transcription": "при-этэн"
+    "transcription": "ачеста е приетенул меу"
    },
    {
     "ro": "Am prieteni.",
     "ru": "У меня есть друзья.",
-    "transcription": "при-этэн"
+    "transcription": "ам приетени"
    }
   ]
  },
@@ -592,18 +592,18 @@
   "id": "24-2",
   "word": "familie",
   "translation": "семья",
-  "transcription": "фа-ми-ли-е",
+  "transcription": "фамилие",
   "day": 24,
   "examples": [
    {
     "ro": "Familia mea e mare.",
     "ru": "Моя семья большая.",
-    "transcription": "фа-ми-ли-е"
+    "transcription": "фамилиа меа е маре"
    },
    {
     "ro": "Îmi iubesc familia.",
     "ru": "Я люблю семью.",
-    "transcription": "фа-ми-ли-е"
+    "transcription": "ыми юбеск фамилиа"
    }
   ]
  },
@@ -617,12 +617,12 @@
    {
     "ro": "Soțul ei e aici.",
     "ru": "Её муж здесь.",
-    "transcription": "соц"
+    "transcription": "соцул ей е айчь"
    },
    {
     "ro": "Soțul meu lucrează.",
     "ru": "Мой муж работает.",
-    "transcription": "соц"
+    "transcription": "соцул меу лукрязэ"
    }
   ]
  },
@@ -630,18 +630,18 @@
   "id": "24-4",
   "word": "soție",
   "translation": "жена",
-  "transcription": "со-ци-е",
+  "transcription": "социе",
   "day": 24,
   "examples": [
    {
     "ro": "Soția lui e acasă.",
     "ru": "Его жена дома.",
-    "transcription": "со-ци-е"
+    "transcription": "социа луи е акасэ"
    },
    {
     "ro": "Soția mea lucrează.",
     "ru": "Моя жена работает.",
-    "transcription": "со-ци-е"
+    "transcription": "социа меа лукрязэ"
    }
   ]
  },
@@ -649,18 +649,18 @@
   "id": "24-5",
   "word": "copil",
   "translation": "ребёнок",
-  "transcription": "ко-пил",
+  "transcription": "копил",
   "day": 24,
   "examples": [
    {
     "ro": "Au un copil.",
     "ru": "У них один ребёнок.",
-    "transcription": "ко-пил"
+    "transcription": "ау ун копил"
    },
    {
     "ro": "Copilul doarme.",
     "ru": "Ребёнок спит.",
-    "transcription": "ко-пил"
+    "transcription": "копилул доарме"
    }
   ]
  },
@@ -668,18 +668,18 @@
   "id": "24-6",
   "word": "mamă",
   "translation": "мама",
-  "transcription": "ма-мэ",
+  "transcription": "мамэ",
   "day": 24,
   "examples": [
    {
     "ro": "Mama mea e acasă.",
     "ru": "Моя мама дома.",
-    "transcription": "ма-мэ"
+    "transcription": "мама меа е акасэ"
    },
    {
     "ro": "O sun pe mama.",
     "ru": "Я звоню маме.",
-    "transcription": "ма-мэ"
+    "transcription": "о сун пе мама"
    }
   ]
  },
@@ -687,18 +687,18 @@
   "id": "24-7",
   "word": "tată",
   "translation": "папа",
-  "transcription": "та-тэ",
+  "transcription": "татэ",
   "day": 24,
   "examples": [
    {
     "ro": "Tatăl meu lucrează.",
     "ru": "Мой папа работает.",
-    "transcription": "та-тэ"
+    "transcription": "татэл меу лукрязэ"
    },
    {
     "ro": "Vorbesc cu tata.",
     "ru": "Я говорю с папой.",
-    "transcription": "та-тэ"
+    "transcription": "ворбеск ку тата"
    }
   ]
  },
@@ -706,18 +706,18 @@
   "id": "24-8",
   "word": "vecin",
   "translation": "сосед",
-  "transcription": "вэ-чин",
+  "transcription": "вечин",
   "day": 24,
   "examples": [
    {
     "ro": "Vecinul meu e bun.",
     "ru": "Мой сосед хороший.",
-    "transcription": "вэ-чин"
+    "transcription": "вечинул меу е бун"
    },
    {
     "ro": "Vecinul e aici.",
     "ru": "Сосед здесь.",
-    "transcription": "вэ-чин"
+    "transcription": "вечинул е айчь"
    }
   ]
  },
@@ -725,18 +725,18 @@
   "id": "24-9",
   "word": "petrecere",
   "translation": "вечеринка",
-  "transcription": "пэ-трэ-че-рэ",
+  "transcription": "петречере",
   "day": 24,
   "examples": [
    {
     "ro": "Astăzi e petrecere.",
     "ru": "Сегодня вечеринка.",
-    "transcription": "пэ-трэ-че-рэ"
+    "transcription": "астэзи е петречере"
    },
    {
     "ro": "Merg la petrecere.",
     "ru": "Я иду на вечеринку.",
-    "transcription": "пэ-трэ-че-рэ"
+    "transcription": "мерг ла петречере"
    }
   ]
  },
@@ -744,18 +744,18 @@
   "id": "24-10",
   "word": "cadou",
   "translation": "подарок",
-  "transcription": "ка-доу",
+  "transcription": "кадоу",
   "day": 24,
   "examples": [
    {
     "ro": "E un cadou.",
     "ru": "Это подарок.",
-    "transcription": "ка-доу"
+    "transcription": "е ун кадоу"
    },
    {
     "ro": "Am nevoie de un cadou.",
     "ru": "Мне нужен подарок.",
-    "transcription": "ка-доу"
+    "transcription": "ам невойе де ун кадоу"
    }
   ]
  },
@@ -769,12 +769,12 @@
    {
     "ro": "Vreau ceai și cafea.",
     "ru": "Я хочу чай и кофе.",
-    "transcription": "ши"
+    "transcription": "вряу чай ши кафеа"
    },
    {
     "ro": "El și ea.",
     "ru": "Он и она.",
-    "transcription": "ши"
+    "transcription": "ел ши еа"
    }
   ]
  },
@@ -788,12 +788,12 @@
    {
     "ro": "Ceai sau cafea?",
     "ru": "Чай или кофе?",
-    "transcription": "сау"
+    "transcription": "чай сау кафеа"
    },
    {
     "ro": "Astăzi sau mâine.",
     "ru": "Сегодня или завтра.",
-    "transcription": "сау"
+    "transcription": "астэзи сау мыйне"
    }
   ]
  },
@@ -807,12 +807,12 @@
    {
     "ro": "Vreau, dar nu pot.",
     "ru": "Я хочу, но не могу.",
-    "transcription": "дар"
+    "transcription": "вряу дар ну пот"
    },
    {
     "ro": "E bine, dar e scump.",
     "ru": "Это хорошо, но дорого.",
-    "transcription": "дар"
+    "transcription": "е бине дар е скумп"
    }
   ]
  },
@@ -820,18 +820,18 @@
   "id": "25-4",
   "word": "pentru",
   "translation": "для / ради",
-  "transcription": "пен-тру",
+  "transcription": "пентру",
   "day": 25,
   "examples": [
    {
     "ro": "Este pentru tine.",
     "ru": "Это для тебя.",
-    "transcription": "пен-тру"
+    "transcription": "есте пентру тине"
    },
    {
     "ro": "Mulțumesc pentru ajutor.",
     "ru": "Спасибо за помощь.",
-    "transcription": "пен-тру"
+    "transcription": "мулцумеск пентру ажутор"
    }
   ]
  },
@@ -845,12 +845,12 @@
    {
     "ro": "Cafea cu lapte.",
     "ru": "Кофе с молоком.",
-    "transcription": "ку"
+    "transcription": "кафеа ку лапте"
    },
    {
     "ro": "Merg cu un prieten.",
     "ru": "Я иду с другом.",
-    "transcription": "ку"
+    "transcription": "мерг ку ун приетен"
    }
   ]
  },
@@ -858,18 +858,18 @@
   "id": "25-6",
   "word": "fără",
   "translation": "без",
-  "transcription": "фэ-рэ",
+  "transcription": "фэрэ",
   "day": 25,
   "examples": [
    {
     "ro": "Fără zahăr, vă rog.",
     "ru": "Без сахара, пожалуйста.",
-    "transcription": "фэ-рэ"
+    "transcription": "фэрэ захэр вэ рог"
    },
    {
     "ro": "Sunt fără telefon.",
     "ru": "Я без телефона.",
-    "transcription": "фэ-рэ"
+    "transcription": "сунт фэрэ телефон"
    }
   ]
  },
@@ -877,18 +877,18 @@
   "id": "25-7",
   "word": "despre",
   "translation": "о / про",
-  "transcription": "дэ-спрэ",
+  "transcription": "деспре",
   "day": 25,
   "examples": [
    {
     "ro": "Vorbim despre muncă.",
     "ru": "Говорим о работе.",
-    "transcription": "дэ-спрэ"
+    "transcription": "ворбим деспре мункэ"
    },
    {
     "ro": "E despre tine.",
     "ru": "Это про тебя.",
-    "transcription": "дэ-спрэ"
+    "transcription": "е деспре тине"
    }
   ]
  },
@@ -896,18 +896,18 @@
   "id": "25-8",
   "word": "după",
   "translation": "после",
-  "transcription": "ду-пэ",
+  "transcription": "дупэ",
   "day": 25,
   "examples": [
    {
     "ro": "După muncă.",
     "ru": "После работы.",
-    "transcription": "ду-пэ"
+    "transcription": "дупэ мункэ"
    },
    {
     "ro": "După ora 8.",
     "ru": "После 8 часов.",
-    "transcription": "ду-пэ"
+    "transcription": "дупэ ора"
    }
   ]
  },
@@ -915,18 +915,18 @@
   "id": "25-9",
   "word": "înainte de",
   "translation": "перед",
-  "transcription": "ы-найн-те дэ",
+  "transcription": "ынайнте де",
   "day": 25,
   "examples": [
    {
     "ro": "Înainte de întâlnire.",
     "ru": "Перед встречей.",
-    "transcription": "ы-найн-те дэ"
+    "transcription": "ынайнте де ынтылнире"
    },
    {
     "ro": "Înainte de mic dejun.",
     "ru": "Перед завтраком.",
-    "transcription": "ы-найн-те дэ"
+    "transcription": "ынайнте де мик дежун"
    }
   ]
  },
@@ -934,18 +934,18 @@
   "id": "25-10",
   "word": "deoarece",
   "translation": "потому что",
-  "transcription": "дэ-оа-рэ-че",
+  "transcription": "деоарече",
   "day": 25,
   "examples": [
    {
     "ro": "Nu am venit deoarece am fost ocupat.",
     "ru": "Я не пришёл, потому что был занят.",
-    "transcription": "дэ-оа-рэ-че"
+    "transcription": "ну ам венит деоарече ам фост окупат"
    },
    {
     "ro": "Sunt acasă deoarece mă odihnesc.",
     "ru": "Я дома, потому что отдыхаю.",
-    "transcription": "дэ-оа-рэ-че"
+    "transcription": "сунт акасэ деоарече мэ одихнеск"
    }
   ]
  },
@@ -953,18 +953,18 @@
   "id": "26-1",
   "word": "urgență",
   "translation": "срочный случай / неотложка",
-  "transcription": "ур-джэн-цэ",
+  "transcription": "урженцэ",
   "day": 26,
   "examples": [
    {
     "ro": "E urgență.",
     "ru": "Это срочно.",
-    "transcription": "ур-джэн-цэ"
+    "transcription": "е урженцэ"
    },
    {
     "ro": "Chemați ambulanța, e urgență!",
     "ru": "Вызовите скорую!",
-    "transcription": "ур-джэн-цэ"
+    "transcription": "кемаць амбуланца е урженцэ"
    }
   ]
  },
@@ -972,18 +972,18 @@
   "id": "26-2",
   "word": "pericol",
   "translation": "опасность",
-  "transcription": "пэ-ри-кол",
+  "transcription": "перикол",
   "day": 26,
   "examples": [
    {
     "ro": "E pericol.",
     "ru": "Это опасно.",
-    "transcription": "пэ-ри-кол"
+    "transcription": "е перикол"
    },
    {
     "ro": "Nu e pericol.",
     "ru": "Нет опасности.",
-    "transcription": "пэ-ри-кол"
+    "transcription": "ну е перикол"
    }
   ]
  },
@@ -1002,7 +1002,7 @@
    {
     "ro": "Aici e foc.",
     "ru": "Здесь огонь.",
-    "transcription": "фок"
+    "transcription": "айчь е фок"
    }
   ]
  },
@@ -1010,18 +1010,18 @@
   "id": "26-4",
   "word": "accident",
   "translation": "авария / несчастный случай",
-  "transcription": "ак-чи-дент",
+  "transcription": "акчидент",
   "day": 26,
   "examples": [
    {
     "ro": "A fost un accident.",
     "ru": "Произошла авария.",
-    "transcription": "ак-чи-дент"
+    "transcription": "а фост ун акчидент"
    },
    {
     "ro": "Am nevoie de ajutor după accident.",
     "ru": "Мне нужна помощь после аварии.",
-    "transcription": "ак-чи-дент"
+    "transcription": "ам невойе де ажутор дупэ акчидент"
    }
   ]
  },
@@ -1029,18 +1029,18 @@
   "id": "26-5",
   "word": "ambulanță",
   "translation": "скорая помощь",
-  "transcription": "ам-бу-лан-цэ",
+  "transcription": "амбуланцэ",
   "day": 26,
   "examples": [
    {
     "ro": "Chemați ambulanța.",
     "ru": "Вызовите скорую.",
-    "transcription": "ам-бу-лан-цэ"
+    "transcription": "кемаць амбуланца"
    },
    {
     "ro": "Ambulanța vine.",
     "ru": "Скорая едет.",
-    "transcription": "ам-бу-лан-цэ"
+    "transcription": "амбуланца вине"
    }
   ]
  },
@@ -1048,18 +1048,18 @@
   "id": "26-6",
   "word": "pompieri",
   "translation": "пожарные",
-  "transcription": "пом-пи-ерь",
+  "transcription": "помпиери",
   "day": 26,
   "examples": [
    {
     "ro": "Chemați pompierii.",
     "ru": "Вызовите пожарных.",
-    "transcription": "пом-пи-ерь"
+    "transcription": "кемаць помпиерий"
    },
    {
     "ro": "Pompierii sunt aici.",
     "ru": "Пожарные здесь.",
-    "transcription": "пом-пи-ерь"
+    "transcription": "помпиерий сунт айчь"
    }
   ]
  },
@@ -1067,18 +1067,18 @@
   "id": "26-7",
   "word": "pierdut",
   "translation": "потерянный",
-  "transcription": "пи-эр-дут",
+  "transcription": "пиердут",
   "day": 26,
   "examples": [
    {
     "ro": "Am pierdut cheia.",
     "ru": "Я потерял ключ.",
-    "transcription": "пи-эр-дут"
+    "transcription": "ам пиердут кейа"
    },
    {
     "ro": "Documentul e pierdut.",
     "ru": "Документ потерян.",
-    "transcription": "пи-эр-дут"
+    "transcription": "документул е пиердут"
    }
   ]
  },
@@ -1092,12 +1092,12 @@
    {
     "ro": "Am nevoie de un act.",
     "ru": "Мне нужен документ.",
-    "transcription": "акт"
+    "transcription": "ам невойе де ун акт"
    },
    {
     "ro": "Nu am acte.",
     "ru": "У меня нет документов.",
-    "transcription": "акт"
+    "transcription": "ну ам акте"
    }
   ]
  },
@@ -1105,18 +1105,18 @@
   "id": "26-9",
   "word": "portofel",
   "translation": "кошелёк",
-  "transcription": "пор-то-фэл",
+  "transcription": "портофел",
   "day": 26,
   "examples": [
    {
     "ro": "Am pierdut portofelul.",
     "ru": "Я потерял кошелёк.",
-    "transcription": "пор-то-фэл"
+    "transcription": "ам пиердут портофелул"
    },
    {
     "ro": "Unde e portofelul meu?",
     "ru": "Где мой кошелёк?",
-    "transcription": "пор-то-фэл"
+    "transcription": "унде е портофелул меу"
    }
   ]
  },
@@ -1124,18 +1124,18 @@
   "id": "26-10",
   "word": "sună",
   "translation": "звони (повелительное) / звонить",
-  "transcription": "су-нэ",
+  "transcription": "сунэ",
   "day": 26,
   "examples": [
    {
     "ro": "Sună la poliție.",
     "ru": "Позвони в полицию.",
-    "transcription": "су-нэ"
+    "transcription": "сунэ ла полицие"
    },
    {
     "ro": "Sună-mă.",
     "ru": "Позвони мне.",
-    "transcription": "су-нэ"
+    "transcription": "сунэ мэ"
    }
   ]
  },
@@ -1143,18 +1143,18 @@
   "id": "27-1",
   "word": "televizor",
   "translation": "телевизор",
-  "transcription": "тэ-лэ-ви-зор",
+  "transcription": "телевизор",
   "day": 27,
   "examples": [
    {
     "ro": "Televizorul nu merge.",
     "ru": "Телевизор не работает.",
-    "transcription": "тэ-лэ-ви-зор"
+    "transcription": "телевизорул ну мерже"
    },
    {
     "ro": "Pornește televizorul.",
     "ru": "Включи телевизор.",
-    "transcription": "тэ-лэ-ви-зор"
+    "transcription": "порнеште телевизорул"
    }
   ]
  },
@@ -1162,18 +1162,18 @@
   "id": "27-2",
   "word": "calculator",
   "translation": "компьютер",
-  "transcription": "ка-лку-ла-тор",
+  "transcription": "калкулатор",
   "day": 27,
   "examples": [
    {
     "ro": "Calculatorul meu e lent.",
     "ru": "Мой компьютер медленный.",
-    "transcription": "ка-лку-ла-тор"
+    "transcription": "калкулаторул меу е лент"
    },
    {
     "ro": "Unde e calculatorul?",
     "ru": "Где компьютер?",
-    "transcription": "ка-лку-ла-тор"
+    "transcription": "унде е калкулаторул"
    }
   ]
  },
@@ -1181,18 +1181,18 @@
   "id": "27-3",
   "word": "tastatură",
   "translation": "клавиатура",
-  "transcription": "тас-та-ту-рэ",
+  "transcription": "тастатурэ",
   "day": 27,
   "examples": [
    {
     "ro": "Unde e tastatura?",
     "ru": "Где клавиатура?",
-    "transcription": "тас-та-ту-рэ"
+    "transcription": "унде е тастатура"
    },
    {
     "ro": "Tastatura e murdară.",
     "ru": "Клавиатура грязная.",
-    "transcription": "тас-та-ту-рэ"
+    "transcription": "тастатура е мурдарэ"
    }
   ]
  },
@@ -1200,18 +1200,18 @@
   "id": "27-4",
   "word": "mouse",
   "translation": "мышь",
-  "transcription": "маус",
+  "transcription": "моусе",
   "day": 27,
   "examples": [
    {
     "ro": "Am nevoie de mouse.",
     "ru": "Мне нужна мышь.",
-    "transcription": "маус"
+    "transcription": "ам невойе де моусе"
    },
    {
     "ro": "Unde e mouse-ul?",
     "ru": "Где мышь?",
-    "transcription": "маус"
+    "transcription": "унде е моусе ул"
    }
   ]
  },
@@ -1219,18 +1219,18 @@
   "id": "27-5",
   "word": "ecran",
   "translation": "экран",
-  "transcription": "э-кран",
+  "transcription": "екран",
   "day": 27,
   "examples": [
    {
     "ro": "Ecranul e întunecat.",
     "ru": "Экран тёмный.",
-    "transcription": "э-кран"
+    "transcription": "екранул е ынтунекат"
    },
    {
     "ro": "Curăță ecranul.",
     "ru": "Почисти экран.",
-    "transcription": "э-кран"
+    "transcription": "курэцэ екранул"
    }
   ]
  },
@@ -1238,18 +1238,18 @@
   "id": "27-6",
   "word": "imprimantă",
   "translation": "принтер",
-  "transcription": "им-при-ман-тэ",
+  "transcription": "импримантэ",
   "day": 27,
   "examples": [
    {
     "ro": "Imprimanta nu printează.",
     "ru": "Принтер не печатает.",
-    "transcription": "им-при-ман-тэ"
+    "transcription": "имприманта ну принтязэ"
    },
    {
     "ro": "Unde e imprimanta?",
     "ru": "Где принтер?",
-    "transcription": "им-при-ман-тэ"
+    "transcription": "унде е имприманта"
    }
   ]
  },
@@ -1257,18 +1257,18 @@
   "id": "27-7",
   "word": "cablu",
   "translation": "кабель",
-  "transcription": "ка-блу",
+  "transcription": "каблу",
   "day": 27,
   "examples": [
    {
     "ro": "Am nevoie de un cablu.",
     "ru": "Мне нужен кабель.",
-    "transcription": "ка-блу"
+    "transcription": "ам невойе де ун каблу"
    },
    {
     "ro": "Unde e cablul?",
     "ru": "Где кабель?",
-    "transcription": "ка-блу"
+    "transcription": "унде е каблул"
    }
   ]
  },
@@ -1276,18 +1276,18 @@
   "id": "27-8",
   "word": "priză",
   "translation": "розетка",
-  "transcription": "при-зэ",
+  "transcription": "призэ",
   "day": 27,
   "examples": [
    {
     "ro": "Unde e priza?",
     "ru": "Где розетка?",
-    "transcription": "при-зэ"
+    "transcription": "унде е приза"
    },
    {
     "ro": "Conectează la priză.",
     "ru": "Подключи к розетке.",
-    "transcription": "при-зэ"
+    "transcription": "конектязэ ла призэ"
    }
   ]
  },
@@ -1295,18 +1295,18 @@
   "id": "27-9",
   "word": "baterie",
   "translation": "батарея / аккумулятор",
-  "transcription": "ба-тэ-ри-е",
+  "transcription": "батерие",
   "day": 27,
   "examples": [
    {
     "ro": "Bateria e descărcată.",
     "ru": "Батарея разряжена.",
-    "transcription": "ба-тэ-ри-е"
+    "transcription": "батериа е дескэркатэ"
    },
    {
     "ro": "Am nevoie de baterie.",
     "ru": "Мне нужна батарея.",
-    "transcription": "ба-тэ-ри-е"
+    "transcription": "ам невойе де батерие"
    }
   ]
  },
@@ -1314,18 +1314,18 @@
   "id": "27-10",
   "word": "setări",
   "translation": "настройки",
-  "transcription": "сэ-тэрь",
+  "transcription": "сетэри",
   "day": 27,
   "examples": [
    {
     "ro": "Deschide setările.",
     "ru": "Открой настройки.",
-    "transcription": "сэ-тэрь"
+    "transcription": "дескиде сетэриле"
    },
    {
     "ro": "Schimbă setările.",
     "ru": "Измени настройки.",
-    "transcription": "сэ-тэрь"
+    "transcription": "скимбэ сетэриле"
    }
   ]
  },
@@ -1339,12 +1339,12 @@
    {
     "ro": "Zborul meu e astăzi.",
     "ru": "Мой рейс сегодня.",
-    "transcription": "збор"
+    "transcription": "зборул меу е астэзи"
    },
    {
     "ro": "Zborul e întârziat.",
     "ru": "Рейс задержан.",
-    "transcription": "збор"
+    "transcription": "зборул е ынтырзиат"
    }
   ]
  },
@@ -1352,18 +1352,18 @@
   "id": "28-2",
   "word": "poartă",
   "translation": "выход на посадку (гейт) / ворота",
-  "transcription": "по-ар-тэ",
+  "transcription": "поартэ",
   "day": 28,
   "examples": [
    {
     "ro": "Unde e poarta?",
     "ru": "Где гейт?",
-    "transcription": "по-ар-тэ"
+    "transcription": "унде е поарта"
    },
    {
     "ro": "Poarta numărul 5.",
     "ru": "Гейт номер 5.",
-    "transcription": "по-ар-тэ"
+    "transcription": "поарта нумэрул"
    }
   ]
  },
@@ -1371,18 +1371,18 @@
   "id": "28-3",
   "word": "îmbarcare",
   "translation": "посадка (boarding)",
-  "transcription": "ым-бар-ка-рэ",
+  "transcription": "ымбаркаре",
   "day": 28,
   "examples": [
    {
     "ro": "Unde e îmbarcarea?",
     "ru": "Где посадка?",
-    "transcription": "ым-бар-ка-рэ"
+    "transcription": "унде е ымбаркареа"
    },
    {
     "ro": "Îmbarcarea a început.",
     "ru": "Посадка началась.",
-    "transcription": "ым-бар-ка-рэ"
+    "transcription": "ымбаркареа а ынчепут"
    }
   ]
  },
@@ -1390,18 +1390,18 @@
   "id": "28-4",
   "word": "securitate",
   "translation": "служба безопасности / контроль",
-  "transcription": "сэ-ку-ри-та-тэ",
+  "transcription": "секуритате",
   "day": 28,
   "examples": [
    {
     "ro": "Unde e securitatea?",
     "ru": "Где контроль безопасности?",
-    "transcription": "сэ-ку-ри-та-тэ"
+    "transcription": "унде е секуритатеа"
    },
    {
     "ro": "Treci prin securitate.",
     "ru": "Пройди контроль.",
-    "transcription": "сэ-ку-ри-та-тэ"
+    "transcription": "тречь прин секуритате"
    }
   ]
  },
@@ -1409,18 +1409,18 @@
   "id": "28-5",
   "word": "bagaj de mână",
   "translation": "ручная кладь",
-  "transcription": "ба-гяж дэ мын-э",
+  "transcription": "багаж де мынэ",
   "day": 28,
   "examples": [
    {
     "ro": "Asta e bagaj de mână.",
     "ru": "Это ручная кладь.",
-    "transcription": "ба-гяж дэ мын-э"
+    "transcription": "аста е багаж де мынэ"
    },
    {
     "ro": "Unde e bagajul de mână?",
     "ru": "Где мой ручной багаж?",
-    "transcription": "ба-гяж дэ мын-э"
+    "transcription": "унде е багажул де мынэ"
    }
   ]
  },
@@ -1428,18 +1428,18 @@
   "id": "28-6",
   "word": "întârziere",
   "translation": "задержка",
-  "transcription": "ын-тыр-зи-е-рэ",
+  "transcription": "ынтырзиере",
   "day": 28,
   "examples": [
    {
     "ro": "Este întârziere.",
     "ru": "Есть задержка.",
-    "transcription": "ын-тыр-зи-е-рэ"
+    "transcription": "есте ынтырзиере"
    },
    {
     "ro": "Întârziere de o oră.",
     "ru": "Задержка на час.",
-    "transcription": "ын-тыр-зи-е-рэ"
+    "transcription": "ынтырзиере де о орэ"
    }
   ]
  },
@@ -1447,18 +1447,18 @@
   "id": "28-7",
   "word": "escală",
   "translation": "пересадка",
-  "transcription": "эс-ка-лэ",
+  "transcription": "ескалэ",
   "day": 28,
   "examples": [
    {
     "ro": "Am escală.",
     "ru": "У меня пересадка.",
-    "transcription": "эс-ка-лэ"
+    "transcription": "ам ескалэ"
    },
    {
     "ro": "Escală la Viena.",
     "ru": "Пересадка в Вене.",
-    "transcription": "эс-ка-лэ"
+    "transcription": "ескалэ ла виена"
    }
   ]
  },
@@ -1472,12 +1472,12 @@
    {
     "ro": "Unde e locul meu?",
     "ru": "Где моё место?",
-    "transcription": "лок"
+    "transcription": "унде е локул меу"
    },
    {
     "ro": "Locul meu e la geam.",
     "ru": "Моё место у окна.",
-    "transcription": "лок"
+    "transcription": "локул меу е ла жам"
    }
   ]
  },
@@ -1485,18 +1485,18 @@
   "id": "28-9",
   "word": "centură",
   "translation": "ремень (безопасности)",
-  "transcription": "чен-ту-рэ",
+  "transcription": "чентурэ",
   "day": 28,
   "examples": [
    {
     "ro": "Puneți centura.",
     "ru": "Пристегните ремень.",
-    "transcription": "чен-ту-рэ"
+    "transcription": "пунець чентура"
    },
    {
     "ro": "Centura e obligatorie.",
     "ru": "Ремень обязателен.",
-    "transcription": "чен-ту-рэ"
+    "transcription": "чентура е облигаторие"
    }
   ]
  },
@@ -1504,18 +1504,18 @@
   "id": "28-10",
   "word": "pașaport",
   "translation": "паспорт",
-  "transcription": "па-ша-порт",
+  "transcription": "пашапорт",
   "day": 28,
   "examples": [
    {
     "ro": "Unde e pașaportul?",
     "ru": "Где паспорт?",
-    "transcription": "па-ша-порт"
+    "transcription": "унде е пашапортул"
    },
    {
     "ro": "Am nevoie de pașaport.",
     "ru": "Мне нужен паспорт.",
-    "transcription": "па-ша-порт"
+    "transcription": "ам невойе де пашапорт"
    }
   ]
  },
@@ -1523,18 +1523,18 @@
   "id": "29-1",
   "word": "ofertă",
   "translation": "предложение (коммерческое)",
-  "transcription": "о-фэр-тэ",
+  "transcription": "офертэ",
   "day": 29,
   "examples": [
    {
     "ro": "Am o ofertă.",
     "ru": "У меня есть предложение.",
-    "transcription": "о-фэр-тэ"
+    "transcription": "ам о офертэ"
    },
    {
     "ro": "Trimiteți oferta.",
     "ru": "Отправьте предложение.",
-    "transcription": "о-фэр-тэ"
+    "transcription": "тримитець оферта"
    }
   ]
  },
@@ -1542,18 +1542,18 @@
   "id": "29-2",
   "word": "termen",
   "translation": "срок / дедлайн",
-  "transcription": "тэр-мэн",
+  "transcription": "термен",
   "day": 29,
   "examples": [
    {
     "ro": "Care e termenul?",
     "ru": "Какой срок?",
-    "transcription": "тэр-мэн"
+    "transcription": "каре е терменул"
    },
    {
     "ro": "Termenul e mâine.",
     "ru": "Срок завтра.",
-    "transcription": "тэр-мэн"
+    "transcription": "терменул е мыйне"
    }
   ]
  },
@@ -1561,18 +1561,18 @@
   "id": "29-3",
   "word": "condiții",
   "translation": "условия",
-  "transcription": "кон-ди-ций",
+  "transcription": "кондиций",
   "day": 29,
   "examples": [
    {
     "ro": "Care sunt condițiile?",
     "ru": "Какие условия?",
-    "transcription": "кон-ди-ций"
+    "transcription": "каре сунт кондицийле"
    },
    {
     "ro": "Condițiile sunt clare.",
     "ru": "Условия понятны.",
-    "transcription": "кон-ди-ций"
+    "transcription": "кондицийле сунт кларе"
    }
   ]
  },
@@ -1580,18 +1580,18 @@
   "id": "29-4",
   "word": "semnătură",
   "translation": "подпись",
-  "transcription": "сэм-нэ-ту-рэ",
+  "transcription": "семнэтурэ",
   "day": 29,
   "examples": [
    {
     "ro": "Am nevoie de semnătură.",
     "ru": "Мне нужна подпись.",
-    "transcription": "сэм-нэ-ту-рэ"
+    "transcription": "ам невойе де семнэтурэ"
    },
    {
     "ro": "Semnați aici.",
     "ru": "Подпишите здесь.",
-    "transcription": "сэм-нэ-ту-рэ"
+    "transcription": "семнаць айчь"
    }
   ]
  },
@@ -1599,18 +1599,18 @@
   "id": "29-5",
   "word": "document",
   "translation": "документ",
-  "transcription": "до-ку-мэнт",
+  "transcription": "документ",
   "day": 29,
   "examples": [
    {
     "ro": "Am nevoie de document.",
     "ru": "Мне нужен документ.",
-    "transcription": "до-ку-мэнт"
+    "transcription": "ам невойе де документ"
    },
    {
     "ro": "Unde e documentul?",
     "ru": "Где документ?",
-    "transcription": "до-ку-мэнт"
+    "transcription": "унде е документул"
    }
   ]
  },
@@ -1618,18 +1618,18 @@
   "id": "29-6",
   "word": "proiect",
   "translation": "проект",
-  "transcription": "про-ект",
+  "transcription": "пройект",
   "day": 29,
   "examples": [
    {
     "ro": "Asta e proiectul meu.",
     "ru": "Это мой проект.",
-    "transcription": "про-ект"
+    "transcription": "аста е пройектул меу"
    },
    {
     "ro": "Proiectul e gata.",
     "ru": "Проект готов.",
-    "transcription": "про-ект"
+    "transcription": "пройектул е гата"
    }
   ]
  },
@@ -1637,18 +1637,18 @@
   "id": "29-7",
   "word": "buget",
   "translation": "бюджет",
-  "transcription": "бу-джет",
+  "transcription": "бужет",
   "day": 29,
   "examples": [
    {
     "ro": "Care e bugetul?",
     "ru": "Какой бюджет?",
-    "transcription": "бу-джет"
+    "transcription": "каре е бужетул"
    },
    {
     "ro": "Bugetul e limitat.",
     "ru": "Бюджет ограничен.",
-    "transcription": "бу-джет"
+    "transcription": "бужетул е лимитат"
    }
   ]
  },
@@ -1662,12 +1662,12 @@
    {
     "ro": "Care e costul?",
     "ru": "Какова стоимость?",
-    "transcription": "кост"
+    "transcription": "каре е костул"
    },
    {
     "ro": "Costul e mare.",
     "ru": "Стоимость высокая.",
-    "transcription": "кост"
+    "transcription": "костул е маре"
    }
   ]
  },
@@ -1675,18 +1675,18 @@
   "id": "29-9",
   "word": "fact",
   "translation": "факт",
-  "transcription": "фапт",
+  "transcription": "факт",
   "day": 29,
   "examples": [
    {
     "ro": "E un fapt.",
     "ru": "Это факт.",
-    "transcription": "фапт"
+    "transcription": "е ун фапт"
    },
    {
     "ro": "Știu acest fapt.",
     "ru": "Я знаю этот факт.",
-    "transcription": "фапт"
+    "transcription": "штиу ачест фапт"
    }
   ]
  },
@@ -1694,18 +1694,18 @@
   "id": "29-10",
   "word": "decizie",
   "translation": "решение",
-  "transcription": "дэ-чи-зи-е",
+  "transcription": "дечизие",
   "day": 29,
   "examples": [
    {
     "ro": "Asta e decizia.",
     "ru": "Это решение.",
-    "transcription": "дэ-чи-зи-е"
+    "transcription": "аста е дечизиа"
    },
    {
     "ro": "Avem nevoie de o decizie.",
     "ru": "Нам нужно решение.",
-    "transcription": "дэ-чи-зи-е"
+    "transcription": "авем невойе де о дечизие"
    }
   ]
  },
@@ -1713,18 +1713,18 @@
   "id": "30-1",
   "word": "obicei",
   "translation": "привычка",
-  "transcription": "о-би-чей",
+  "transcription": "обичей",
   "day": 30,
   "examples": [
    {
     "ro": "E un obicei bun.",
     "ru": "Это хорошая привычка.",
-    "transcription": "о-би-чей"
+    "transcription": "е ун обичей бун"
    },
    {
     "ro": "Schimb un obicei.",
     "ru": "Я меняю привычку.",
-    "transcription": "о-би-чей"
+    "transcription": "скимб ун обичей"
    }
   ]
  },
@@ -1738,12 +1738,12 @@
    {
     "ro": "Am un plan.",
     "ru": "У меня есть план.",
-    "transcription": "план"
+    "transcription": "ам ун план"
    },
    {
     "ro": "Plan pentru mâine.",
     "ru": "План на завтра.",
-    "transcription": "план"
+    "transcription": "план пентру мыйне"
    }
   ]
  },
@@ -1751,18 +1751,18 @@
   "id": "30-3",
   "word": "obiectiv",
   "translation": "цель",
-  "transcription": "об-йек-тив",
+  "transcription": "обиектив",
   "day": 30,
   "examples": [
    {
     "ro": "Obiectivul meu e clar.",
     "ru": "Моя цель ясна.",
-    "transcription": "об-йек-тив"
+    "transcription": "обиективул меу е клар"
    },
    {
     "ro": "Am un obiectiv nou.",
     "ru": "У меня новый цель.",
-    "transcription": "об-йек-тив"
+    "transcription": "ам ун обиектив ноу"
    }
   ]
  },
@@ -1770,18 +1770,18 @@
   "id": "30-4",
   "word": "rutină",
   "translation": "рутина",
-  "transcription": "ру-ти-нэ",
+  "transcription": "рутинэ",
   "day": 30,
   "examples": [
    {
     "ro": "Am o rutină zilnică.",
     "ru": "У меня ежедневная рутина.",
-    "transcription": "ру-ти-нэ"
+    "transcription": "ам о рутинэ зилникэ"
    },
    {
     "ro": "Rutina ajută.",
     "ru": "Рутина помогает.",
-    "transcription": "ру-ти-нэ"
+    "transcription": "рутина ажутэ"
    }
   ]
  },
@@ -1789,18 +1789,18 @@
   "id": "30-5",
   "word": "energie",
   "translation": "энергия",
-  "transcription": "э-нэр-джи-е",
+  "transcription": "енерже",
   "day": 30,
   "examples": [
    {
     "ro": "Am puțină energie.",
     "ru": "У меня мало энергии.",
-    "transcription": "э-нэр-джи-е"
+    "transcription": "ам пуцинэ енерже"
    },
    {
     "ro": "Am nevoie de energie.",
     "ru": "Мне нужна энергия.",
-    "transcription": "э-нэр-джи-е"
+    "transcription": "ам невойе де енерже"
    }
   ]
  },
@@ -1808,18 +1808,18 @@
   "id": "30-6",
   "word": "motivație",
   "translation": "мотивация",
-  "transcription": "мо-ти-ва-ци-е",
+  "transcription": "мотивацие",
   "day": 30,
   "examples": [
    {
     "ro": "Am nevoie de motivație.",
     "ru": "Мне нужна мотивация.",
-    "transcription": "мо-ти-ва-ци-е"
+    "transcription": "ам невойе де мотивацие"
    },
    {
     "ro": "Motivația e mare.",
     "ru": "Мотивация высокая.",
-    "transcription": "мо-ти-ва-ци-е"
+    "transcription": "мотивациа е маре"
    }
   ]
  },
@@ -1827,18 +1827,18 @@
   "id": "30-7",
   "word": "relaxare",
   "translation": "расслабление",
-  "transcription": "рэ-лак-са-рэ",
+  "transcription": "релаксаре",
   "day": 30,
   "examples": [
    {
     "ro": "Am nevoie de relaxare.",
     "ru": "Мне нужно расслабление.",
-    "transcription": "рэ-лак-са-рэ"
+    "transcription": "ам невойе де релаксаре"
    },
    {
     "ro": "Seara e pentru relaxare.",
     "ru": "Вечером — расслабление.",
-    "transcription": "рэ-лак-са-рэ"
+    "transcription": "сяра е пентру релаксаре"
    }
   ]
  },
@@ -1846,18 +1846,18 @@
   "id": "30-8",
   "word": "priorități",
   "translation": "приоритеты",
-  "transcription": "при-о-ри-тэць",
+  "transcription": "приоритэць",
   "day": 30,
   "examples": [
    {
     "ro": "Prioritățile mele sunt importante.",
     "ru": "Мои приоритеты важны.",
-    "transcription": "при-о-ри-тэць"
+    "transcription": "приоритэциле меле сунт импортанте"
    },
    {
     "ro": "Trebuie să aleg priorități.",
     "ru": "Нужно выбрать приоритеты.",
-    "transcription": "при-о-ри-тэць"
+    "transcription": "требуйе сэ алег приоритэць"
    }
   ]
  },
@@ -1865,18 +1865,18 @@
   "id": "30-9",
   "word": "schimbare",
   "translation": "изменение",
-  "transcription": "ским-ба-рэ",
+  "transcription": "скимбаре",
   "day": 30,
   "examples": [
    {
     "ro": "E nevoie de schimbare.",
     "ru": "Нужны изменения.",
-    "transcription": "ским-ба-рэ"
+    "transcription": "е невойе де скимбаре"
    },
    {
     "ro": "E o schimbare mare.",
     "ru": "Это большое изменение.",
-    "transcription": "ским-ба-рэ"
+    "transcription": "е о скимбаре маре"
    }
   ]
  },
@@ -1884,18 +1884,18 @@
   "id": "30-10",
   "word": "rezultat",
   "translation": "результат",
-  "transcription": "рэ-зу-лат",
+  "transcription": "резултат",
   "day": 30,
   "examples": [
    {
     "ro": "Rezultatul e bun.",
     "ru": "Результат хороший.",
-    "transcription": "рэ-зу-лат"
+    "transcription": "резултатул е бун"
    },
    {
     "ro": "Aștept rezultatul.",
     "ru": "Я жду результат.",
-    "transcription": "рэ-зу-лат"
+    "transcription": "аштепт резултатул"
    }
   ]
  }
