@@ -1,0 +1,602 @@
+[
+ {
+  "id": "s1",
+  "place": "home",
+  "ro": "Bună dimineața!",
+  "ru": "Доброе утро!"
+ },
+ {
+  "id": "s2",
+  "place": "home",
+  "ro": "Te-ai trezit?",
+  "ru": "Ты проснулся?"
+ },
+ {
+  "id": "s3",
+  "place": "home",
+  "ro": "Hai la masă.",
+  "ru": "Иди к столу."
+ },
+ {
+  "id": "s4",
+  "place": "home",
+  "ro": "Ce vrei de mâncare?",
+  "ru": "Что хочешь поесть?"
+ },
+ {
+  "id": "s5",
+  "place": "home",
+  "ro": "Cafeaua e gata.",
+  "ru": "Кофе готов."
+ },
+ {
+  "id": "s6",
+  "place": "home",
+  "ro": "Unde e cheia?",
+  "ru": "Где ключ?"
+ },
+ {
+  "id": "s7",
+  "place": "home",
+  "ro": "Închide ușa, te rog.",
+  "ru": "Закрой дверь, пожалуйста."
+ },
+ {
+  "id": "s8",
+  "place": "home",
+  "ro": "Deschide fereastra.",
+  "ru": "Открой окно."
+ },
+ {
+  "id": "s9",
+  "place": "home",
+  "ro": "E prea cald aici.",
+  "ru": "Здесь слишком жарко."
+ },
+ {
+  "id": "s10",
+  "place": "home",
+  "ro": "Aprinde lumina.",
+  "ru": "Включи свет."
+ },
+ {
+  "id": "s11",
+  "place": "home",
+  "ro": "Stinge lumina.",
+  "ru": "Выключи свет."
+ },
+ {
+  "id": "s12",
+  "place": "home",
+  "ro": "Mă duc la baie.",
+  "ru": "Я иду в ванную."
+ },
+ {
+  "id": "s13",
+  "place": "home",
+  "ro": "Unde e prosopul?",
+  "ru": "Где полотенце?"
+ },
+ {
+  "id": "s14",
+  "place": "home",
+  "ro": "Spală vasele, te rog.",
+  "ru": "Помой посуду, пожалуйста."
+ },
+ {
+  "id": "s15",
+  "place": "home",
+  "ro": "Am făcut curățenie.",
+  "ru": "Я убрался."
+ },
+ {
+  "id": "s16",
+  "place": "home",
+  "ro": "Poți să dai jos gunoiul?",
+  "ru": "Можешь вынести мусор?"
+ },
+ {
+  "id": "s17",
+  "place": "home",
+  "ro": "Mâncăm acasă diseară.",
+  "ru": "Вечером едим дома."
+ },
+ {
+  "id": "s18",
+  "place": "home",
+  "ro": "Nu-mi e foame.",
+  "ru": "Я не голоден."
+ },
+ {
+  "id": "s19",
+  "place": "home",
+  "ro": "Mi-e sete.",
+  "ru": "Я хочу пить."
+ },
+ {
+  "id": "s20",
+  "place": "home",
+  "ro": "Dă-mi un pahar cu apă.",
+  "ru": "Дай стакан воды."
+ },
+ {
+  "id": "s21",
+  "place": "home",
+  "ro": "Mă duc la culcare.",
+  "ru": "Я иду спать."
+ },
+ {
+  "id": "s22",
+  "place": "home",
+  "ro": "Noapte bună.",
+  "ru": "Спокойной ночи."
+ },
+ {
+  "id": "s23",
+  "place": "home",
+  "ro": "Sunt obosit.",
+  "ru": "Я устал."
+ },
+ {
+  "id": "s24",
+  "place": "home",
+  "ro": "Poți să aștepți un pic?",
+  "ru": "Можешь подождать чуть-чуть?"
+ },
+ {
+  "id": "s25",
+  "place": "home",
+  "ro": "Vin imediat.",
+  "ru": "Сейчас приду."
+ },
+ {
+  "id": "s26",
+  "place": "home",
+  "ro": "Nu găsesc telefonul.",
+  "ru": "Не могу найти телефон."
+ },
+ {
+  "id": "s27",
+  "place": "home",
+  "ro": "Cine a sunat?",
+  "ru": "Кто звонил?"
+ },
+ {
+  "id": "s28",
+  "place": "home",
+  "ro": "Lasă-mă un moment.",
+  "ru": "Дай мне минуту."
+ },
+ {
+  "id": "s29",
+  "place": "home",
+  "ro": "Copilul doarme.",
+  "ru": "Ребёнок спит."
+ },
+ {
+  "id": "s30",
+  "place": "home",
+  "ro": "Hai să vedem un film.",
+  "ru": "Давай посмотрим фильм."
+ },
+ {
+  "id": "s31",
+  "place": "home",
+  "ro": "Poți să închizi televizorul?",
+  "ru": "Можешь выключить телевизор?"
+ },
+ {
+  "id": "s32",
+  "place": "home",
+  "ro": "Am nevoie de ajutor.",
+  "ru": "Мне нужна помощь."
+ },
+ {
+  "id": "s33",
+  "place": "home",
+  "ro": "Asta e a mea.",
+  "ru": "Это моё."
+ },
+ {
+  "id": "s34",
+  "place": "home",
+  "ro": "Nu atinge asta.",
+  "ru": "Не трогай это."
+ },
+ {
+  "id": "s35",
+  "place": "home",
+  "ro": "Masa e la ora șapte.",
+  "ru": "Ужин в семь."
+ },
+ {
+  "id": "s36",
+  "place": "home",
+  "ro": "Ai luat micul dejun?",
+  "ru": "Ты позавтракал?"
+ },
+ {
+  "id": "s37",
+  "place": "home",
+  "ro": "Trebuie să plec.",
+  "ru": "Мне нужно уходить."
+ },
+ {
+  "id": "s38",
+  "place": "home",
+  "ro": "Nu uita geaca.",
+  "ru": "Не забудь куртку."
+ },
+ {
+  "id": "s39",
+  "place": "home",
+  "ro": "Ia umbrela, plouă.",
+  "ru": "Возьми зонт, идёт дождь."
+ },
+ {
+  "id": "s40",
+  "place": "home",
+  "ro": "Ajung târziu acasă.",
+  "ru": "Приду домой поздно."
+ },
+ {
+  "id": "s41",
+  "place": "home",
+  "ro": "Te iubesc.",
+  "ru": "Я тебя люблю."
+ },
+ {
+  "id": "s42",
+  "place": "home",
+  "ro": "Îmi pare bine că ești acasă.",
+  "ru": "Рад, что ты дома."
+ },
+ {
+  "id": "s43",
+  "place": "home",
+  "ro": "Poți să faci cumpărăturile?",
+  "ru": "Можешь сходить в магазин?"
+ },
+ {
+  "id": "s44",
+  "place": "home",
+  "ro": "A rămas mâncare?",
+  "ru": "Еда осталась?"
+ },
+ {
+  "id": "s45",
+  "place": "home",
+  "ro": "Săpunul s-a terminat.",
+  "ru": "Мыло закончилось."
+ },
+ {
+  "id": "s46",
+  "place": "home",
+  "ro": "Unde sunt șosetele?",
+  "ru": "Где носки?"
+ },
+ {
+  "id": "s47",
+  "place": "home",
+  "ro": "Hainele sunt la uscat.",
+  "ru": "Одежда сушится."
+ },
+ {
+  "id": "s48",
+  "place": "home",
+  "ro": "Nu face zgomot.",
+  "ru": "Не шуми."
+ },
+ {
+  "id": "s49",
+  "place": "home",
+  "ro": "Poți să dai drumul la mașina de spălat?",
+  "ru": "Можешь включить стиралку?"
+ },
+ {
+  "id": "s50",
+  "place": "home",
+  "ro": "Mă simt bine acasă.",
+  "ru": "Дома мне хорошо."
+ },
+ {
+  "id": "s51",
+  "place": "out",
+  "ro": "Bună ziua!",
+  "ru": "Добрый день!"
+ },
+ {
+  "id": "s52",
+  "place": "out",
+  "ro": "Mă scuzați.",
+  "ru": "Извините."
+ },
+ {
+  "id": "s53",
+  "place": "out",
+  "ro": "Vă rog.",
+  "ru": "Пожалуйста."
+ },
+ {
+  "id": "s54",
+  "place": "out",
+  "ro": "Mulțumesc frumos.",
+  "ru": "Большое спасибо."
+ },
+ {
+  "id": "s55",
+  "place": "out",
+  "ro": "Cu plăcere.",
+  "ru": "Пожалуйста / не за что."
+ },
+ {
+  "id": "s56",
+  "place": "out",
+  "ro": "Nu înțeleg.",
+  "ru": "Я не понимаю."
+ },
+ {
+  "id": "s57",
+  "place": "out",
+  "ro": "Vorbiți mai încet, vă rog.",
+  "ru": "Говорите медленнее, пожалуйста."
+ },
+ {
+  "id": "s58",
+  "place": "out",
+  "ro": "Puteți să repetați?",
+  "ru": "Можете повторить?"
+ },
+ {
+  "id": "s59",
+  "place": "out",
+  "ro": "Unde este toaleta?",
+  "ru": "Где туалет?"
+ },
+ {
+  "id": "s60",
+  "place": "out",
+  "ro": "Cât costă asta?",
+  "ru": "Сколько это стоит?"
+ },
+ {
+  "id": "s61",
+  "place": "out",
+  "ro": "E prea scump.",
+  "ru": "Это слишком дорого."
+ },
+ {
+  "id": "s62",
+  "place": "out",
+  "ro": "Aveți ceva mai ieftin?",
+  "ru": "Есть что-то дешевле?"
+ },
+ {
+  "id": "s63",
+  "place": "out",
+  "ro": "Aș vrea o cafea, vă rog.",
+  "ru": "Я бы хотел кофе, пожалуйста."
+ },
+ {
+  "id": "s64",
+  "place": "out",
+  "ro": "Pentru aici, vă rog.",
+  "ru": "Здесь, пожалуйста."
+ },
+ {
+  "id": "s65",
+  "place": "out",
+  "ro": "La pachet, vă rog.",
+  "ru": "С собой, пожалуйста."
+ },
+ {
+  "id": "s66",
+  "place": "out",
+  "ro": "Nota, vă rog.",
+  "ru": "Счёт, пожалуйста."
+ },
+ {
+  "id": "s67",
+  "place": "out",
+  "ro": "Pot plăti cu cardul?",
+  "ru": "Можно картой?"
+ },
+ {
+  "id": "s68",
+  "place": "out",
+  "ro": "Unde e cea mai apropiată stație?",
+  "ru": "Где ближайшая остановка?"
+ },
+ {
+  "id": "s69",
+  "place": "out",
+  "ro": "Un bilet, vă rog.",
+  "ru": "Один билет, пожалуйста."
+ },
+ {
+  "id": "s70",
+  "place": "out",
+  "ro": "Când vine autobuzul?",
+  "ru": "Когда будет автобус?"
+ },
+ {
+  "id": "s71",
+  "place": "out",
+  "ro": "Merge acest drum spre centru?",
+  "ru": "Эта дорога ведёт в центр?"
+ },
+ {
+  "id": "s72",
+  "place": "out",
+  "ro": "Sunt pierdut.",
+  "ru": "Я заблудился."
+ },
+ {
+  "id": "s73",
+  "place": "out",
+  "ro": "Puteți să mă ajutați?",
+  "ru": "Можете мне помочь?"
+ },
+ {
+  "id": "s74",
+  "place": "out",
+  "ro": "Nu știu drumul.",
+  "ru": "Я не знаю дорогу."
+ },
+ {
+  "id": "s75",
+  "place": "out",
+  "ro": "La dreapta, apoi la stânga.",
+  "ru": "Направо, потом налево."
+ },
+ {
+  "id": "s76",
+  "place": "out",
+  "ro": "E departe de aici?",
+  "ru": "Это далеко отсюда?"
+ },
+ {
+  "id": "s77",
+  "place": "out",
+  "ro": "Cât e ceasul?",
+  "ru": "Который час?"
+ },
+ {
+  "id": "s78",
+  "place": "out",
+  "ro": "Am o întâlnire la ora trei.",
+  "ru": "У меня встреча в три."
+ },
+ {
+  "id": "s79",
+  "place": "out",
+  "ro": "Rezervare pe numele meu.",
+  "ru": "Бронь на моё имя."
+ },
+ {
+  "id": "s80",
+  "place": "out",
+  "ro": "O masă pentru doi, vă rog.",
+  "ru": "Столик на двоих, пожалуйста."
+ },
+ {
+  "id": "s81",
+  "place": "out",
+  "ro": "Apa fără gaz.",
+  "ru": "Вода без газа."
+ },
+ {
+  "id": "s82",
+  "place": "out",
+  "ro": "Fără zahăr, vă rog.",
+  "ru": "Без сахара, пожалуйста."
+ },
+ {
+  "id": "s83",
+  "place": "out",
+  "ro": "Este foarte bun.",
+  "ru": "Очень вкусно."
+ },
+ {
+  "id": "s84",
+  "place": "out",
+  "ro": "Unde pot găsi o farmacie?",
+  "ru": "Где найти аптеку?"
+ },
+ {
+  "id": "s85",
+  "place": "out",
+  "ro": "Mă doare capul.",
+  "ru": "У меня болит голова."
+ },
+ {
+  "id": "s86",
+  "place": "out",
+  "ro": "Am nevoie de un doctor.",
+  "ru": "Мне нужен врач."
+ },
+ {
+  "id": "s87",
+  "place": "out",
+  "ro": "Sunați la 112.",
+  "ru": "Звоните 112."
+ },
+ {
+  "id": "s88",
+  "place": "out",
+  "ro": "Am pierdut portofelul.",
+  "ru": "Я потерял кошелёк."
+ },
+ {
+  "id": "s89",
+  "place": "out",
+  "ro": "Vorbiți engleză?",
+  "ru": "Вы говорите по-английски?"
+ },
+ {
+  "id": "s90",
+  "place": "out",
+  "ro": "Sunt din altă țară.",
+  "ru": "Я из другой страны."
+ },
+ {
+  "id": "s91",
+  "place": "out",
+  "ro": "Învăț română.",
+  "ru": "Я учу румынский."
+ },
+ {
+  "id": "s92",
+  "place": "out",
+  "ro": "Puteți să scrieți, vă rog?",
+  "ru": "Можете написать, пожалуйста?"
+ },
+ {
+  "id": "s93",
+  "place": "out",
+  "ro": "Unde pot cumpăra apă?",
+  "ru": "Где купить воду?"
+ },
+ {
+  "id": "s94",
+  "place": "out",
+  "ro": "Cât costă pâinea?",
+  "ru": "Сколько стоит хлеб?"
+ },
+ {
+  "id": "s95",
+  "place": "out",
+  "ro": "O pungă, vă rog.",
+  "ru": "Пакет, пожалуйста."
+ },
+ {
+  "id": "s96",
+  "place": "out",
+  "ro": "Mergeți înainte.",
+  "ru": "Идите вперёд."
+ },
+ {
+  "id": "s97",
+  "place": "out",
+  "ro": "Aici e bine.",
+  "ru": "Здесь хорошо / остановите здесь."
+ },
+ {
+  "id": "s98",
+  "place": "out",
+  "ro": "La revedere!",
+  "ru": "До свидания!"
+ },
+ {
+  "id": "s99",
+  "place": "out",
+  "ro": "Ne vedem mâine.",
+  "ru": "Увидимся завтра."
+ },
+ {
+  "id": "s100",
+  "place": "out",
+  "ro": "O zi frumoasă!",
+  "ru": "Хорошего дня!"
+ }
+]

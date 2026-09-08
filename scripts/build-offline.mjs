@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * Собирает romanian-daily-offline.html — один автономный файл:
- * стили, скрипт и весь словарь внутри. Открывается двойным кликом
- * (в том числе с file://), интернет не нужен.
+ * стили, скрипт и все данные (слова, грамматика, квиз, фразы) внутри.
+ * Открывается двойным кликом, работает по file:// и без интернета.
  *
  * Запуск: npm run build:offline
  */
@@ -30,19 +30,31 @@ if (!words.length) {
   process.exit(1);
 }
 
-// Экранируем «<», чтобы данные не могли закрыть тег <script>
-const data = `window.__ROMANIAN_DAILY_WORDS__=${JSON.stringify(words).replace(/</g, "\\u003c")};`;
+const data = {
+  words,
+  grammar: JSON.parse(await read("grammar.json")),
+  quiz: JSON.parse(await read("quiz.json")),
+  phrases: JSON.parse(await read("phrases.json")),
+};
 
-const banner = `<!--\n  Romanian Daily — офлайн-сборка от ${new Date().toISOString().slice(0, 10)}.\n  Сгенерировано scripts/build-offline.mjs: не редактируйте файл вручную,\n  правки вносите в index.html / app.js / words-partN.json и пересобирайте.\n-->\n`;
+// Экранируем «<», чтобы данные не могли закрыть тег <script>
+const payload = `window.__ROMANIAN_DAILY_DATA__=${JSON.stringify(data).replace(/</g, "\\u003c")};`;
+
+const banner = `<!--
+  Romanian Daily — офлайн-сборка от ${new Date().toISOString().slice(0, 10)}.
+  Сгенерировано scripts/build-offline.mjs: не редактируйте файл вручную,
+  правки вносите в index.html / app.js / styles.css / *.json и пересобирайте.
+-->
+`;
 
 const out = html
-  .replace('<link rel="stylesheet" href="./styles.css">', `<style>\n${css}\n</style>`)
+  .replace('  <link rel="stylesheet" href="./styles.css">\n', `  <style>\n${css}\n  </style>\n`)
   .replace('  <link rel="manifest" href="./manifest.json">\n', "")
   .replace(
     '  <script src="./app.js"></script>',
-    `  <script>\n${data}\n  </script>\n  <script>\n${app}\n  </script>`
+    `  <script>\n${payload}\n  </script>\n  <script>\n${app}\n  </script>`
   )
-  .replace("<title>", `${banner}<title>`);
+  .replace("<!DOCTYPE html>", `${banner}<!DOCTYPE html>`);
 
 if (out.includes('href="./styles.css"') || out.includes('src="./app.js"')) {
   console.error("Не удалось встроить стили или скрипт — проверьте разметку index.html");
@@ -50,4 +62,7 @@ if (out.includes('href="./styles.css"') || out.includes('src="./app.js"')) {
 }
 
 await writeFile(join(ROOT, "romanian-daily-offline.html"), out);
-console.log(`romanian-daily-offline.html готов: ${words.length} слов, ${(out.length / 1024).toFixed(0)} КБ`);
+console.log(
+  `romanian-daily-offline.html готов: ${words.length} слов, ${data.quiz.length} вопросов, ` +
+    `${data.phrases.length} фраз, ${(out.length / 1024).toFixed(0)} КБ`
+);

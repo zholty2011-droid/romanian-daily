@@ -5,16 +5,13 @@
   "description": "10 румынских слов в день — офлайн-first PWA",
   "scripts": {
     "dev": "node ./scripts/serve.mjs",
-    "build": "npm run build:css && npm run build:icons && npm run build:offline",
-    "build:css": "tailwindcss -i ./tailwind.css -o ./styles.css --minify",
-    "watch:css": "tailwindcss -i ./tailwind.css -o ./styles.css --watch",
+    "build": "npm run build:offline",
+    "build:offline": "node ./scripts/build-offline.mjs",
     "build:icons": "node ./scripts/generate-icons.mjs",
-    "test": "node ./tests/validate-data.mjs && node ./tests/app.test.mjs",
-    "build:offline": "node ./scripts/build-offline.mjs"
+    "test": "node ./tests/validate-data.mjs && node ./tests/app.test.mjs"
   },
   "devDependencies": {
     "jsdom": "^24.1.3",
-    "sharp": "^0.33.5",
-    "tailwindcss": "^3.4.17"
+    "sharp": "^0.33.5"
   }
 }

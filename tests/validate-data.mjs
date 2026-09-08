@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 /**
- * Валидация словарных данных (words-part1.json … words-partN.json).
+ * Валидация данных курса:
+ *   words-part1..N.json — слова (id, day, word, translation, transcription, examples)
+ *   grammar.json        — грамматические заметки по дням
+ *   quiz.json           — вопросы грамматического теста
+ *   phrases.json        — разговорные фразы
+ *
  * Запуск: npm test   (нужен только Node, без зависимостей)
  */
 import { readFile } from "node:fs/promises";
@@ -17,111 +22,188 @@ const warnings = [];
 const fail = (msg) => errors.push(msg);
 const warn = (msg) => warnings.push(msg);
 
-/** Та же логика загрузки, что и в app.js: качаем паки, пока файл существует. */
-async function loadPacks() {
-  const packs = [];
-  for (let i = 1; i <= PACK_MAX; i += 1) {
-    const name = `words-part${i}.json`;
-    let raw;
-    try {
-      raw = await readFile(join(ROOT, name), "utf8");
-    } catch (err) {
-      if (err.code === "ENOENT") break;
-      throw err;
-    }
-    try {
-      packs.push({ name, words: JSON.parse(raw) });
-    } catch (err) {
-      fail(`${name}: невалидный JSON — ${err.message}`);
-    }
+const readJson = async (name) => {
+  try {
+    return JSON.parse(await readFile(join(ROOT, name), "utf8"));
+  } catch (err) {
+    if (err.code === "ENOENT") return undefined;
+    fail(`${name}: ${err.message}`);
+    return undefined;
   }
-  return packs;
-}
+};
 
-function checkWord(word, packName, index, seen) {
-  const where = `${packName}[${index}] («${word?.word ?? "?"}»)`;
+/* --------------------------------------------------------------------- слова */
+
+function checkWord(word, where, seen) {
+  const at = `${where} («${word?.word ?? "?"}»)`;
   const has = (k) => typeof word[k] === "string" && word[k].trim().length > 0;
 
   if (typeof word !== "object" || word === null || Array.isArray(word)) {
-    fail(`${where}: ожидается объект`);
-    return null;
+    fail(`${at}: ожидается объект`);
+    return;
   }
   for (const key of ["id", "word", "transcription", "translation"]) {
-    if (!has(key)) fail(`${where}: отсутствует или пустое поле «${key}»`);
+    if (!has(key)) fail(`${at}: отсутствует или пустое поле «${key}»`);
   }
-  if (!Number.isInteger(word.day) || word.day < 1) fail(`${where}: «day» должен быть целым числом ≥ 1`);
+  if (!Number.isInteger(word.day) || word.day < 1) fail(`${at}: «day» должен быть целым числом ≥ 1`);
   if (word.word && !/^[a-zăâîșțA-ZĂÂÎȘȚ' -]+$/.test(word.word)) {
-    warn(`${where}: в слове неожиданные символы — «${word.word}»`);
+    warn(`${at}: в слове неожиданные символы — «${word.word}»`);
   }
   for (const key of ["word", "transcription", "translation"]) {
-    if (typeof word[key] === "string" && PLACEHOLDERS.test(word[key])) {
-      fail(`${where}: в поле «${key}» найден плейсхолдер`);
-    }
+    if (typeof word[key] === "string" && PLACEHOLDERS.test(word[key])) fail(`${at}: в поле «${key}» плейсхолдер`);
   }
-
   if (typeof word.id === "string") {
-    if (seen.ids.has(word.id)) fail(`${where}: дубликат id «${word.id}»`);
+    if (seen.ids.has(word.id)) fail(`${at}: дубликат id «${word.id}»`);
     seen.ids.add(word.id);
   }
   if (typeof word.word === "string") {
     const key = word.word.trim().toLowerCase();
-    if (seen.words.has(key)) fail(`${where}: слово «${word.word}» уже встречается в словаре`);
+    if (seen.words.has(key)) fail(`${at}: слово «${word.word}» уже есть в курсе`);
     seen.words.add(key);
   }
 
   if (word.examples !== undefined) {
     if (!Array.isArray(word.examples)) {
-      fail(`${where}: «examples» должен быть массивом`);
+      fail(`${at}: «examples» должен быть массивом`);
     } else {
       word.examples.forEach((ex, i) => {
         for (const key of ["ro", "transcription", "ru"]) {
-          if (typeof ex?.[key] !== "string" || !ex[key].trim()) {
-            fail(`${where}: пример #${i + 1} — отсутствует поле «${key}»`);
-          }
+          if (typeof ex?.[key] !== "string" || !ex[key].trim()) fail(`${at}: пример #${i + 1} — пустое поле «${key}»`);
+        }
+        // Автоген вида «Где autobuz?»: румынское слово осталось в русском переводе
+        if (typeof ex?.ru === "string" && /[a-zăâîșț]{3,}/i.test(ex.ru.replace(/e-mail/gi, ""))) {
+          fail(`${at}: пример #${i + 1} — перевод не переведён: «${ex.ru}»`);
         }
       });
-      if (word.examples.length === 0) warn(`${where}: нет примеров употребления`);
+      if (!word.examples.length) warn(`${at}: нет примеров`);
     }
   } else {
-    warn(`${where}: нет примеров употребления`);
+    warn(`${at}: нет примеров`);
   }
-
-  return word;
 }
 
-const packs = await loadPacks();
-
-if (packs.length === 0) {
-  fail("Не найден ни один words-partN.json — приложению нечего показывать");
-} else {
+async function checkWords() {
   const seen = { ids: new Set(), words: new Set() };
-  let total = 0;
+  const words = [];
+  let packs = 0;
 
-  for (const { name, words } of packs) {
-    if (!Array.isArray(words)) {
-      fail(`${name}: корень файла должен быть массивом слов`);
+  for (let i = 1; i <= PACK_MAX; i += 1) {
+    const name = `words-part${i}.json`;
+    const pack = await readJson(name);
+    if (pack === undefined) break;
+    packs += 1;
+    if (!Array.isArray(pack)) {
+      fail(`${name}: корень файла должен быть массивом`);
       continue;
     }
-    total += words.length;
-    words.forEach((w, i) => checkWord(w, name, i, seen));
+    pack.forEach((w, idx) => checkWord(w, `${name}[${idx}]`, seen));
+    words.push(...pack);
   }
 
-  const all = packs.flatMap((p) => (Array.isArray(p.words) ? p.words : []));
+  if (!packs) {
+    fail("Не найден ни один words-partN.json — приложению нечего показывать");
+    return [];
+  }
+
   const byDay = new Map();
-  for (const w of all) {
+  for (const w of words) {
     if (Number.isInteger(w?.day)) byDay.set(w.day, (byDay.get(w.day) ?? 0) + 1);
   }
   const days = [...byDay.keys()].sort((a, b) => a - b);
-
   for (let day = 1; day <= days.length; day += 1) {
-    if (!byDay.has(day)) fail(`Пропущен день ${day}: нумерация дней должна идти без разрывов`);
+    if (!byDay.has(day)) fail(`Пропущен день ${day}: дни должны идти без разрывов`);
   }
-  for (const [day, count] of [...byDay.entries()].sort((a, b) => a[0] - b[0])) {
-    if (count !== TARGET_PER_DAY) warn(`День ${day}: ${count} слов (ожидалось ${TARGET_PER_DAY})`);
+  for (const [day, count] of byDay) {
+    if (count !== TARGET_PER_DAY) warn(`День ${day}: ${count} слов (обычно ${TARGET_PER_DAY})`);
   }
 
-  console.log(`Проверено паков: ${packs.length}, слов: ${total}, дней: ${days.length}`);
+  console.log(`Слова: ${words.length} в ${packs} паках, дней: ${days.length}`);
+  return words;
 }
+
+/* ------------------------------------------------------------ грамматика/квиз/фразы */
+
+async function checkGrammar() {
+  const g = await readJson("grammar.json");
+  if (!g) {
+    fail("grammar.json не найден");
+    return;
+  }
+  if (typeof g !== "object" || Array.isArray(g)) {
+    fail("grammar.json: ожидается объект { день: [заголовок, …пункты] }");
+    return;
+  }
+  const days = Object.keys(g).map(Number).sort((a, b) => a - b);
+  for (const day of days) {
+    const block = g[String(day)];
+    if (!Array.isArray(block) || !block.length) {
+      fail(`grammar.json: день ${day} — ожидается непустой массив строк`);
+      continue;
+    }
+    block.forEach((line, i) => {
+      if (typeof line !== "string" || !line.trim()) fail(`grammar.json: день ${day}, строка ${i + 1} пуста`);
+    });
+  }
+  console.log(`Грамматика: заметок на ${days.length} дней`);
+}
+
+async function checkQuiz() {
+  const q = await readJson("quiz.json");
+  if (!q) {
+    fail("quiz.json не найден");
+    return;
+  }
+  if (!Array.isArray(q)) {
+    fail("quiz.json: ожидается массив вопросов");
+    return;
+  }
+  const ids = new Set();
+  for (const [i, item] of q.entries()) {
+    const at = `quiz.json[${i}]`;
+    if (!item?.id || ids.has(item.id)) fail(`${at}: отсутствует или повторяется id`);
+    ids.add(item.id);
+    if (typeof item.q !== "string" || !item.q.trim()) fail(`${at}: пустой вопрос`);
+    if (!Array.isArray(item.opts) || item.opts.length < 2) fail(`${at}: нужно минимум 2 варианта ответа`);
+    if (!Number.isInteger(item.a) || item.a < 0 || item.a >= (item.opts?.length ?? 0)) {
+      fail(`${at}: индекс правильного ответа вне диапазона`);
+    }
+    if (typeof item.why !== "string" || !item.why.trim()) fail(`${at}: нет пояснения «why»`);
+    if (new Set(item.opts).size !== item.opts?.length) warn(`${at}: варианты ответа повторяются`);
+  }
+  console.log(`Квиз: ${q.length} вопросов`);
+}
+
+async function checkPhrases() {
+  const p = await readJson("phrases.json");
+  if (!p) {
+    fail("phrases.json не найден");
+    return;
+  }
+  if (!Array.isArray(p)) {
+    fail("phrases.json: ожидается массив фраз");
+    return;
+  }
+  const ids = new Set();
+  for (const [i, item] of p.entries()) {
+    const at = `phrases.json[${i}]`;
+    if (!item?.id || ids.has(item.id)) fail(`${at}: отсутствует или повторяется id`);
+    ids.add(item.id);
+    for (const key of ["ro", "ru"]) {
+      if (typeof item[key] !== "string" || !item[key].trim()) fail(`${at}: пустое поле «${key}»`);
+    }
+    if (item.ru && /[a-zăâîșț]{3,}/i.test(item.ru.replace(/e-mail/gi, ""))) {
+      fail(`${at}: перевод не переведён: «${item.ru}»`);
+    }
+  }
+  console.log(`Фразы: ${p.length}`);
+}
+
+/* ----------------------------------------------------------------------- итог */
+
+await checkWords();
+await checkGrammar();
+await checkQuiz();
+await checkPhrases();
 
 for (const w of warnings) console.warn(`⚠︎  ${w}`);
 for (const e of errors) console.error(`✗  ${e}`);

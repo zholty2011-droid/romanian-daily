@@ -1,5 +1,5 @@
 /* Service worker: офлайн-работа приложения. */
-const CACHE = "romanian-daily-v5";
+const CACHE = "romanian-daily-v6";
 
 /* Минимум, без которого приложение не стартует. Есть в репозитории — важно держать список актуальным. */
 const CORE = [
@@ -14,6 +14,11 @@ const CORE = [
   "./words-part1.json",
   "./words-part2.json",
   "./words-part3.json",
+  "./words-part4.json",
+  "./words-part5.json",
+  "./grammar.json",
+  "./quiz.json",
+  "./phrases.json",
 ];
 
 self.addEventListener("install", (event) => {

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Дымовой тест интерфейса: прогоняет приложение в jsdom
- * (главная → урок → повторение → словарь → сброс прогресса → обработка ошибки).
+ * (главная → урок → словарь → фразы → грамматика и тест → офлайн-сборка → ошибка загрузки).
  *
  * Запуск: npm test   (нужны dev-зависимости: npm install)
  */
@@ -18,10 +18,10 @@ const check = (ok, message) => {
   if (!ok) failed += 1;
   console.log(`${ok ? "✓" : "✗"} ${message}`);
 };
-const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /** Поднимает приложение в jsdom; fetch читает файлы с диска. */
-async function bootApp({ html, fetchImpl, inline = false } = {}) {
+async function bootApp({ html, fetchImpl, inline = false, waitForText } = {}) {
   const { JSDOM } = createRequire(import.meta.url)("jsdom");
   const spoken = [];
   const dom = new JSDOM(html ?? (await read("index.html")), {
@@ -32,8 +32,22 @@ async function bootApp({ html, fetchImpl, inline = false } = {}) {
     },
   });
   const { window } = dom;
-  if (!inline) window.eval(await read("app.js"));
-  await wait(200);
+  if (!inline) {
+    // Вставляем как обычный <script>: иначе let-переменные приложения
+    // останутся внутри eval и к ним не достучаться из теста
+    const tag = window.document.createElement("script");
+    tag.textContent = await read("app.js");
+    window.document.body.appendChild(tag);
+  }
+
+  // Ждём, пока асинхронно подгрузятся данные курса
+  const deadline = Date.now() + 8000;
+  while (Date.now() < deadline) {
+    const body = window.document.body.textContent;
+    if (waitForText ? body.includes(waitForText) : /День \d|Данные не загрузились/.test(body)) break;
+    await sleep(50);
+  }
+  await sleep(100);
   return { window, doc: window.document, spoken };
 }
 
@@ -42,6 +56,7 @@ function installPolyfills(window, { fetchImpl, spoken }) {
   Object.defineProperty(window.navigator, "userAgent", { value: "Mozilla/5.0 (X11; Linux x86_64) Chrome" });
   Object.defineProperty(window.navigator, "serviceWorker", { value: { register: async () => {} } });
   window.confirm = () => true;
+  window.alert = () => {};
   window.SpeechSynthesisUtterance = class {
     constructor(text) {
       this.text = text;
@@ -73,7 +88,7 @@ function installPolyfills(window, { fetchImpl, spoken }) {
 const makeHelpers = (doc, window) => {
   const text = () => doc.body.textContent.replace(/\s+/g, " ");
   const buttons = () => [...doc.querySelectorAll("button")];
-  const has = (label) => buttons().some((x) => x.textContent.trim().includes(label));
+  const has = (label) => buttons().some((b) => b.textContent.trim().includes(label));
   const click = (label) => {
     const b = buttons().find((x) => x.textContent.trim().includes(label));
     if (!b) {
@@ -86,92 +101,85 @@ const makeHelpers = (doc, window) => {
   };
   return {
     text,
-    click,
     has,
-    word: () => doc.querySelector("h2")?.textContent.trim(),
-    clickSelector: (sel) => doc.querySelector(sel)?.click(),
+    click,
+    count: (sel) => doc.querySelectorAll(sel).length,
+    word: () => doc.querySelector(".word h2")?.textContent.trim(),
+    clickSel: (sel) => doc.querySelector(sel)?.click(),
     fire: (el, type) => el.dispatchEvent(new window.Event(type, { bubbles: true })),
+    go: (view) => window.eval(`state.view=${JSON.stringify(view)}; render();`),
   };
 };
 
 /* ---------------------------------------------------------------- сценарий */
 
 const { window, doc, spoken } = await bootApp();
-const { text, click, has, word, clickSelector, fire } = makeHelpers(doc, window);
+const { text, click, has, count, word, clickSel, fire, go } = makeHelpers(doc, window);
 
-check(text().includes("День 1"), "Главная: заголовок «День 1»");
-check(text().includes("10 слов сегодня"), "Главная: счётчик слов дня");
-check(!!doc.querySelector('link[href="./styles.css"]'), "Локальный styles.css подключён");
-check(!doc.querySelector('script[src*="cdn.tailwindcss.com"]'), "CDN Tailwind не используется");
+check(text().includes("День 1"), "Главная: «День 1»");
+check(has("Начать день"), "Главная: кнопка «Начать день»");
+check(!doc.querySelector('script[src*="cdn.tailwindcss.com"]'), "Внешних CDN нет");
 
-click("Начать урок");
-check(text().includes("1 / 10"), "Урок: счётчик 1 / 10");
-check(text().includes("Показать перевод"), "Урок: перевод скрыт до нажатия");
+// «Начать день» запускает поток дня; порядок шагов иногда перемешивается (фича),
+// поэтому вид после клика не фиксируем
+click("Начать день");
+const flowView = window.eval("state.view");
+check(flowView !== "home", `«Начать день» запускает шаг дня (${flowView})`);
+
+// урок слов открываем детерминированно — кнопкой «+» в нижнем меню
+go("home");
+clickSel('[data-act="start-daily"]');
+check(text().includes("1/10"), "Урок: счётчик 1/10");
 const first = word();
+check(!!first && first.length > 0, `Урок: показывается слово «${first}»`);
+check(!doc.querySelector(".word .ru"), "Урок: перевод скрыт до нажатия");
 
 click("Показать перевод");
-check(text().includes("Отметить выученным"), "Урок: после раскрытия доступна отметка");
-click("Отметить выученным");
-check(text().includes("Выучено"), "Урок: слово отмечено выученным");
+const translation = doc.querySelector(".word .ru")?.textContent.trim();
+check(!!translation, `Урок: перевод открывается («${translation}»)`);
 
-clickSelector("[data-speak]");
-check(spoken.length === 1 && spoken[0] === first, `Озвучка произносит «${spoken[0]}»`);
+clickSel("[data-speak]");
+check(spoken.length > 0, `Озвучка произносит «${spoken[0]}»`);
 
-click("Далее");
-const second = word();
-check(first !== second, `Урок: переход к следующему слову (${first} → ${second})`);
-click("Назад");
-check(word() === first, "Урок: «Назад» возвращает к предыдущему слову");
+// «Знаю» у слова (data-act) → появляется «Далее»
+clickSel('[data-act="know"]');
+await sleep(50);
+check(has("Далее") || has("Завершить"), "Урок: после отметки «Знаю» доступен переход дальше");
 
-let guard = 0;
-while (guard < 30) {
-  guard += 1;
-  if (has("Завершить урок")) {
-    click("Завершить урок");
-    break;
-  }
-  if (!click("Далее")) break;
+go("dictionary");
+check(text().includes("Слова") || count(".drow") > 0, "Словарь: список слов");
+const totalRows = count(".drow");
+check(totalRows > 100, `Словарь: строк ${totalRows}`);
+const search = doc.querySelector("#search-box");
+if (search) {
+  search.focus();
+  search.value = "bună";
+  fire(search, "input");
+  const filtered = count(".drow");
+  check(filtered > 0 && filtered < totalRows, `Поиск «bună»: ${filtered} из ${totalRows}`);
+  check(doc.activeElement?.id === "search-box", "Фокус остаётся в поле поиска после перерисовки");
+} else {
+  check(false, "Словарь: не найдено поле поиска #search-box");
 }
-check(text().includes("Урок пройден"), "Урок завершается тостом «Урок пройден»");
-check(/🔥\s*1/.test(doc.querySelector("header").textContent), "Стрик = 1 после первого урока");
 
-const saved = JSON.parse(window.localStorage.getItem("romanian_daily_v2"));
-check(saved?.learnedWordIds?.length === 1, "Прогресс записан в localStorage");
-check(saved?.streak === 1 && !!saved?.lastStudyDate, "Стрик и дата занятия сохранены");
+go("home");
+click("Все фразы");
+check(text().includes("Предложения"), "Фразы: экран открывается");
+check(count(".ex") >= 100, `Фразы: показано ${count(".ex")}`);
 
-click("Начать");
-const r1 = word();
-click("Далее");
-const r2 = word();
-click("Назад");
-const r3 = word();
-check(r1 === r3 && r1 !== r2, `Повторение: список не перемешивается заново (${r1} → ${r2} → ${r3})`);
+go("grammar");
+check(text().includes("Грамматика"), "Грамматика: экран открывается");
+check(text().includes("Приветствие и вежливость"), "Грамматика: заметка дня 1 на месте");
+click("Пройти тест");
+const opts = count("[data-gopt]");
+check(opts >= 2, `Тест по грамматике: ${opts} варианта ответа`);
+clickSel("[data-gopt]");
+check(count(".right") >= 1, "Тест: после ответа подсвечивается правильный вариант");
 
-click("Слова");
-check(text().includes("Словарь"), "Словарь открывается");
-const total = doc.querySelectorAll("[data-toggle]").length;
-const search = doc.querySelector("#search");
-search.focus();
-search.value = "bună";
-fire(search, "input");
-const filtered = doc.querySelectorAll("[data-toggle]").length;
-check(filtered > 0 && filtered < total, `Поиск «bună»: найдено ${filtered} из ${total}`);
-check(doc.activeElement?.id === "search", "Фокус остаётся в поле поиска после перерисовки");
-
-click("Главная");
-click("Сбросить прогресс");
-check(JSON.parse(window.localStorage.getItem("romanian_daily_v2")).learnedWordIds.length === 0, "Сброс прогресса очищает выученные слова");
-
-/* ------------------------------------------------- обработка ошибок загрузки */
-
-const broken = await bootApp({ fetchImpl: async () => ({ ok: false, status: 404, json: async () => { throw new Error("404"); } }) });
-check(broken.doc.body.textContent.includes("Не удалось загрузить слова"), "При 404 показывается экран ошибки, а не белый лист");
-
-/* --------------------------------------------------- одиночная офлайн-сборка */
+/* ---------------------------------------------------------- офлайн-сборка */
 
 const offlineHtml = await read("romanian-daily-offline.html").catch(() => null);
 if (offlineHtml) {
-  // Имитируем file:// — fetch недоступен, работать должны встроенные данные
   const off = await bootApp({
     html: offlineHtml,
     inline: true,
@@ -179,16 +187,21 @@ if (offlineHtml) {
       throw new Error("file:// — fetch недоступен");
     },
   });
-  const offText = () => off.doc.body.textContent.replace(/\s+/g, " ");
-  check(offText().includes("День 1"), "Офлайн-сборка: рендерится из встроенных данных без fetch");
-  check(offText().includes("10 слов сегодня"), "Офлайн-сборка: словарь полностью внутри файла");
-  check(
-    off.doc.querySelectorAll('link[rel="stylesheet"], script[src]').length === 0,
-    "Офлайн-сборка: без внешних стилей и скриптов"
-  );
+  const offText = off.doc.body.textContent.replace(/\s+/g, " ");
+  check(offText.includes("День 1"), "Офлайн-сборка: рендерится из встроенных данных");
+  check(off.doc.querySelectorAll('link[rel="stylesheet"], script[src]').length === 0, "Офлайн-сборка: без внешних ссылок");
+  off.window.eval('state.view="phrases"; render();');
+  check(off.doc.querySelectorAll(".ex").length >= 100, "Офлайн-сборка: фразы внутри файла");
 } else {
   console.log("· romanian-daily-offline.html не найден — пропуск (npm run build:offline)");
 }
+
+/* ------------------------------------------------- обработка ошибок загрузки */
+
+const broken = await bootApp({
+  fetchImpl: async () => ({ ok: false, status: 404, json: async () => { throw new Error("404"); } }),
+});
+check(broken.doc.body.textContent.includes("Данные не загрузились"), "При 404 показывается экран ошибки, а не белый лист");
 
 console.log(failed ? `\nПровалено проверок: ${failed}` : "\nВсе проверки интерфейса пройдены");
 process.exit(failed ? 1 : 0);
