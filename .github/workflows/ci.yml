@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  data:
+    name: Данные курса
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Валидация слов, грамматики, квиза и фраз
+        run: node ./tests/validate-data.mjs
+
+  app:
+    name: Тесты и сборка
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Тесты (данные + интерфейс)
+        run: npm test
+      - name: Пересборка офлайн-файла
+        run: npm run build:offline
+      - name: Офлайн-сборка актуальна
+        run: |
+          git diff --exit-code -- romanian-daily-offline.html \
+            || { echo "romanian-daily-offline.html устарел — выполните npm run build:offline"; exit 1; }

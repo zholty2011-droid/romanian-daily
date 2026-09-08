@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "11-1",
+  "word": "meniu",
+  "translation": "меню",
+  "transcription": "мениу",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Pot să primesc meniul?",
+    "ru": "Можно меню?",
+    "transcription": "пот сэ примеск мениул"
+   },
+   {
+    "ro": "Unde e meniul?",
+    "ru": "Где меню?",
+    "transcription": "унде е мениул"
+   }
+  ]
+ },
+ {
+  "id": "11-2",
+  "word": "notă",
+  "translation": "счёт (в ресторане)",
+  "transcription": "нотэ",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Nota, vă rog.",
+    "ru": "Счёт, пожалуйста.",
+    "transcription": "нота вэ рог"
+   },
+   {
+    "ro": "Îmi dați nota?",
+    "ru": "Можно счёт?",
+    "transcription": "ыми даць нота"
+   }
+  ]
+ },
+ {
+  "id": "11-3",
+  "word": "masă",
+  "translation": "стол (и еда/приём пищи)",
+  "transcription": "масэ",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Avem o masă pentru doi.",
+    "ru": "У нас стол на двоих.",
+    "transcription": "авем о масэ пентру дой"
+   },
+   {
+    "ro": "Unde e masa noastră?",
+    "ru": "Где наш стол?",
+    "transcription": "унде е маса ноастрэ"
+   }
+  ]
+ },
+ {
+  "id": "11-4",
+  "word": "ospătar",
+  "translation": "официант",
+  "transcription": "оспэтар",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Ospătar, vă rog.",
+    "ru": "Официант, пожалуйста.",
+    "transcription": "оспэтар вэ рог"
+   },
+   {
+    "ro": "Chemați ospătarul, vă rog.",
+    "ru": "Позовите официанта.",
+    "transcription": "кемаць оспэтарул вэ рог"
+   }
+  ]
+ },
+ {
+  "id": "11-5",
+  "word": "fel",
+  "translation": "блюдо",
+  "transcription": "фел",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Ce fel recomandați?",
+    "ru": "Какое блюдо вы советуете?",
+    "transcription": "че фел рекомандаць"
+   },
+   {
+    "ro": "E un fel gustos.",
+    "ru": "Это вкусное блюдо.",
+    "transcription": "е ун фел густос"
+   }
+  ]
+ },
+ {
+  "id": "11-6",
+  "word": "desert",
+  "translation": "десерт",
+  "transcription": "десерт",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Vreau desert.",
+    "ru": "Я хочу десерт.",
+    "transcription": "вряу десерт"
+   },
+   {
+    "ro": "Ce desert aveți?",
+    "ru": "Какой десерт есть?",
+    "transcription": "че десерт авець"
+   }
+  ]
+ },
+ {
+  "id": "11-7",
+  "word": "băutură",
+  "translation": "напиток",
+  "transcription": "бэутурэ",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Vreau o băutură.",
+    "ru": "Я хочу напиток.",
+    "transcription": "вряу о бэутурэ"
+   },
+   {
+    "ro": "Ce băuturi aveți?",
+    "ru": "Какие напитки есть?",
+    "transcription": "че бэутури авець"
+   }
+  ]
+ },
+ {
+  "id": "11-8",
+  "word": "apă plată",
+  "translation": "вода без газа",
+  "transcription": "апэ платэ",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Apă plată, vă rog.",
+    "ru": "Воду без газа, пожалуйста.",
+    "transcription": "апэ платэ вэ рог"
+   },
+   {
+    "ro": "O apă plată.",
+    "ru": "Одну воду без газа.",
+    "transcription": "о апэ платэ"
+   }
+  ]
+ },
+ {
+  "id": "11-9",
+  "word": "apă minerală",
+  "translation": "вода с газом",
+  "transcription": "апэ минералэ",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "Apă minerală, vă rog.",
+    "ru": "Воду с газом, пожалуйста.",
+    "transcription": "апэ минералэ вэ рог"
+   },
+   {
+    "ro": "O apă minerală.",
+    "ru": "Одну воду с газом.",
+    "transcription": "о апэ минералэ"
+   }
+  ]
+ },
+ {
+  "id": "11-10",
+  "word": "picant",
+  "translation": "острый (про еду)",
+  "transcription": "пикант",
+  "day": 11,
+  "examples": [
+   {
+    "ro": "E picant.",
+    "ru": "Это остро.",
+    "transcription": "е пикант"
+   },
+   {
+    "ro": "Nu picant, vă rog.",
+    "ru": "Не остро, пожалуйста.",
+    "transcription": "ну пикант вэ рог"
+   }
+  ]
+ },
+ {
+  "id": "12-1",
+  "word": "mărime",
+  "translation": "размер",
+  "transcription": "мэриме",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Ce mărime?",
+    "ru": "Какой размер?",
+    "transcription": "че мэриме"
+   },
+   {
+    "ro": "Am nevoie de altă mărime.",
+    "ru": "Мне нужен другой размер.",
+    "transcription": "ам невойе де алтэ мэриме"
+   }
+  ]
+ },
+ {
+  "id": "12-2",
+  "word": "haine",
+  "translation": "одежда",
+  "transcription": "хайне",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Am nevoie de haine.",
+    "ru": "Мне нужна одежда.",
+    "transcription": "ам невойе де хайне"
+   },
+   {
+    "ro": "Unde sunt hainele?",
+    "ru": "Где одежда?",
+    "transcription": "унде сунт хайнеле"
+   }
+  ]
+ },
+ {
+  "id": "12-3",
+  "word": "pantofi",
+  "translation": "туфли / обувь",
+  "transcription": "пантофи",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Am nevoie de pantofi.",
+    "ru": "Мне нужны туфли.",
+    "transcription": "ам невойе де пантофи"
+   },
+   {
+    "ro": "Unde sunt pantofii?",
+    "ru": "Где обувь?",
+    "transcription": "унде сунт пантофий"
+   }
+  ]
+ },
+ {
+  "id": "12-4",
+  "word": "cămașă",
+  "translation": "рубашка",
+  "transcription": "кэмашэ",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Am nevoie de o cămașă.",
+    "ru": "Мне нужна рубашка.",
+    "transcription": "ам невойе де о кэмашэ"
+   },
+   {
+    "ro": "Aveți o cămașă albă?",
+    "ru": "У вас есть белая рубашка?",
+    "transcription": "авець о кэмашэ албэ"
+   }
+  ]
+ },
+ {
+  "id": "12-5",
+  "word": "pantaloni",
+  "translation": "брюки",
+  "transcription": "панталони",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Am nevoie de pantaloni.",
+    "ru": "Мне нужны брюки.",
+    "transcription": "ам невойе де панталони"
+   },
+   {
+    "ro": "Unde sunt pantalonii?",
+    "ru": "Где брюки?",
+    "transcription": "унде сунт панталоний"
+   }
+  ]
+ },
+ {
+  "id": "12-6",
+  "word": "reducere",
+  "translation": "скидка",
+  "transcription": "редучере",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Este reducere?",
+    "ru": "Есть скидка?",
+    "transcription": "есте редучере"
+   },
+   {
+    "ro": "E reducere astăzi.",
+    "ru": "Скидка сегодня.",
+    "transcription": "е редучере астэзи"
+   }
+  ]
+ },
+ {
+  "id": "12-7",
+  "word": "probă",
+  "translation": "примерка",
+  "transcription": "пробэ",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Pot să probez?",
+    "ru": "Можно примерить?",
+    "transcription": "пот сэ пробез"
+   },
+   {
+    "ro": "Unde e cabina de probă?",
+    "ru": "Где примерочная?",
+    "transcription": "унде е кабина де пробэ"
+   }
+  ]
+ },
+ {
+  "id": "12-8",
+  "word": "calitate",
+  "translation": "качество",
+  "transcription": "калитате",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Calitatea e bună.",
+    "ru": "Качество хорошее.",
+    "transcription": "калитатеа е бунэ"
+   },
+   {
+    "ro": "Vreau calitate mai bună.",
+    "ru": "Я хочу лучшее качество.",
+    "transcription": "вряу калитате май бунэ"
+   }
+  ]
+ },
+ {
+  "id": "12-9",
+  "word": "schimb",
+  "translation": "обмен",
+  "transcription": "скимб",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Pot face schimb?",
+    "ru": "Можно обменять?",
+    "transcription": "пот фаче скимб"
+   },
+   {
+    "ro": "Vreau schimb.",
+    "ru": "Я хочу обмен.",
+    "transcription": "вряу скимб"
+   }
+  ]
+ },
+ {
+  "id": "12-10",
+  "word": "returnare",
+  "translation": "возврат",
+  "transcription": "ретурнаре",
+  "day": 12,
+  "examples": [
+   {
+    "ro": "Pot face o returnare?",
+    "ru": "Можно сделать возврат?",
+    "transcription": "пот фаче о ретурнаре"
+   },
+   {
+    "ro": "Vreau returnare.",
+    "ru": "Я хочу возврат.",
+    "transcription": "вряу ретурнаре"
+   }
+  ]
+ },
+ {
+  "id": "13-1",
+  "word": "bani",
+  "translation": "деньги",
+  "transcription": "бани",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Nu am bani acum.",
+    "ru": "У меня нет денег сейчас.",
+    "transcription": "ну ам бани акум"
+   },
+   {
+    "ro": "Am nevoie de bani.",
+    "ru": "Мне нужны деньги.",
+    "transcription": "ам невойе де бани"
+   }
+  ]
+ },
+ {
+  "id": "13-2",
+  "word": "numerar",
+  "translation": "наличные",
+  "transcription": "нумерар",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Plătesc în numerar.",
+    "ru": "Плачу наличными.",
+    "transcription": "плэтеск ын нумерар"
+   },
+   {
+    "ro": "Se poate numerar?",
+    "ru": "У вас можно наличными?",
+    "transcription": "се поате нумерар"
+   }
+  ]
+ },
+ {
+  "id": "13-3",
+  "word": "card",
+  "translation": "карта (банковская)",
+  "transcription": "кард",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Plătesc cu cardul.",
+    "ru": "Я плачу картой.",
+    "transcription": "плэтеск ку кардул"
+   },
+   {
+    "ro": "Acceptați card?",
+    "ru": "У вас принимают карты?",
+    "transcription": "акчептаць кард"
+   }
+  ]
+ },
+ {
+  "id": "13-4",
+  "word": "bancă",
+  "translation": "банк",
+  "transcription": "банкэ",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Unde este banca?",
+    "ru": "Где банк?",
+    "transcription": "унде есте банка"
+   },
+   {
+    "ro": "Merg la bancă.",
+    "ru": "Я иду в банк.",
+    "transcription": "мерг ла банкэ"
+   }
+  ]
+ },
+ {
+  "id": "13-5",
+  "word": "transfer",
+  "translation": "перевод (денежный)",
+  "transcription": "трансфер",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Fă un transfer.",
+    "ru": "Сделай перевод.",
+    "transcription": "фэ ун трансфер"
+   },
+   {
+    "ro": "Transferul a ajuns.",
+    "ru": "Перевод пришёл.",
+    "transcription": "трансферул а ажунс"
+   }
+  ]
+ },
+ {
+  "id": "13-6",
+  "word": "curs",
+  "translation": "курс (обмена)",
+  "transcription": "курс",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Care e cursul?",
+    "ru": "Какой курс?",
+    "transcription": "каре е курсул"
+   },
+   {
+    "ro": "Cursul e bun azi.",
+    "ru": "Курс сегодня хороший.",
+    "transcription": "курсул е бун ази"
+   }
+  ]
+ },
+ {
+  "id": "13-7",
+  "word": "factură",
+  "translation": "счёт-фактура / квитанция",
+  "transcription": "фактурэ",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Am nevoie de factură.",
+    "ru": "Мне нужна квитанция.",
+    "transcription": "ам невойе де фактурэ"
+   },
+   {
+    "ro": "Unde e factura mea?",
+    "ru": "Где моя квитанция?",
+    "transcription": "унде е фактура меа"
+   }
+  ]
+ },
+ {
+  "id": "13-8",
+  "word": "chirie",
+  "translation": "аренда",
+  "transcription": "кирие",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Cât e chiria?",
+    "ru": "Сколько аренда?",
+    "transcription": "кыт е кириа"
+   },
+   {
+    "ro": "Plătesc chiria.",
+    "ru": "Я плачу аренду.",
+    "transcription": "плэтеск кириа"
+   }
+  ]
+ },
+ {
+  "id": "13-9",
+  "word": "depozit",
+  "translation": "депозит / залог",
+  "transcription": "депозит",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "E nevoie de depozit.",
+    "ru": "Нужен залог.",
+    "transcription": "е невойе де депозит"
+   },
+   {
+    "ro": "Am plătit depozitul.",
+    "ru": "Я внес залог.",
+    "transcription": "ам плэтит депозитул"
+   }
+  ]
+ },
+ {
+  "id": "13-10",
+  "word": "împrumut",
+  "translation": "кредит / заем",
+  "transcription": "ымпрумут",
+  "day": 13,
+  "examples": [
+   {
+    "ro": "Am nevoie de un împrumut.",
+    "ru": "Мне нужен кредит.",
+    "transcription": "ам невойе де ун ымпрумут"
+   },
+   {
+    "ro": "Împrumutul e aprobat.",
+    "ru": "Кредит одобрен.",
+    "transcription": "ымпрумутул е апробат"
+   }
+  ]
+ },
+ {
+  "id": "14-1",
+  "word": "hotel",
+  "translation": "отель",
+  "transcription": "хотел",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Unde este hotelul?",
+    "ru": "Где отель?",
+    "transcription": "унде есте хотелул"
+   },
+   {
+    "ro": "Hotelul e bun.",
+    "ru": "Отель хороший.",
+    "transcription": "хотелул е бун"
+   }
+  ]
+ },
+ {
+  "id": "14-2",
+  "word": "recepție",
+  "translation": "ресепшн / стойка регистрации",
+  "transcription": "речепцие",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Unde e recepția?",
+    "ru": "Где ресепшн?",
+    "transcription": "унде е речепциа"
+   },
+   {
+    "ro": "Sunt la recepție.",
+    "ru": "Я на ресепшене.",
+    "transcription": "сунт ла речепцие"
+   }
+  ]
+ },
+ {
+  "id": "14-3",
+  "word": "înregistrare",
+  "translation": "регистрация (check-in)",
+  "transcription": "ынрежистраре",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Am nevoie de înregistrare.",
+    "ru": "Мне нужна регистрация.",
+    "transcription": "ам невойе де ынрежистраре"
+   },
+   {
+    "ro": "Înregistrarea e aici?",
+    "ru": "Регистрация здесь?",
+    "transcription": "ынрежистрареа е айчь"
+   }
+  ]
+ },
+ {
+  "id": "14-4",
+  "word": "mic dejun",
+  "translation": "завтрак",
+  "transcription": "мик дежун",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Mic dejun este inclus?",
+    "ru": "Завтрак включён?",
+    "transcription": "мик дежун есте инклус"
+   },
+   {
+    "ro": "La ce oră e micul dejun?",
+    "ru": "Во сколько завтрак?",
+    "transcription": "ла че орэ е микул дежун"
+   }
+  ]
+ },
+ {
+  "id": "14-5",
+  "word": "lift",
+  "translation": "лифт",
+  "transcription": "лифт",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Unde e liftul?",
+    "ru": "Где лифт?",
+    "transcription": "унде е лифтул"
+   },
+   {
+    "ro": "Liftul nu funcționează.",
+    "ru": "Лифт не работает.",
+    "transcription": "лифтул ну функционязэ"
+   }
+  ]
+ },
+ {
+  "id": "14-6",
+  "word": "etaj",
+  "translation": "этаж",
+  "transcription": "етаж",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "La ce etaj?",
+    "ru": "На каком этаже?",
+    "transcription": "ла че етаж"
+   },
+   {
+    "ro": "Sunt la etajul trei.",
+    "ru": "Я на третьем этаже.",
+    "transcription": "сунт ла етажул трей"
+   }
+  ]
+ },
+ {
+  "id": "14-7",
+  "word": "bagaj",
+  "translation": "багаж",
+  "transcription": "багаж",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Am bagaj.",
+    "ru": "У меня багаж.",
+    "transcription": "ам багаж"
+   },
+   {
+    "ro": "Unde e bagajul?",
+    "ru": "Где багаж?",
+    "transcription": "унде е багажул"
+   }
+  ]
+ },
+ {
+  "id": "14-8",
+  "word": "valiză",
+  "translation": "чемодан",
+  "transcription": "вализэ",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Valiza mea e grea.",
+    "ru": "Мой чемодан тяжёлый.",
+    "transcription": "вализа меа е греа"
+   },
+   {
+    "ro": "Unde e valiza?",
+    "ru": "Где чемодан?",
+    "transcription": "унде е вализа"
+   }
+  ]
+ },
+ {
+  "id": "14-9",
+  "word": "vedere",
+  "translation": "вид (из окна)",
+  "transcription": "ведере",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Ce vedere?",
+    "ru": "Какой вид?",
+    "transcription": "че ведере"
+   },
+   {
+    "ro": "Vederea e superbă.",
+    "ru": "Вид прекрасный.",
+    "transcription": "ведереа е супербэ"
+   }
+  ]
+ },
+ {
+  "id": "14-10",
+  "word": "rezervat",
+  "translation": "забронировано",
+  "transcription": "резерват",
+  "day": 14,
+  "examples": [
+   {
+    "ro": "Este rezervat.",
+    "ru": "Это забронировано.",
+    "transcription": "есте резерват"
+   },
+   {
+    "ro": "Masa e rezervată.",
+    "ru": "Стол забронирован.",
+    "transcription": "маса е резерватэ"
+   }
+  ]
+ },
+ {
+  "id": "15-1",
+  "word": "vreme",
+  "translation": "погода",
+  "transcription": "време",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Cum e vremea?",
+    "ru": "Какая погода?",
+    "transcription": "кум е времеа"
+   },
+   {
+    "ro": "Vremea e bună.",
+    "ru": "Погода хорошая.",
+    "transcription": "времеа е бунэ"
+   }
+  ]
+ },
+ {
+  "id": "15-2",
+  "word": "soare",
+  "translation": "солнце",
+  "transcription": "соаре",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Soarele strălucește.",
+    "ru": "Солнце светит.",
+    "transcription": "соареле стрэлучеште"
+   },
+   {
+    "ro": "Astăzi e mult soare.",
+    "ru": "Сегодня много солнца.",
+    "transcription": "астэзи е мулт соаре"
+   }
+  ]
+ },
+ {
+  "id": "15-3",
+  "word": "ploaie",
+  "translation": "дождь",
+  "transcription": "плоайе",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Plouă.",
+    "ru": "Идёт дождь.",
+    "transcription": "плоуэ"
+   },
+   {
+    "ro": "Am nevoie de umbrelă din cauza ploii.",
+    "ru": "Мне нужен зонт из-за дождя.",
+    "transcription": "ам невойе де умбрелэ дин кауза плойй"
+   }
+  ]
+ },
+ {
+  "id": "15-4",
+  "word": "vânt",
+  "translation": "ветер",
+  "transcription": "вынт",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "E vânt puternic.",
+    "ru": "Сильный ветер.",
+    "transcription": "е вынт путерник"
+   },
+   {
+    "ro": "Afară e vânt.",
+    "ru": "На улице ветер.",
+    "transcription": "афарэ е вынт"
+   }
+  ]
+ },
+ {
+  "id": "15-5",
+  "word": "nori",
+  "translation": "облака",
+  "transcription": "нори",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Sunt nori pe cer.",
+    "ru": "На небе облака.",
+    "transcription": "сунт нори пе чер"
+   },
+   {
+    "ro": "Sunt mulți nori.",
+    "ru": "Много облаков.",
+    "transcription": "сунт мулць нори"
+   }
+  ]
+ },
+ {
+  "id": "15-6",
+  "word": "cald",
+  "translation": "тёплый / жарко",
+  "transcription": "калд",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Aici e cald.",
+    "ru": "Здесь жарко.",
+    "transcription": "айчь е калд"
+   },
+   {
+    "ro": "Astăzi e cald.",
+    "ru": "Сегодня тепло.",
+    "transcription": "астэзи е калд"
+   }
+  ]
+ },
+ {
+  "id": "15-7",
+  "word": "frig",
+  "translation": "холод / холодно",
+  "transcription": "фриг",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Îmi e frig.",
+    "ru": "Мне холодно.",
+    "transcription": "ыми е фриг"
+   },
+   {
+    "ro": "Astăzi e frig.",
+    "ru": "Сегодня холодно.",
+    "transcription": "астэзи е фриг"
+   }
+  ]
+ },
+ {
+  "id": "15-8",
+  "word": "temperatură",
+  "translation": "температура",
+  "transcription": "температурэ",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Temperatura e mare.",
+    "ru": "Температура высокая.",
+    "transcription": "температура е маре"
+   },
+   {
+    "ro": "Care e temperatura?",
+    "ru": "Какая температура?",
+    "transcription": "каре е температура"
+   }
+  ]
+ },
+ {
+  "id": "15-9",
+  "word": "zăpadă",
+  "translation": "снег",
+  "transcription": "зэпадэ",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Ninge.",
+    "ru": "Идёт снег.",
+    "transcription": "нинже"
+   },
+   {
+    "ro": "E multă zăpadă.",
+    "ru": "Много снега.",
+    "transcription": "е мултэ зэпадэ"
+   }
+  ]
+ },
+ {
+  "id": "15-10",
+  "word": "umbrelă",
+  "translation": "зонт",
+  "transcription": "умбрелэ",
+  "day": 15,
+  "examples": [
+   {
+    "ro": "Am nevoie de umbrelă.",
+    "ru": "Мне нужен зонт.",
+    "transcription": "ам невойе де умбрелэ"
+   },
+   {
+    "ro": "Unde e umbrela mea?",
+    "ru": "Где мой зонт?",
+    "transcription": "унде е умбрела меа"
+   }
+  ]
+ },
+ {
+  "id": "16-1",
+  "word": "fericit",
+  "translation": "счастливый",
+  "transcription": "феричит",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt fericit.",
+    "ru": "Я счастлив.",
+    "transcription": "сунт феричит"
+   },
+   {
+    "ro": "Astăzi sunt fericit.",
+    "ru": "Сегодня я счастлив.",
+    "transcription": "астэзи сунт феричит"
+   }
+  ]
+ },
+ {
+  "id": "16-2",
+  "word": "trist",
+  "translation": "грустный",
+  "transcription": "трист",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt trist.",
+    "ru": "Я грустный.",
+    "transcription": "сунт трист"
+   },
+   {
+    "ro": "Pare trist.",
+    "ru": "Он выглядит грустным.",
+    "transcription": "паре трист"
+   }
+  ]
+ },
+ {
+  "id": "16-3",
+  "word": "obosit",
+  "translation": "уставший",
+  "transcription": "обосит",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt obosit.",
+    "ru": "Я устал.",
+    "transcription": "сунт обосит"
+   },
+   {
+    "ro": "Sunt foarte obosit.",
+    "ru": "Очень устал.",
+    "transcription": "сунт фоарте обосит"
+   }
+  ]
+ },
+ {
+  "id": "16-4",
+  "word": "flămând",
+  "translation": "голодный",
+  "transcription": "флэмынд",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt flămând.",
+    "ru": "Я голодный.",
+    "transcription": "сунт флэмынд"
+   },
+   {
+    "ro": "Sunt foarte flămând.",
+    "ru": "Я очень голодный.",
+    "transcription": "сунт фоарте флэмынд"
+   }
+  ]
+ },
+ {
+  "id": "16-5",
+  "word": "sete",
+  "translation": "жажда",
+  "transcription": "сете",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Mi-e sete.",
+    "ru": "У меня жажда.",
+    "transcription": "ми е сете"
+   },
+   {
+    "ro": "După sport mi-e sete.",
+    "ru": "После тренировки жажда.",
+    "transcription": "дупэ спорт ми е сете"
+   }
+  ]
+ },
+ {
+  "id": "16-6",
+  "word": "stresat",
+  "translation": "в стрессе",
+  "transcription": "стресат",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt stresat.",
+    "ru": "Я в стрессе.",
+    "transcription": "сунт стресат"
+   },
+   {
+    "ro": "Nu fi stresat.",
+    "ru": "Не будь в стрессе.",
+    "transcription": "ну фи стресат"
+   }
+  ]
+ },
+ {
+  "id": "16-7",
+  "word": "surprins",
+  "translation": "удивлённый",
+  "transcription": "сурпринс",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt surprins.",
+    "ru": "Я удивлён.",
+    "transcription": "сунт сурпринс"
+   },
+   {
+    "ro": "E surprinzător.",
+    "ru": "Это удивительно.",
+    "transcription": "е сурпринзэтор"
+   }
+  ]
+ },
+ {
+  "id": "16-8",
+  "word": "nervos",
+  "translation": "нервный",
+  "transcription": "нервос",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt nervos.",
+    "ru": "Я нервничаю.",
+    "transcription": "сунт нервос"
+   },
+   {
+    "ro": "Nu fi nervos.",
+    "ru": "Не будь нервным.",
+    "transcription": "ну фи нервос"
+   }
+  ]
+ },
+ {
+  "id": "16-9",
+  "word": "liniștit",
+  "translation": "спокойный",
+  "transcription": "лиништит",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt liniștit.",
+    "ru": "Я спокойный.",
+    "transcription": "сунт лиништит"
+   },
+   {
+    "ro": "Aici e liniștit.",
+    "ru": "Здесь спокойно.",
+    "transcription": "айчь е лиништит"
+   }
+  ]
+ },
+ {
+  "id": "16-10",
+  "word": "speriat",
+  "translation": "испуганный",
+  "transcription": "спериат",
+  "day": 16,
+  "examples": [
+   {
+    "ro": "Sunt speriat.",
+    "ru": "Я испуган.",
+    "transcription": "сунт спериат"
+   },
+   {
+    "ro": "A fost speriat.",
+    "ru": "Он был испуган.",
+    "transcription": "а фост спериат"
+   }
+  ]
+ },
+ {
+  "id": "17-1",
+  "word": "a merge",
+  "translation": "идти / ехать",
+  "transcription": "а мерже",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Merg acasă.",
+    "ru": "Я иду домой.",
+    "transcription": "мерг акасэ"
+   },
+   {
+    "ro": "Mergem acum.",
+    "ru": "Мы идём сейчас.",
+    "transcription": "мержем акум"
+   }
+  ]
+ },
+ {
+  "id": "17-2",
+  "word": "a veni",
+  "translation": "приходить / приезжать",
+  "transcription": "а вени",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Vin mâine.",
+    "ru": "Я приду завтра.",
+    "transcription": "вин мыйне"
+   },
+   {
+    "ro": "Vine acum.",
+    "ru": "Он приходит сейчас.",
+    "transcription": "вине акум"
+   }
+  ]
+ },
+ {
+  "id": "17-3",
+  "word": "a face",
+  "translation": "делать",
+  "transcription": "а фаче",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Fac asta.",
+    "ru": "Я делаю это.",
+    "transcription": "фак аста"
+   },
+   {
+    "ro": "Ce faci?",
+    "ru": "Что ты делаешь?",
+    "transcription": "че фачь"
+   }
+  ]
+ },
+ {
+  "id": "17-4",
+  "word": "a lua",
+  "translation": "брать",
+  "transcription": "а луа",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Iau cafea.",
+    "ru": "Я беру кофе.",
+    "transcription": "йау кафеа"
+   },
+   {
+    "ro": "Ia asta, te rog.",
+    "ru": "Возьми это, пожалуйста.",
+    "transcription": "йа аста те рог"
+   }
+  ]
+ },
+ {
+  "id": "17-5",
+  "word": "a da",
+  "translation": "давать",
+  "transcription": "а да",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Dă-mi apă.",
+    "ru": "Дай мне воду.",
+    "transcription": "дэ ми апэ"
+   },
+   {
+    "ro": "Îmi dă cheia.",
+    "ru": "Он даёт мне ключ.",
+    "transcription": "ыми дэ кейа"
+   }
+  ]
+ },
+ {
+  "id": "17-6",
+  "word": "a pune",
+  "translation": "класть / ставить",
+  "transcription": "а пуне",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Pune asta aici.",
+    "ru": "Поставь это здесь.",
+    "transcription": "пуне аста айчь"
+   },
+   {
+    "ro": "Pun pe masă.",
+    "ru": "Я ставлю на стол.",
+    "transcription": "пун пе масэ"
+   }
+  ]
+ },
+ {
+  "id": "17-7",
+  "word": "a spune",
+  "translation": "говорить / сказать",
+  "transcription": "а спуне",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Spune-mi.",
+    "ru": "Скажи мне.",
+    "transcription": "спуне ми"
+   },
+   {
+    "ro": "Ce ai spus?",
+    "ru": "Что ты сказал?",
+    "transcription": "че ай спус"
+   }
+  ]
+ },
+ {
+  "id": "17-8",
+  "word": "a vedea",
+  "translation": "видеть",
+  "transcription": "а ведеа",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Văd.",
+    "ru": "Я вижу.",
+    "transcription": "вэд"
+   },
+   {
+    "ro": "Te văd.",
+    "ru": "Я тебя вижу.",
+    "transcription": "те вэд"
+   }
+  ]
+ },
+ {
+  "id": "17-9",
+  "word": "a auzi",
+  "translation": "слышать",
+  "transcription": "а аузи",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Aud.",
+    "ru": "Я слышу.",
+    "transcription": "ауд"
+   },
+   {
+    "ro": "Nu aud.",
+    "ru": "Я не слышу.",
+    "transcription": "ну ауд"
+   }
+  ]
+ },
+ {
+  "id": "17-10",
+  "word": "a ști",
+  "translation": "знать",
+  "transcription": "а шть",
+  "day": 17,
+  "examples": [
+   {
+    "ro": "Știu.",
+    "ru": "Я знаю.",
+    "transcription": "штиу"
+   },
+   {
+    "ro": "Nu știu.",
+    "ru": "Я не знаю.",
+    "transcription": "ну штиу"
+   }
+  ]
+ },
+ {
+  "id": "18-1",
+  "word": "cuțit",
+  "translation": "нож",
+  "transcription": "куцит",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Am nevoie de un cuțit.",
+    "ru": "Мне нужен нож.",
+    "transcription": "ам невойе де ун куцит"
+   },
+   {
+    "ro": "Unde e cuțitul?",
+    "ru": "Где нож?",
+    "transcription": "унде е куцитул"
+   }
+  ]
+ },
+ {
+  "id": "18-2",
+  "word": "furculiță",
+  "translation": "вилка",
+  "transcription": "фуркулицэ",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Dați-mi o furculiță, vă rog.",
+    "ru": "Дайте вилку, пожалуйста.",
+    "transcription": "даць ми о фуркулицэ вэ рог"
+   },
+   {
+    "ro": "Unde e furculița?",
+    "ru": "Где вилка?",
+    "transcription": "унде е фуркулица"
+   }
+  ]
+ },
+ {
+  "id": "18-3",
+  "word": "lingură",
+  "translation": "ложка",
+  "transcription": "лингурэ",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Dați-mi o lingură.",
+    "ru": "Дайте ложку.",
+    "transcription": "даць ми о лингурэ"
+   },
+   {
+    "ro": "Unde e lingura?",
+    "ru": "Где ложка?",
+    "transcription": "унде е лингура"
+   }
+  ]
+ },
+ {
+  "id": "18-4",
+  "word": "farfurie",
+  "translation": "тарелка",
+  "transcription": "фарфурие",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Am nevoie de o farfurie.",
+    "ru": "Мне нужна тарелка.",
+    "transcription": "ам невойе де о фарфурие"
+   },
+   {
+    "ro": "Unde sunt farfuriile?",
+    "ru": "Где тарелки?",
+    "transcription": "унде сунт фарфурийле"
+   }
+  ]
+ },
+ {
+  "id": "18-5",
+  "word": "tigaie",
+  "translation": "сковорода",
+  "transcription": "тигайе",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Pune tigaia.",
+    "ru": "Поставь сковороду.",
+    "transcription": "пуне тигайа"
+   },
+   {
+    "ro": "Unde e tigaia?",
+    "ru": "Где сковорода?",
+    "transcription": "унде е тигайа"
+   }
+  ]
+ },
+ {
+  "id": "18-6",
+  "word": "oală",
+  "translation": "кастрюля",
+  "transcription": "оалэ",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Am nevoie de o oală.",
+    "ru": "Мне нужна кастрюля.",
+    "transcription": "ам невойе де о оалэ"
+   },
+   {
+    "ro": "Unde e oala?",
+    "ru": "Где кастрюля?",
+    "transcription": "унде е оала"
+   }
+  ]
+ },
+ {
+  "id": "18-7",
+  "word": "cuptor",
+  "translation": "духовка",
+  "transcription": "куптор",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Cuptorul e fierbinte.",
+    "ru": "Духовка горячая.",
+    "transcription": "купторул е фиербинте"
+   },
+   {
+    "ro": "Pornește cuptorul.",
+    "ru": "Включи духовку.",
+    "transcription": "порнеште купторул"
+   }
+  ]
+ },
+ {
+  "id": "18-8",
+  "word": "frigider",
+  "translation": "холодильник",
+  "transcription": "фрижидер",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Pune la frigider.",
+    "ru": "Поставь в холодильник.",
+    "transcription": "пуне ла фрижидер"
+   },
+   {
+    "ro": "Unde e frigiderul?",
+    "ru": "Где холодильник?",
+    "transcription": "унде е фрижидерул"
+   }
+  ]
+ },
+ {
+  "id": "18-9",
+  "word": "ingrediente",
+  "translation": "ингредиенты",
+  "transcription": "ингредиенте",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Am nevoie de ingrediente.",
+    "ru": "Мне нужны ингредиенты.",
+    "transcription": "ам невойе де ингредиенте"
+   },
+   {
+    "ro": "Ce ingrediente?",
+    "ru": "Какие ингредиенты?",
+    "transcription": "че ингредиенте"
+   }
+  ]
+ },
+ {
+  "id": "18-10",
+  "word": "piper",
+  "translation": "перец",
+  "transcription": "пипер",
+  "day": 18,
+  "examples": [
+   {
+    "ro": "Pune piper.",
+    "ru": "Добавь перца.",
+    "transcription": "пуне пипер"
+   },
+   {
+    "ro": "Unde e piperul?",
+    "ru": "Где перец?",
+    "transcription": "унде е пиперул"
+   }
+  ]
+ },
+ {
+  "id": "19-1",
+  "word": "curat",
+  "translation": "чистый",
+  "transcription": "курат",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Aici e curat.",
+    "ru": "Здесь чисто.",
+    "transcription": "айчь е курат"
+   },
+   {
+    "ro": "Am nevoie de o masă curată.",
+    "ru": "Мне нужен чистый стол.",
+    "transcription": "ам невойе де о масэ куратэ"
+   }
+  ]
+ },
+ {
+  "id": "19-2",
+  "word": "murdar",
+  "translation": "грязный",
+  "transcription": "мурдар",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "E murdar.",
+    "ru": "Это грязно.",
+    "transcription": "е мурдар"
+   },
+   {
+    "ro": "Podeaua e murdară.",
+    "ru": "Пол грязный.",
+    "transcription": "подяуа е мурдарэ"
+   }
+  ]
+ },
+ {
+  "id": "19-3",
+  "word": "detergent",
+  "translation": "моющее средство",
+  "transcription": "детержент",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Am nevoie de detergent.",
+    "ru": "Мне нужно моющее средство.",
+    "transcription": "ам невойе де детержент"
+   },
+   {
+    "ro": "Unde e detergentul?",
+    "ru": "Где моющее средство?",
+    "transcription": "унде е детержентул"
+   }
+  ]
+ },
+ {
+  "id": "19-4",
+  "word": "săpun",
+  "translation": "мыло",
+  "transcription": "сэпун",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Am nevoie de săpun.",
+    "ru": "Мне нужно мыло.",
+    "transcription": "ам невойе де сэпун"
+   },
+   {
+    "ro": "Unde e săpunul?",
+    "ru": "Где мыло?",
+    "transcription": "унде е сэпунул"
+   }
+  ]
+ },
+ {
+  "id": "19-5",
+  "word": "prosop",
+  "translation": "полотенце",
+  "transcription": "просоп",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Am nevoie de un prosop.",
+    "ru": "Мне нужно полотенце.",
+    "transcription": "ам невойе де ун просоп"
+   },
+   {
+    "ro": "Unde sunt prosoapele?",
+    "ru": "Где полотенца?",
+    "transcription": "унде сунт просоапеле"
+   }
+  ]
+ },
+ {
+  "id": "19-6",
+  "word": "mănuși",
+  "translation": "перчатки",
+  "transcription": "мэнуши",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Am nevoie de mănuși.",
+    "ru": "Мне нужны перчатки.",
+    "transcription": "ам невойе де мэнуши"
+   },
+   {
+    "ro": "Unde sunt mănușile?",
+    "ru": "Где перчатки?",
+    "transcription": "унде сунт мэнушиле"
+   }
+  ]
+ },
+ {
+  "id": "19-7",
+  "word": "gunoi",
+  "translation": "мусор",
+  "transcription": "гуной",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Aruncă gunoiul.",
+    "ru": "Выбрось мусор.",
+    "transcription": "арункэ гунойул"
+   },
+   {
+    "ro": "Unde e gunoiul?",
+    "ru": "Где мусорное ведро?",
+    "transcription": "унде е гунойул"
+   }
+  ]
+ },
+ {
+  "id": "19-8",
+  "word": "spăla",
+  "translation": "мыть",
+  "transcription": "спэла",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Trebuie să spăl mâinile.",
+    "ru": "Нужно помыть руки.",
+    "transcription": "требуйе сэ спэл мыйниле"
+   },
+   {
+    "ro": "Spăl vasele.",
+    "ru": "Я мою посуду.",
+    "transcription": "спэл васеле"
+   }
+  ]
+ },
+ {
+  "id": "19-9",
+  "word": "dezinfectant",
+  "translation": "дезинфектант",
+  "transcription": "дезинфектант",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "Am nevoie de dezinfectant.",
+    "ru": "Мне нужен дезинфектант.",
+    "transcription": "ам невойе де дезинфектант"
+   },
+   {
+    "ro": "Folosește dezinfectant.",
+    "ru": "Используй дезинфектант.",
+    "transcription": "фолосеште дезинфектант"
+   }
+  ]
+ },
+ {
+  "id": "19-10",
+  "word": "curățenie",
+  "translation": "уборка",
+  "transcription": "курэцение",
+  "day": 19,
+  "examples": [
+   {
+    "ro": "E nevoie de curățenie.",
+    "ru": "Нужна уборка.",
+    "transcription": "е невойе де курэцение"
+   },
+   {
+    "ro": "Fac curățenie.",
+    "ru": "Я делаю уборку.",
+    "transcription": "фак курэцение"
+   }
+  ]
+ },
+ {
+  "id": "20-1",
+  "word": "ajutor",
+  "translation": "помощь",
+  "transcription": "ажутор",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Am nevoie de ajutor.",
+    "ru": "Мне нужна помощь.",
+    "transcription": "ам невойе де ажутор"
+   },
+   {
+    "ro": "Ajutor, vă rog.",
+    "ru": "Помогите, пожалуйста.",
+    "transcription": "ажутор вэ рог"
+   }
+  ]
+ },
+ {
+  "id": "20-2",
+  "word": "problemă",
+  "translation": "проблема",
+  "transcription": "проблемэ",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Am o problemă.",
+    "ru": "У меня проблема.",
+    "transcription": "ам о проблемэ"
+   },
+   {
+    "ro": "Care e problema?",
+    "ru": "Какая проблема?",
+    "transcription": "каре е проблема"
+   }
+  ]
+ },
+ {
+  "id": "20-3",
+  "word": "funcționează",
+  "translation": "работает / функционирует",
+  "transcription": "функционязэ",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Funcționează.",
+    "ru": "Это работает.",
+    "transcription": "функционязэ"
+   },
+   {
+    "ro": "Nu funcționează.",
+    "ru": "Не работает.",
+    "transcription": "ну функционязэ"
+   }
+  ]
+ },
+ {
+  "id": "20-4",
+  "word": "stricat",
+  "translation": "сломанный",
+  "transcription": "стрикат",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "E stricat.",
+    "ru": "Это сломано.",
+    "transcription": "е стрикат"
+   },
+   {
+    "ro": "Liftul e stricat.",
+    "ru": "Лифт сломан.",
+    "transcription": "лифтул е стрикат"
+   }
+  ]
+ },
+ {
+  "id": "20-5",
+  "word": "reparație",
+  "translation": "ремонт",
+  "transcription": "репарацие",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "E nevoie de reparație.",
+    "ru": "Нужен ремонт.",
+    "transcription": "е невойе де репарацие"
+   },
+   {
+    "ro": "Când e reparația?",
+    "ru": "Когда ремонт?",
+    "transcription": "кынд е репарациа"
+   }
+  ]
+ },
+ {
+  "id": "20-6",
+  "word": "înlocuire",
+  "translation": "замена",
+  "transcription": "ынлокуйре",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "E nevoie de înlocuire.",
+    "ru": "Нужна замена.",
+    "transcription": "е невойе де ынлокуйре"
+   },
+   {
+    "ro": "Se poate înlocuire?",
+    "ru": "Можно сделать замену?",
+    "transcription": "се поате ынлокуйре"
+   }
+  ]
+ },
+ {
+  "id": "20-7",
+  "word": "garanție",
+  "translation": "гарантия",
+  "transcription": "гаранцие",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Este garanție?",
+    "ru": "Есть гарантия?",
+    "transcription": "есте гаранцие"
+   },
+   {
+    "ro": "Am nevoie de garanție.",
+    "ru": "Мне нужна гарантия.",
+    "transcription": "ам невойе де гаранцие"
+   }
+  ]
+ },
+ {
+  "id": "20-8",
+  "word": "plângere",
+  "translation": "жалоба",
+  "transcription": "плынжере",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Vreau să fac o plângere.",
+    "ru": "Я хочу подать жалобу.",
+    "transcription": "вряу сэ фак о плынжере"
+   },
+   {
+    "ro": "Unde pot depune o plângere?",
+    "ru": "Где подать жалобу?",
+    "transcription": "унде пот депуне о плынжере"
+   }
+  ]
+ },
+ {
+  "id": "20-9",
+  "word": "confirmare",
+  "translation": "подтверждение",
+  "transcription": "конфирмаре",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Am nevoie de confirmare.",
+    "ru": "Мне нужно подтверждение.",
+    "transcription": "ам невойе де конфирмаре"
+   },
+   {
+    "ro": "Trimiteți confirmarea.",
+    "ru": "Отправьте подтверждение.",
+    "transcription": "тримитець конфирмареа"
+   }
+  ]
+ },
+ {
+  "id": "20-10",
+  "word": "livrare",
+  "translation": "доставка",
+  "transcription": "ливраре",
+  "day": 20,
+  "examples": [
+   {
+    "ro": "Când e livrarea?",
+    "ru": "Когда доставка?",
+    "transcription": "кынд е ливрареа"
+   },
+   {
+    "ro": "Am nevoie de livrare.",
+    "ru": "Мне нужна доставка.",
+    "transcription": "ам невойе де ливраре"
+   }
+  ]
+ }
+]

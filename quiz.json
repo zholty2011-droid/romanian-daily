@@ -1,0 +1,1133 @@
+[
+ {
+  "id": "g1",
+  "tag": "polite",
+  "q": "Как вежливо попросить незнакомца?",
+  "opts": [
+   "te rog",
+   "vă rog",
+   "rog te",
+   "eu rog"
+  ],
+  "a": 1,
+  "why": "vă rog — к незнакомцу."
+ },
+ {
+  "id": "g2",
+  "tag": "art",
+  "q": "Артикль женского рода:",
+  "opts": [
+   "un",
+   "o",
+   "niște",
+   "cel"
+  ],
+  "a": 1,
+  "why": "o cafea, o casă."
+ },
+ {
+  "id": "g3",
+  "tag": "art",
+  "q": "Артикль мужского рода:",
+  "opts": [
+   "o",
+   "un",
+   "la",
+   "în"
+  ],
+  "a": 1,
+  "why": "un preț, un bilet."
+ },
+ {
+  "id": "g4",
+  "tag": "fi",
+  "q": "«Я есть / я —»:",
+  "opts": [
+   "eu am",
+   "eu e",
+   "eu sunt",
+   "eu ești"
+  ],
+  "a": 2,
+  "why": "eu sunt."
+ },
+ {
+  "id": "g5",
+  "tag": "avea",
+  "q": "«У меня есть»:",
+  "opts": [
+   "eu sunt",
+   "eu am",
+   "eu e",
+   "eu fac"
+  ],
+  "a": 1,
+  "why": "eu am."
+ },
+ {
+  "id": "g6",
+  "tag": "neg",
+  "q": "Где стоит nu?",
+  "opts": [
+   "после глагола",
+   "перед глаголом",
+   "в конце",
+   "вместо глагола"
+  ],
+  "a": 1,
+  "why": "nu vreau, nu știu."
+ },
+ {
+  "id": "g7",
+  "tag": "să",
+  "q": "«Я хочу пойти»:",
+  "opts": [
+   "vreau merg",
+   "vreau să merg",
+   "să vreau merg",
+   "merg vreau"
+  ],
+  "a": 1,
+  "why": "vreau să + глагол."
+ },
+ {
+  "id": "g8",
+  "tag": "să",
+  "q": "«Я могу помочь»:",
+  "opts": [
+   "pot ajut",
+   "pot să ajut",
+   "să pot ajut",
+   "ajut pot"
+  ],
+  "a": 1,
+  "why": "pot să + глагол."
+ },
+ {
+  "id": "g9",
+  "tag": "să",
+  "q": "«Нужно уйти»:",
+  "opts": [
+   "trebuie plec",
+   "trebuie să plec",
+   "să trebuie plec",
+   "plec trebuie"
+  ],
+  "a": 1,
+  "why": "trebuie să + глагол."
+ },
+ {
+  "id": "g10",
+  "tag": "îâ",
+  "q": "Буква в середине român:",
+  "opts": [
+   "î",
+   "â",
+   "ă",
+   "a"
+  ],
+  "a": 1,
+  "why": "â в середине: român, mână."
+ },
+ {
+  "id": "g11",
+  "tag": "îâ",
+  "q": "Буква в начале în:",
+  "opts": [
+   "â",
+   "î",
+   "ă",
+   "a"
+  ],
+  "a": 1,
+  "why": "î в начале."
+ },
+ {
+  "id": "g12",
+  "tag": "prep",
+  "q": "«На работе»:",
+  "opts": [
+   "în muncă",
+   "la muncă",
+   "pe muncă",
+   "cu muncă"
+  ],
+  "a": 1,
+  "why": "la + работа/учреждение."
+ },
+ {
+  "id": "g13",
+  "tag": "prep",
+  "q": "«В парке»:",
+  "opts": [
+   "la parc",
+   "în parc",
+   "pe parc",
+   "cu parc"
+  ],
+  "a": 1,
+  "why": "în + пространство."
+ },
+ {
+  "id": "g14",
+  "tag": "poss",
+  "q": "«Моя мама»:",
+  "opts": [
+   "mama meu",
+   "mama mea",
+   "mama mele",
+   "mama mei"
+  ],
+  "a": 1,
+  "why": "mea — женский род."
+ },
+ {
+  "id": "g15",
+  "tag": "poss",
+  "q": "«Мой друг»:",
+  "opts": [
+   "prietenul mea",
+   "prietenul meu",
+   "prietenul mele",
+   "prietenul mei"
+  ],
+  "a": 1,
+  "why": "meu — мужской род."
+ },
+ {
+  "id": "g16",
+  "tag": "shop",
+  "q": "Как спросить цену?",
+  "opts": [
+   "Cât e ora?",
+   "Cât costă?",
+   "Unde este?",
+   "Ce faci?"
+  ],
+  "a": 1,
+  "why": "Cât costă?"
+ },
+ {
+  "id": "g17",
+  "tag": "cafe",
+  "q": "Счёт в кафе:",
+  "opts": [
+   "Banii, te rog",
+   "Nota, vă rog",
+   "Prețul, hai",
+   "Masa, da"
+  ],
+  "a": 1,
+  "why": "Nota, vă rog."
+ },
+ {
+  "id": "g18",
+  "tag": "prep",
+  "q": "«Без сахара»:",
+  "opts": [
+   "cu zahăr",
+   "fără zahăr",
+   "nu zahăr",
+   "minus zahăr"
+  ],
+  "a": 1,
+  "why": "fără = без."
+ },
+ {
+  "id": "g19",
+  "tag": "polite",
+  "q": "Вежливо «дайте мне»:",
+  "opts": [
+   "dă-mi",
+   "dați-mi",
+   "dau-mi",
+   "dai-mi"
+  ],
+  "a": 1,
+  "why": "dați-mi."
+ },
+ {
+  "id": "g20",
+  "tag": "feel",
+  "q": "«Мне плохо»:",
+  "opts": [
+   "Sunt rău",
+   "Îmi e rău",
+   "Am rău",
+   "Ești rău"
+  ],
+  "a": 1,
+  "why": "Îmi e rău."
+ },
+ {
+  "id": "g21",
+  "tag": "pron",
+  "q": "«Ты» невежливо / обычно:",
+  "opts": [
+   "dumneavoastră",
+   "tu",
+   "ei",
+   "noi"
+  ],
+  "a": 1,
+  "why": "tu — к другу."
+ },
+ {
+  "id": "g22",
+  "tag": "pron",
+  "q": "Вежливое «вы»:",
+  "opts": [
+   "tu",
+   "voi",
+   "dumneavoastră",
+   "el"
+  ],
+  "a": 2,
+  "why": "dumneavoastră."
+ },
+ {
+  "id": "g23",
+  "tag": "fi",
+  "q": "Форма «ты есть»:",
+  "opts": [
+   "ești",
+   "este",
+   "sunt",
+   "suntem"
+  ],
+  "a": 0,
+  "why": "tu ești."
+ },
+ {
+  "id": "g24",
+  "tag": "fi",
+  "q": "Форма «он/она есть» (коротко):",
+  "opts": [
+   "sunt",
+   "ești",
+   "e",
+   "avem"
+  ],
+  "a": 2,
+  "why": "el/ea e / este."
+ },
+ {
+  "id": "g25",
+  "tag": "avea",
+  "q": "«У него есть»:",
+  "opts": [
+   "are",
+   "ai",
+   "am",
+   "aveți"
+  ],
+  "a": 0,
+  "why": "el/ea are."
+ },
+ {
+  "id": "g26",
+  "tag": "time",
+  "q": "«Который час?»:",
+  "opts": [
+   "Cât costă?",
+   "Cât e ora?",
+   "Unde e?",
+   "Ce e?"
+  ],
+  "a": 1,
+  "why": "Cât e ora?"
+ },
+ {
+  "id": "g27",
+  "tag": "time",
+  "q": "«В семь часов»:",
+  "opts": [
+   "în ora 7",
+   "la ora 7",
+   "pe ora 7",
+   "cu ora 7"
+  ],
+  "a": 1,
+  "why": "la ora 7."
+ },
+ {
+  "id": "g28",
+  "tag": "dir",
+  "q": "«Налево»:",
+  "opts": [
+   "la dreapta",
+   "la stânga",
+   "înainte",
+   "înapoi"
+  ],
+  "a": 1,
+  "why": "la stânga."
+ },
+ {
+  "id": "g29",
+  "tag": "dir",
+  "q": "«Направо»:",
+  "opts": [
+   "la stânga",
+   "înainte",
+   "la dreapta",
+   "sus"
+  ],
+  "a": 2,
+  "why": "la dreapta."
+ },
+ {
+  "id": "g30",
+  "tag": "dir",
+  "q": "«Вперёд»:",
+  "opts": [
+   "înapoi",
+   "înainte",
+   "afară",
+   "sus"
+  ],
+  "a": 1,
+  "why": "înainte."
+ },
+ {
+  "id": "g31",
+  "tag": "home",
+  "q": "«Дома» (наречие):",
+  "opts": [
+   "casa",
+   "acasă",
+   "casă",
+   "în cas"
+  ],
+  "a": 1,
+  "why": "acasă = дома, casa = дом."
+ },
+ {
+  "id": "g32",
+  "tag": "art",
+  "q": "«Дверь» какого рода?",
+  "opts": [
+   "мужской: un ușă",
+   "женский: o ușă",
+   "средний",
+   "нет артикля"
+  ],
+  "a": 1,
+  "why": "o ușă."
+ },
+ {
+  "id": "g33",
+  "tag": "neg",
+  "q": "«Никогда»:",
+  "opts": [
+   "nimic",
+   "niciodată",
+   "nimeni",
+   "nu tot"
+  ],
+  "a": 1,
+  "why": "niciodată."
+ },
+ {
+  "id": "g34",
+  "tag": "neg",
+  "q": "«Ничего»:",
+  "opts": [
+   "niciodată",
+   "nimeni",
+   "nimic",
+   "nu un"
+  ],
+  "a": 2,
+  "why": "nimic."
+ },
+ {
+  "id": "g35",
+  "tag": "cmp",
+  "q": "«Лучше»:",
+  "opts": [
+   "bun",
+   "mai bun",
+   "cel bun",
+   "bine mai"
+  ],
+  "a": 1,
+  "why": "mai bun."
+ },
+ {
+  "id": "g36",
+  "tag": "cmp",
+  "q": "«Самый лучший»:",
+  "opts": [
+   "mai bun",
+   "cel mai bun",
+   "bun cel",
+   "prea bun"
+  ],
+  "a": 1,
+  "why": "cel mai bun."
+ },
+ {
+  "id": "g37",
+  "tag": "qty",
+  "q": "«Больше»:",
+  "opts": [
+   "mai puțin",
+   "mai mult",
+   "destul nu",
+   "foarte"
+  ],
+  "a": 1,
+  "why": "mai mult."
+ },
+ {
+  "id": "g38",
+  "tag": "cafe",
+  "q": "«С собой» в кафе:",
+  "opts": [
+   "pentru aici",
+   "la pachet",
+   "pe masă",
+   "cu mine cafea"
+  ],
+  "a": 1,
+  "why": "la pachet."
+ },
+ {
+  "id": "g39",
+  "tag": "cafe",
+  "q": "«Здесь» в кафе:",
+  "opts": [
+   "la pachet",
+   "pentru aici",
+   "afară tot",
+   "cu casă"
+  ],
+  "a": 1,
+  "why": "pentru aici."
+ },
+ {
+  "id": "g40",
+  "tag": "polite",
+  "q": "К другу «можешь»:",
+  "opts": [
+   "puteți",
+   "poți",
+   "pot",
+   "putem"
+  ],
+  "a": 1,
+  "why": "poți — на tu."
+ },
+ {
+  "id": "g41",
+  "tag": "polite",
+  "q": "К незнакомцу «можете»:",
+  "opts": [
+   "poți",
+   "pot",
+   "puteți",
+   "poate"
+  ],
+  "a": 2,
+  "why": "puteți."
+ },
+ {
+  "id": "g42",
+  "tag": "weather",
+  "q": "«Идёт дождь»:",
+  "opts": [
+   "e ploaie",
+   "plouă",
+   "are ploaie",
+   "face ploaie"
+  ],
+  "a": 1,
+  "why": "plouă — глагол."
+ },
+ {
+  "id": "g43",
+  "tag": "feel",
+  "q": "«У меня болит голова»:",
+  "opts": [
+   "Am cap rău",
+   "Mă doare capul",
+   "Capul e rău",
+   "Îmi cap"
+  ],
+  "a": 1,
+  "why": "mă doare + часть тела."
+ },
+ {
+  "id": "g44",
+  "tag": "prep",
+  "q": "«После работы»:",
+  "opts": [
+   "înainte de muncă",
+   "după muncă",
+   "fără muncă",
+   "pe muncă"
+  ],
+  "a": 1,
+  "why": "după = после."
+ },
+ {
+  "id": "g45",
+  "tag": "prep",
+  "q": "«Перед ужином»:",
+  "opts": [
+   "după cină",
+   "înainte de cină",
+   "la cină după",
+   "cu cină"
+  ],
+  "a": 1,
+  "why": "înainte de."
+ },
+ {
+  "id": "g46",
+  "tag": "art",
+  "q": "Множественное «какие-то / несколько»:",
+  "opts": [
+   "un",
+   "o",
+   "niște",
+   "cel"
+  ],
+  "a": 2,
+  "why": "niște cafele, niște oameni."
+ },
+ {
+  "id": "g47",
+  "tag": "num",
+  "q": "«Две чашки кофе» ближе к:",
+  "opts": [
+   "doi cafea",
+   "două cafele",
+   "doi cafele",
+   "două cafea"
+  ],
+  "a": 1,
+  "why": "două + мн. ч. жен. рода."
+ },
+ {
+  "id": "g48",
+  "tag": "fi",
+  "q": "«Мы есть / мы —»:",
+  "opts": [
+   "sunteți",
+   "suntem",
+   "sunt",
+   "ești"
+  ],
+  "a": 1,
+  "why": "noi suntem."
+ },
+ {
+  "id": "g49",
+  "tag": "shop",
+  "q": "Мягче, чем vreau:",
+  "opts": [
+   "iau",
+   "aș vrea",
+   "am",
+   "fac"
+  ],
+  "a": 1,
+  "why": "aș vrea — я бы хотел."
+ },
+ {
+  "id": "g50",
+  "tag": "em",
+  "q": "Экстренный номер в Румынии:",
+  "opts": [
+   "911",
+   "999",
+   "112",
+   "101"
+  ],
+  "a": 2,
+  "why": "112."
+ },
+ {
+  "id": "g51",
+  "tag": "îâ",
+  "q": "В слове mână в середине:",
+  "opts": [
+   "î",
+   "â",
+   "ă",
+   "a"
+  ],
+  "a": 1,
+  "why": "mână — â."
+ },
+ {
+  "id": "g52",
+  "tag": "pron",
+  "q": "«Наш дом» ближе к:",
+  "opts": [
+   "casa mea",
+   "casa noastră",
+   "casa nostru",
+   "casa vostru"
+  ],
+  "a": 1,
+  "why": "noastră к casa."
+ },
+ {
+  "id": "g53",
+  "tag": "verb",
+  "q": "«Не работает» про вещь:",
+  "opts": [
+   "nu e",
+   "nu merge",
+   "nu are",
+   "nu stă"
+  ],
+  "a": 1,
+  "why": "nu merge."
+ },
+ {
+  "id": "g54",
+  "tag": "dir",
+  "q": "«Назад»:",
+  "opts": [
+   "înainte",
+   "înapoi",
+   "afară",
+   "sus"
+  ],
+  "a": 1,
+  "why": "înapoi."
+ },
+ {
+  "id": "g55",
+  "tag": "time",
+  "q": "«Сегодня»:",
+  "opts": [
+   "mâine",
+   "ieri",
+   "astăzi",
+   "acum noapte"
+  ],
+  "a": 2,
+  "why": "astăzi."
+ },
+ {
+  "id": "g56",
+  "tag": "time",
+  "q": "«Завтра»:",
+  "opts": [
+   "astăzi",
+   "ieri",
+   "mâine",
+   "acum"
+  ],
+  "a": 2,
+  "why": "mâine."
+ },
+ {
+  "id": "g57",
+  "tag": "neg",
+  "q": "«Я не знаю»:",
+  "opts": [
+   "nu știu",
+   "știu nu",
+   "nu am ști",
+   "nu e știu"
+  ],
+  "a": 0,
+  "why": "nu + глагол."
+ },
+ {
+  "id": "g58",
+  "tag": "să",
+  "q": "Выбери правильную связку:",
+  "opts": [
+   "vreau de merg",
+   "vreau să merg",
+   "vreau pentru merg",
+   "vreau la merg"
+  ],
+  "a": 1,
+  "why": "să соединяет."
+ },
+ {
+  "id": "g59",
+  "tag": "art",
+  "q": "«Билет» какого рода?",
+  "opts": [
+   "o bilet",
+   "un bilet",
+   "niște bilet",
+   "biletul o"
+  ],
+  "a": 1,
+  "why": "un bilet."
+ },
+ {
+  "id": "g60",
+  "tag": "polite",
+  "q": "«Спасибо» нейтрально:",
+  "opts": [
+   "cu plăcere",
+   "mulțumesc",
+   "vă rog",
+   "scuze"
+  ],
+  "a": 1,
+  "why": "mulțumesc."
+ },
+ {
+  "id": "g61",
+  "tag": "fi",
+  "q": "«Eu … student.» (я — студент)",
+  "opts": [
+   "sunt",
+   "ești",
+   "este",
+   "suntem"
+  ],
+  "a": 0,
+  "why": "eu sunt — 1-е лицо a fi."
+ },
+ {
+  "id": "g62",
+  "tag": "fi",
+  "q": "Форма a fi для «ты»",
+  "opts": [
+   "sunt",
+   "ești",
+   "este",
+   "suntem"
+  ],
+  "a": 1,
+  "why": "tu ești."
+ },
+ {
+  "id": "g63",
+  "tag": "avea",
+  "q": "«У меня есть время»",
+  "opts": [
+   "eu sunt timp",
+   "am timp",
+   "am este timp",
+   "timp am eu"
+  ],
+  "a": 1,
+  "why": "a avea: eu am."
+ },
+ {
+  "id": "g64",
+  "tag": "neg",
+  "q": "«У меня нет времени»",
+  "opts": [
+   "nu am timp",
+   "nu sunt timp",
+   "am nu timp",
+   "nu avea timp"
+  ],
+  "a": 0,
+  "why": "nu am — у меня нет."
+ },
+ {
+  "id": "g65",
+  "tag": "să",
+  "q": "«Я хочу спать»",
+  "opts": [
+   "vreau dorm",
+   "vreau să dorm",
+   "să vreau dorm",
+   "dorm vreau"
+  ],
+  "a": 1,
+  "why": "vreau să + глагол."
+ },
+ {
+  "id": "g66",
+  "tag": "verb",
+  "q": "«Я учу румынский»",
+  "opts": [
+   "învăț română",
+   "învăț româna",
+   "învăț de româna",
+   "învăț la româna"
+  ],
+  "a": 1,
+  "why": "Прямое дополнение без предлога, с артиклем: româna."
+ },
+ {
+  "id": "g67",
+  "tag": "adj",
+  "q": "Где стоит прилагательное?",
+  "opts": [
+   "перед существительным",
+   "после существительного",
+   "в начале фразы",
+   "не имеет значения"
+  ],
+  "a": 1,
+  "why": "o casă mare — после существительного."
+ },
+ {
+  "id": "g68",
+  "tag": "adj",
+  "q": "«Хорошая книга»",
+  "opts": [
+   "o carte bun",
+   "o carte bună",
+   "un carte bună",
+   "o carte bunul"
+  ],
+  "a": 1,
+  "why": "Женский род: carte bună."
+ },
+ {
+  "id": "g69",
+  "tag": "prep",
+  "q": "«На машине»",
+  "opts": [
+   "în mașina",
+   "pe mașina",
+   "cu mașina",
+   "la mașina"
+  ],
+  "a": 2,
+  "why": "Транспорт — предлог cu."
+ },
+ {
+  "id": "g70",
+  "tag": "prep",
+  "q": "«В парке»",
+  "opts": [
+   "la parc",
+   "în parc",
+   "pe parc",
+   "cu parc"
+  ],
+  "a": 1,
+  "why": "în + пространство."
+ },
+ {
+  "id": "g71",
+  "tag": "prep",
+  "q": "«В школу (на учёбу)»",
+  "opts": [
+   "în școală",
+   "la școală",
+   "pe școală",
+   "cu școală"
+  ],
+  "a": 1,
+  "why": "la + учреждение."
+ },
+ {
+  "id": "g72",
+  "tag": "feel",
+  "q": "«У меня болит голова»",
+  "opts": [
+   "Am cap rău",
+   "Mă doare capul",
+   "Capul meu e rău",
+   "Sunt cu durere"
+  ],
+  "a": 1,
+  "why": "mă doare + часть тела."
+ },
+ {
+  "id": "g73",
+  "tag": "need",
+  "q": "«Мне нужен врач»",
+  "opts": [
+   "Sunt un medic",
+   "Am nevoie de un medic",
+   "Vreau de medic",
+   "Am medic"
+  ],
+  "a": 1,
+  "why": "am nevoie de — мне нужно."
+ },
+ {
+  "id": "g74",
+  "tag": "prep",
+  "q": "«Я живу в Бухаресте»",
+  "opts": [
+   "locuiesc București",
+   "locuiesc în București",
+   "locuiesc la București",
+   "sunt locuit București"
+  ],
+  "a": 1,
+  "why": "locuiesc în + город."
+ },
+ {
+  "id": "g75",
+  "tag": "verb",
+  "q": "«Я ищу, но не нахожу»",
+  "opts": [
+   "caut și găsesc",
+   "caut, dar nu găsesc",
+   "găsesc, dar nu caut",
+   "caut și nu caut"
+  ],
+  "a": 1,
+  "why": "caut — искать, găsesc — находить."
+ },
+ {
+  "id": "g76",
+  "tag": "home",
+  "q": "«Я мою посуду»",
+  "opts": [
+   "spăl vasele",
+   "spăl rufele",
+   "fac vasele",
+   "curăț vasele"
+  ],
+  "a": 0,
+  "why": "spăl vasele — мою посуду; spăl rufele — стираю."
+ },
+ {
+  "id": "g77",
+  "tag": "conj",
+  "q": "«Потому что» по-румынски",
+  "opts": [
+   "deși",
+   "pentru că",
+   "dacă",
+   "ca să"
+  ],
+  "a": 1,
+  "why": "pentru că — потому что."
+ },
+ {
+  "id": "g78",
+  "tag": "conj",
+  "q": "«Я учу, чтобы говорить»",
+  "opts": [
+   "învăț pentru vorbesc",
+   "învăț ca să vorbesc",
+   "învăț de vorbesc",
+   "învăț că vorbesc"
+  ],
+  "a": 1,
+  "why": "ca să — чтобы."
+ },
+ {
+  "id": "g79",
+  "tag": "dir",
+  "q": "«Я выхожу на остановке»",
+  "opts": [
+   "cobor la stație",
+   "urc la stație",
+   "intru la stație",
+   "plec la stație"
+  ],
+  "a": 0,
+  "why": "cobor — спускаться / выходить из транспорта."
+ },
+ {
+  "id": "g80",
+  "tag": "verb",
+  "q": "«Я гуляю»",
+  "opts": [
+   "plimb",
+   "mă plimb",
+   "îmi plimb",
+   "se plimb"
+  ],
+  "a": 1,
+  "why": "Возвратный глагол: mă plimb."
+ },
+ {
+  "id": "g81",
+  "tag": "hobby",
+  "q": "«Я занимаюсь спортом»",
+  "opts": [
+   "joc sport",
+   "fac sport",
+   "am sport",
+   "sunt sport"
+  ],
+  "a": 1,
+  "why": "fac + занятие."
+ },
+ {
+  "id": "g82",
+  "tag": "mod",
+  "q": "«Я могу помочь»",
+  "opts": [
+   "pot să ajut",
+   "trebuie să ajut",
+   "vreau să ajut",
+   "știu să ajut"
+  ],
+  "a": 0,
+  "why": "a putea — мочь: pot să ajut — могу помочь; trebuie — нужно."
+ },
+ {
+  "id": "g83",
+  "tag": "mod",
+  "q": "«Мне нужно уйти»",
+  "opts": [
+   "trebuie să plec",
+   "pot să plec",
+   "vreau să plec",
+   "știu să plec"
+  ],
+  "a": 0,
+  "why": "trebuie să + глагол — нужно что-то сделать."
+ },
+ {
+  "id": "g84",
+  "tag": "ask",
+  "q": "«Можно спросить?»",
+  "opts": [
+   "Pot să întreb?",
+   "Pot să răspund?",
+   "Trebuie să întreb?",
+   "Vreau să răspund?"
+  ],
+  "a": 0,
+  "why": "a întreba — спрашивать, a răspunde — отвечать."
+ },
+ {
+  "id": "g85",
+  "tag": "begin",
+  "q": "«Я закончил работу»",
+  "opts": [
+   "am terminat lucrul",
+   "am început lucrul",
+   "am uitat lucrul",
+   "am repetat lucrul"
+  ],
+  "a": 0,
+  "why": "a termina — заканчивать, a începe — начинать."
+ },
+ {
+  "id": "g86",
+  "tag": "think",
+  "q": "«Думаю, да»",
+  "opts": [
+   "cred că nu",
+   "cred că da",
+   "mă gândesc că da",
+   "știu că da"
+  ],
+  "a": 1,
+  "why": "cred că — думаю, что; mă gândesc la — думаю о."
+ },
+ {
+  "id": "g87",
+  "tag": "lang",
+  "q": "«Я не понимаю это слово»",
+  "opts": [
+   "Nu înțeleg acest cuvânt.",
+   "Nu uit acest cuvânt.",
+   "Nu repet acest cuvânt.",
+   "Nu cred acest cuvânt."
+  ],
+  "a": 0,
+  "why": "a înțelege — понимать, cuvânt — слово."
+ }
+]

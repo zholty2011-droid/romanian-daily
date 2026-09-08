@@ -1,20 +1,40 @@
 {
-  "name": "Romanian Daily",
+  "name": "Romanian Daily — 10 румынских слов в день",
   "short_name": "RO Daily",
-  "description": "10 румынских слов каждый день",
+  "description": "10 румынских слов в день: написание, грамматика, фразы",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f8fafc",
+  "background_color": "#f4efe6",
   "theme_color": "#2563eb",
   "lang": "ru",
+  "dir": "ltr",
+  "categories": ["education", "lifestyle"],
   "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
     {
       "src": "./icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }

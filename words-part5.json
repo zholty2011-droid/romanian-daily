@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "w183",
+  "day": 41,
+  "word": "a spăla",
+  "transcription": "а спэла",
+  "translation": "мыть, стирать",
+  "examples": [
+   {
+    "ro": "Spăl vasele.",
+    "transcription": "спэл васеле",
+    "ru": "Я мою посуду."
+   },
+   {
+    "ro": "Spăl rufele.",
+    "transcription": "спэл руфеле",
+    "ru": "Я стираю бельё."
+   }
+  ]
+ },
+ {
+  "id": "w184",
+  "day": 41,
+  "word": "a curăța",
+  "transcription": "а курэца",
+  "translation": "убирать, чистить",
+  "examples": [
+   {
+    "ro": "Curăț camera.",
+    "transcription": "курэц камера",
+    "ru": "Я убираю комнату."
+   },
+   {
+    "ro": "Curăț apartamentul sâmbăta.",
+    "transcription": "курэц апартаментул сымбэта",
+    "ru": "Я убираю квартиру в субботу."
+   }
+  ]
+ },
+ {
+  "id": "w185",
+  "day": 41,
+  "word": "a cumpăra",
+  "transcription": "а кумпэра",
+  "translation": "покупать",
+  "examples": [
+   {
+    "ro": "Cumpăr pâine.",
+    "transcription": "кумпэр пыйне",
+    "ru": "Я покупаю хлеб."
+   },
+   {
+    "ro": "Cumpărăm bilete.",
+    "transcription": "кумпэрэм билете",
+    "ru": "Мы покупаем билеты."
+   }
+  ]
+ },
+ {
+  "id": "w186",
+  "day": 41,
+  "word": "a plăti",
+  "transcription": "а плэти",
+  "translation": "платить",
+  "examples": [
+   {
+    "ro": "Plătesc cu cardul.",
+    "transcription": "плэтеск ку кардул",
+    "ru": "Я плачу картой."
+   },
+   {
+    "ro": "Cine plătește?",
+    "transcription": "чине плэтеште",
+    "ru": "Кто платит?"
+   }
+  ]
+ },
+ {
+  "id": "w187",
+  "day": 41,
+  "word": "a deschide",
+  "transcription": "а дескиде",
+  "translation": "открывать",
+  "examples": [
+   {
+    "ro": "Deschid ușa.",
+    "transcription": "дескид уша",
+    "ru": "Я открываю дверь."
+   },
+   {
+    "ro": "Deschide fereastra, te rog.",
+    "transcription": "дескиде ферястра те рог",
+    "ru": "Открой окно, пожалуйста."
+   }
+  ]
+ },
+ {
+  "id": "w188",
+  "day": 41,
+  "word": "a închide",
+  "transcription": "а ынкиде",
+  "translation": "закрывать",
+  "examples": [
+   {
+    "ro": "Închid geamul.",
+    "transcription": "ынкид джямул",
+    "ru": "Я закрываю окно."
+   },
+   {
+    "ro": "Magazinul se închide la ora opt.",
+    "transcription": "магазинул се ынкиде ла ора опт",
+    "ru": "Магазин закрывается в восемь."
+   }
+  ]
+ },
+ {
+  "id": "w189",
+  "day": 41,
+  "word": "a căuta",
+  "transcription": "а кэута",
+  "translation": "искать",
+  "examples": [
+   {
+    "ro": "Caut cheile.",
+    "transcription": "каут кеиле",
+    "ru": "Я ищу ключи."
+   },
+   {
+    "ro": "Ce cauți?",
+    "transcription": "че кауць",
+    "ru": "Что ты ищешь?"
+   }
+  ]
+ },
+ {
+  "id": "w190",
+  "day": 41,
+  "word": "a găsi",
+  "transcription": "а гэси",
+  "translation": "находить",
+  "examples": [
+   {
+    "ro": "Am găsit un restaurant bun.",
+    "transcription": "ам гэсит ун рестаурант бун",
+    "ru": "Я нашёл хороший ресторан."
+   },
+   {
+    "ro": "Nu găsesc adresa.",
+    "transcription": "ну гэсеск адреса",
+    "ru": "Я не нахожу адрес."
+   }
+  ]
+ },
+ {
+  "id": "w191",
+  "day": 41,
+  "word": "câine",
+  "transcription": "кыйне",
+  "translation": "собака",
+  "examples": [
+   {
+    "ro": "Am un câine.",
+    "transcription": "ам ун кыйне",
+    "ru": "У меня есть собака."
+   },
+   {
+    "ro": "Câinele aleargă.",
+    "transcription": "кыйнеле алергэ",
+    "ru": "Собака бегает."
+   }
+  ]
+ },
+ {
+  "id": "w192",
+  "day": 41,
+  "word": "pisică",
+  "transcription": "писикэ",
+  "translation": "кошка",
+  "examples": [
+   {
+    "ro": "Pisica doarme pe scaun.",
+    "transcription": "писика доарме пе скаун",
+    "ru": "Кошка спит на стуле."
+   },
+   {
+    "ro": "Am două pisici.",
+    "transcription": "ам доуэ писичь",
+    "ru": "У меня две кошки."
+   }
+  ]
+ },
+ {
+  "id": "w193",
+  "day": 42,
+  "word": "pasăre",
+  "transcription": "пасэре",
+  "translation": "птица",
+  "examples": [
+   {
+    "ro": "Pasărea cântă.",
+    "transcription": "пасэря кынтэ",
+    "ru": "Птица поёт."
+   },
+   {
+    "ro": "Păsările zboară.",
+    "transcription": "пэсэриле збоарэ",
+    "ru": "Птицы летают."
+   }
+  ]
+ },
+ {
+  "id": "w194",
+  "day": 42,
+  "word": "pește",
+  "transcription": "пеште",
+  "translation": "рыба",
+  "examples": [
+   {
+    "ro": "Mănânc pește.",
+    "transcription": "мэнынк пеште",
+    "ru": "Я ем рыбу."
+   },
+   {
+    "ro": "Peștele este proaspăt.",
+    "transcription": "пештеле есте проаспэт",
+    "ru": "Рыба свежая."
+   }
+  ]
+ },
+ {
+  "id": "w195",
+  "day": 42,
+  "word": "cal",
+  "transcription": "кал",
+  "translation": "лошадь",
+  "examples": [
+   {
+    "ro": "Calul aleargă repede.",
+    "transcription": "калул алергэ репеде",
+    "ru": "Лошадь бежит быстро."
+   },
+   {
+    "ro": "Un cal alb.",
+    "transcription": "ун кал алб",
+    "ru": "Белая лошадь."
+   }
+  ]
+ },
+ {
+  "id": "w196",
+  "day": 42,
+  "word": "vacă",
+  "transcription": "вакэ",
+  "translation": "корова",
+  "examples": [
+   {
+    "ro": "Lapte de vacă.",
+    "transcription": "лапте де вакэ",
+    "ru": "Коровье молоко."
+   },
+   {
+    "ro": "Vacile dau lapte.",
+    "transcription": "вачиле дау лапте",
+    "ru": "Коровы дают молоко."
+   }
+  ]
+ },
+ {
+  "id": "w197",
+  "day": 42,
+  "word": "pădure",
+  "transcription": "пэдуре",
+  "translation": "лес",
+  "examples": [
+   {
+    "ro": "Pădurea este verde.",
+    "transcription": "пэдуря есте верде",
+    "ru": "Лес зелёный."
+   },
+   {
+    "ro": "Ne plimbăm prin pădure.",
+    "transcription": "не плимбэм прин пэдуре",
+    "ru": "Мы гуляем по лесу."
+   }
+  ]
+ },
+ {
+  "id": "w198",
+  "day": 42,
+  "word": "floare",
+  "transcription": "флоаре",
+  "translation": "цветок",
+  "examples": [
+   {
+    "ro": "Florile sunt frumoase.",
+    "transcription": "флориле сунт фрумоасе",
+    "ru": "Цветы красивые."
+   },
+   {
+    "ro": "Cumpăr flori pentru mama.",
+    "transcription": "кумпэр флорь пентру мама",
+    "ru": "Я покупаю цветы для мамы."
+   }
+  ]
+ },
+ {
+  "id": "w199",
+  "day": 42,
+  "word": "copac",
+  "transcription": "копак",
+  "translation": "дерево",
+  "examples": [
+   {
+    "ro": "Copacul este înalt.",
+    "transcription": "копакул есте ыналт",
+    "ru": "Дерево высокое."
+   },
+   {
+    "ro": "Copacii din parc.",
+    "transcription": "копачий дин парк",
+    "ru": "Деревья в парке."
+   }
+  ]
+ },
+ {
+  "id": "w200",
+  "day": 42,
+  "word": "munte",
+  "transcription": "мунте",
+  "translation": "гора",
+  "examples": [
+   {
+    "ro": "Munții Carpați.",
+    "transcription": "мунций карпаць",
+    "ru": "Карпатские горы."
+   },
+   {
+    "ro": "Mergem la munte.",
+    "transcription": "мержем ла мунте",
+    "ru": "Мы едем в горы."
+   }
+  ]
+ },
+ {
+  "id": "w201",
+  "day": 42,
+  "word": "vacanță",
+  "transcription": "ваканцэ",
+  "translation": "отпуск, каникулы",
+  "examples": [
+   {
+    "ro": "Sunt în vacanță.",
+    "transcription": "сунт ын ваканцэ",
+    "ru": "Я в отпуске."
+   },
+   {
+    "ro": "Vacanța la mare.",
+    "transcription": "ваканца ла маре",
+    "ru": "Отпуск на море."
+   }
+  ]
+ },
+ {
+  "id": "w207",
+  "day": 42,
+  "word": "drum",
+  "transcription": "друм",
+  "translation": "дорога, путь",
+  "examples": [
+   {
+    "ro": "Drumul este lung.",
+    "transcription": "друмул есте лунг",
+    "ru": "Дорога длинная."
+   },
+   {
+    "ro": "Drum bun!",
+    "transcription": "друм бун",
+    "ru": "Счастливого пути!"
+   }
+  ]
+ },
+ {
+  "id": "w208",
+  "day": 43,
+  "word": "a călători",
+  "transcription": "а кэлэтори",
+  "translation": "путешествовать",
+  "examples": [
+   {
+    "ro": "Călătoresc mult.",
+    "transcription": "кэлэтореск мулт",
+    "ru": "Я много путешествую."
+   },
+   {
+    "ro": "Îmi place să călătoresc.",
+    "transcription": "ыми плаче сэ кэлэтореск",
+    "ru": "Мне нравится путешествовать."
+   }
+  ]
+ },
+ {
+  "id": "w209",
+  "day": 43,
+  "word": "viză",
+  "transcription": "визэ",
+  "translation": "виза",
+  "examples": [
+   {
+    "ro": "Am nevoie de viză.",
+    "transcription": "ам невое де визэ",
+    "ru": "Мне нужна виза."
+   },
+   {
+    "ro": "Viza este valabilă.",
+    "transcription": "виза есте валабилэ",
+    "ru": "Виза действительна."
+   }
+  ]
+ },
+ {
+  "id": "w210",
+  "day": 43,
+  "word": "plajă",
+  "transcription": "плажэ",
+  "translation": "пляж",
+  "examples": [
+   {
+    "ro": "Plaja este aproape.",
+    "transcription": "плажа есте апроапе",
+    "ru": "Пляж рядом."
+   },
+   {
+    "ro": "Mergem la plajă.",
+    "transcription": "мержем ла плажэ",
+    "ru": "Мы идём на пляж."
+   }
+  ]
+ },
+ {
+  "id": "w216",
+  "day": 43,
+  "word": "site",
+  "transcription": "сайт",
+  "translation": "сайт",
+  "examples": [
+   {
+    "ro": "Site-ul este în română.",
+    "transcription": "сайтул есте ын ромынэ",
+    "ru": "Сайт на румынском языке."
+   },
+   {
+    "ro": "Am găsit site-ul.",
+    "transcription": "ам гэсит сайтул",
+    "ru": "Я нашёл сайт."
+   }
+  ]
+ },
+ {
+  "id": "w218",
+  "day": 43,
+  "word": "a trimite",
+  "transcription": "а тримите",
+  "translation": "отправлять, посылать",
+  "examples": [
+   {
+    "ro": "Trimit un mesaj.",
+    "transcription": "тримит ун месаж",
+    "ru": "Я отправляю сообщение."
+   },
+   {
+    "ro": "Am trimis scrisoarea.",
+    "transcription": "ам тримис скрисоаря",
+    "ru": "Я отправил письмо."
+   }
+  ]
+ },
+ {
+  "id": "w219",
+  "day": 43,
+  "word": "a descărca",
+  "transcription": "а дескэрка",
+  "translation": "скачивать; разряжать",
+  "examples": [
+   {
+    "ro": "Descarc aplicația.",
+    "transcription": "дескарк апликация",
+    "ru": "Я скачиваю приложение."
+   },
+   {
+    "ro": "Am descărcat filmul.",
+    "transcription": "ам дескэркат филмул",
+    "ru": "Я скачал фильм."
+   }
+  ]
+ },
+ {
+  "id": "w224",
+  "day": 43,
+  "word": "supărat",
+  "transcription": "супэрат",
+  "translation": "расстроенный, сердитый",
+  "examples": [
+   {
+    "ro": "Ești supărat?",
+    "transcription": "ешть супэрат",
+    "ru": "Ты сердишься?"
+   },
+   {
+    "ro": "Nu fi supărat!",
+    "transcription": "ну фи супэрат",
+    "ru": "Не сердись!"
+   }
+  ]
+ },
+ {
+  "id": "w225",
+  "day": 43,
+  "word": "frică",
+  "transcription": "фрикэ",
+  "translation": "страх",
+  "examples": [
+   {
+    "ro": "Mi-e frică.",
+    "transcription": "ми е фрикэ",
+    "ru": "Мне страшно."
+   },
+   {
+    "ro": "Frica de înălțime.",
+    "transcription": "фрика де ынэлциме",
+    "ru": "Боязнь высоты."
+   }
+  ]
+ },
+ {
+  "id": "w226",
+  "day": 43,
+  "word": "iubire",
+  "transcription": "юбире",
+  "translation": "любовь",
+  "examples": [
+   {
+    "ro": "O mare iubire.",
+    "transcription": "о маре юбире",
+    "ru": "Большая любовь."
+   },
+   {
+    "ro": "Iubirea este importantă.",
+    "transcription": "юбиря есте импортантэ",
+    "ru": "Любовь важна."
+   }
+  ]
+ },
+ {
+  "id": "w227",
+  "day": 43,
+  "word": "a iubi",
+  "transcription": "а юби",
+  "translation": "любить",
+  "examples": [
+   {
+    "ro": "Te iubesc.",
+    "transcription": "те юбеск",
+    "ru": "Я тебя люблю."
+   },
+   {
+    "ro": "Iubesc muzica.",
+    "transcription": "юбеск музика",
+    "ru": "Я люблю музыку."
+   }
+  ]
+ },
+ {
+  "id": "w228",
+  "day": 44,
+  "word": "a plăcea",
+  "transcription": "а плэча",
+  "translation": "нравиться",
+  "examples": [
+   {
+    "ro": "Îmi place aici.",
+    "transcription": "ыми плаче айчь",
+    "ru": "Мне здесь нравится."
+   },
+   {
+    "ro": "Îți place cafeaua?",
+    "transcription": "ыць плаче кафауа",
+    "ru": "Тебе нравится кофе?"
+   }
+  ]
+ },
+ {
+  "id": "w229",
+  "day": 44,
+  "word": "a dori",
+  "transcription": "а дори",
+  "translation": "желать, хотеть",
+  "examples": [
+   {
+    "ro": "Doriți ceva?",
+    "transcription": "дориць чева",
+    "ru": "Вы что-нибудь желаете?"
+   },
+   {
+    "ro": "Doresc o cameră.",
+    "transcription": "дореск о камерэ",
+    "ru": "Я хочу комнату."
+   }
+  ]
+ },
+ {
+  "id": "w230",
+  "day": 44,
+  "word": "bucurie",
+  "transcription": "букурие",
+  "translation": "радость",
+  "examples": [
+   {
+    "ro": "Ce bucurie!",
+    "transcription": "че букурие",
+    "ru": "Какая радость!"
+   },
+   {
+    "ro": "Cu bucurie.",
+    "transcription": "ку букурие",
+    "ru": "С радостью."
+   }
+  ]
+ },
+ {
+  "id": "w231",
+  "day": 44,
+  "word": "mereu",
+  "transcription": "мереу",
+  "translation": "всегда",
+  "examples": [
+   {
+    "ro": "El este mereu punctual.",
+    "transcription": "ел есте мереу пунктуал",
+    "ru": "Он всегда пунктуален."
+   },
+   {
+    "ro": "Mereu învăț ceva nou.",
+    "transcription": "мереу ынвэц чева ноу",
+    "ru": "Я всегда учу что-то новое."
+   }
+  ]
+ },
+ {
+  "id": "w232",
+  "day": 44,
+  "word": "niciodată",
+  "transcription": "ничодатэ",
+  "translation": "никогда",
+  "examples": [
+   {
+    "ro": "Nu beau niciodată bere.",
+    "transcription": "ну бяу ничодатэ бере",
+    "ru": "Я никогда не пью пиво."
+   },
+   {
+    "ro": "Niciodată nu e târziu.",
+    "transcription": "ничодатэ ну е тырзиу",
+    "ru": "Никогда не поздно."
+   }
+  ]
+ },
+ {
+  "id": "w233",
+  "day": 44,
+  "word": "des",
+  "transcription": "дес",
+  "translation": "часто",
+  "examples": [
+   {
+    "ro": "Merg des la teatru.",
+    "transcription": "мерг дес ла театру",
+    "ru": "Я часто хожу в театр."
+   },
+   {
+    "ro": "Ne vedem des.",
+    "transcription": "не ведем дес",
+    "ru": "Мы часто видимся."
+   }
+  ]
+ },
+ {
+  "id": "w234",
+  "day": 44,
+  "word": "rar",
+  "transcription": "рар",
+  "translation": "редко",
+  "examples": [
+   {
+    "ro": "Rar mănânc carne.",
+    "transcription": "рар мэнынк карне",
+    "ru": "Я редко ем мясо."
+   },
+   {
+    "ro": "Vin rar aici.",
+    "transcription": "вин рар айчь",
+    "ru": "Я редко здесь бываю."
+   }
+  ]
+ },
+ {
+  "id": "w235",
+  "day": 44,
+  "word": "deja",
+  "transcription": "дежа",
+  "translation": "уже",
+  "examples": [
+   {
+    "ro": "Am deja bilet.",
+    "transcription": "ам дежа билет",
+    "ru": "У меня уже есть билет."
+   },
+   {
+    "ro": "Este deja târziu.",
+    "transcription": "есте дежа тырзиу",
+    "ru": "Уже поздно."
+   }
+  ]
+ },
+ {
+  "id": "w236",
+  "day": 44,
+  "word": "încă",
+  "transcription": "ынкэ",
+  "translation": "ещё",
+  "examples": [
+   {
+    "ro": "Mai am încă o întrebare.",
+    "transcription": "май ам ынкэ о ынтребаре",
+    "ru": "У меня есть ещё один вопрос."
+   },
+   {
+    "ro": "Încă nu am terminat.",
+    "transcription": "ынкэ ну ам терминат",
+    "ru": "Я ещё не закончил."
+   }
+  ]
+ },
+ {
+  "id": "w240",
+  "day": 44,
+  "word": "curând",
+  "transcription": "курынд",
+  "translation": "скоро",
+  "examples": [
+   {
+    "ro": "Ne vedem curând!",
+    "transcription": "не ведем курынд",
+    "ru": "Скоро увидимся!"
+   },
+   {
+    "ro": "Plec curând.",
+    "transcription": "плек курынд",
+    "ru": "Я скоро уезжаю."
+   }
+  ]
+ },
+ {
+  "id": "w243",
+  "day": 45,
+  "word": "pentru că",
+  "transcription": "пентру кэ",
+  "translation": "потому что",
+  "examples": [
+   {
+    "ro": "Nu vin pentru că sunt obosit.",
+    "transcription": "ну вин пентру кэ сунт обосит",
+    "ru": "Я не приду, потому что устал."
+   },
+   {
+    "ro": "Învăț pentru că îmi place.",
+    "transcription": "ынвэц пентру кэ ыми плаче",
+    "ru": "Я учу, потому что мне нравится."
+   }
+  ]
+ },
+ {
+  "id": "w244",
+  "day": 45,
+  "word": "dacă",
+  "transcription": "дакэ",
+  "translation": "если",
+  "examples": [
+   {
+    "ro": "Dacă ai timp, vino.",
+    "transcription": "дакэ ай тимп вино",
+    "ru": "Если у тебя есть время, приходи."
+   },
+   {
+    "ro": "Dacă plouă, stăm acasă.",
+    "transcription": "дакэ плоуэ стэм акасэ",
+    "ru": "Если пойдёт дождь, останемся дома."
+   }
+  ]
+ },
+ {
+  "id": "w245",
+  "day": 45,
+  "word": "deci",
+  "transcription": "дечь",
+  "translation": "значит, итак",
+  "examples": [
+   {
+    "ro": "Deci, ne vedem mâine.",
+    "transcription": "дечи не ведем мыйне",
+    "ru": "Значит, увидимся завтра."
+   },
+   {
+    "ro": "Deci ai înțeles.",
+    "transcription": "дечи ай ынцелес",
+    "ru": "Значит, ты понял."
+   }
+  ]
+ },
+ {
+  "id": "w246",
+  "day": 45,
+  "word": "însă",
+  "transcription": "ынсэ",
+  "translation": "однако",
+  "examples": [
+   {
+    "ro": "E târziu, însă mai stau.",
+    "transcription": "е тырзиу ынсэ май стау",
+    "ru": "Поздно, однако я ещё побуду."
+   },
+   {
+    "ro": "E bun, însă scump.",
+    "transcription": "е бун ынсэ скумп",
+    "ru": "Хорошо, однако дорого."
+   }
+  ]
+ },
+ {
+  "id": "w247",
+  "day": 45,
+  "word": "apoi",
+  "transcription": "апой",
+  "translation": "потом, затем",
+  "examples": [
+   {
+    "ro": "Mai întâi mâncăm, apoi plecăm.",
+    "transcription": "май ынтый мынкэм апой плекэм",
+    "ru": "Сначала поедим, потом уедем."
+   },
+   {
+    "ro": "Apoi ce facem?",
+    "transcription": "апой че фачем",
+    "ru": "А потом что мы делаем?"
+   }
+  ]
+ },
+ {
+  "id": "w248",
+  "day": 45,
+  "word": "atunci",
+  "transcription": "атунчь",
+  "translation": "тогда, в таком случае",
+  "examples": [
+   {
+    "ro": "Atunci plec.",
+    "transcription": "атунчь плек",
+    "ru": "Тогда я ухожу."
+   },
+   {
+    "ro": "Atunci pe mâine.",
+    "transcription": "атунчь пе мыйне",
+    "ru": "Тогда до завтра."
+   }
+  ]
+ },
+ {
+  "id": "w249",
+  "day": 45,
+  "word": "deși",
+  "transcription": "деши",
+  "translation": "хотя",
+  "examples": [
+   {
+    "ro": "Deși e târziu, lucrez.",
+    "transcription": "дешь е тырзиу лукрез",
+    "ru": "Хотя поздно, я работаю."
+   },
+   {
+    "ro": "Ies, deși plouă.",
+    "transcription": "иес дешь плоуэ",
+    "ru": "Я выйду, хотя идёт дождь."
+   }
+  ]
+ },
+ {
+  "id": "w250",
+  "day": 45,
+  "word": "ca să",
+  "transcription": "ка сэ",
+  "translation": "чтобы",
+  "examples": [
+   {
+    "ro": "Învăț ca să vorbesc.",
+    "transcription": "ынвэц ка сэ ворбеск",
+    "ru": "Я учу, чтобы говорить."
+   },
+   {
+    "ro": "Vin ca să te ajut.",
+    "transcription": "вин ка сэ те ажут",
+    "ru": "Я приду, чтобы помочь тебе."
+   }
+  ]
+ },
+ {
+  "id": "w251",
+  "day": 45,
+  "word": "în",
+  "transcription": "ын",
+  "translation": "в",
+  "examples": [
+   {
+    "ro": "Sunt în casă.",
+    "transcription": "сунт ын касэ",
+    "ru": "Я в доме."
+   },
+   {
+    "ro": "În România.",
+    "transcription": "ын ромыниа",
+    "ru": "В Румынии."
+   }
+  ]
+ },
+ {
+  "id": "w252",
+  "day": 45,
+  "word": "pe",
+  "transcription": "пе",
+  "translation": "на",
+  "examples": [
+   {
+    "ro": "Cartea este pe masă.",
+    "transcription": "картя есте пе масэ",
+    "ru": "Книга на столе."
+   },
+   {
+    "ro": "Pe stradă.",
+    "transcription": "пе страдэ",
+    "ru": "На улице."
+   }
+  ]
+ },
+ {
+  "id": "w253",
+  "day": 46,
+  "word": "la",
+  "transcription": "ла",
+  "translation": "в, к, у",
+  "examples": [
+   {
+    "ro": "Merg la școală.",
+    "transcription": "мерг ла шкоалэ",
+    "ru": "Я иду в школу."
+   },
+   {
+    "ro": "Sunt la Maria.",
+    "transcription": "сунт ла мариа",
+    "ru": "Я у Марии."
+   }
+  ]
+ },
+ {
+  "id": "w259",
+  "day": 46,
+  "word": "lângă",
+  "transcription": "лынгэ",
+  "translation": "рядом с",
+  "examples": [
+   {
+    "ro": "Stau lângă tine.",
+    "transcription": "стау лынгэ тине",
+    "ru": "Я сижу рядом с тобой."
+   },
+   {
+    "ro": "Lângă fereastră.",
+    "transcription": "лынгэ ферястрэ",
+    "ru": "Рядом с окном."
+   }
+  ]
+ },
+ {
+  "id": "w260",
+  "day": 46,
+  "word": "între",
+  "transcription": "ынтре",
+  "translation": "между",
+  "examples": [
+   {
+    "ro": "Între noi.",
+    "transcription": "ынтре ной",
+    "ru": "Между нами."
+   },
+   {
+    "ro": "Între gară și hotel.",
+    "transcription": "ынтре гарэ ши хотел",
+    "ru": "Между вокзалом и отелем."
+   }
+  ]
+ },
+ {
+  "id": "w263",
+  "day": 46,
+  "word": "a costa",
+  "transcription": "а коста",
+  "translation": "стоить",
+  "examples": [
+   {
+    "ro": "Cât costă?",
+    "transcription": "кыт костэ",
+    "ru": "Сколько стоит?"
+   },
+   {
+    "ro": "Costă zece lei.",
+    "transcription": "костэ зече лей",
+    "ru": "Это стоит десять леев."
+   }
+  ]
+ },
+ {
+  "id": "w267",
+  "day": 46,
+  "word": "chitanță",
+  "transcription": "китанцэ",
+  "translation": "чек, квитанция",
+  "examples": [
+   {
+    "ro": "Chitanța, vă rog.",
+    "transcription": "китанца вэ рог",
+    "ru": "Чек, пожалуйста."
+   },
+   {
+    "ro": "Păstrează chitanța.",
+    "transcription": "пэстрязэ китанца",
+    "ru": "Сохрани чек."
+   }
+  ]
+ },
+ {
+  "id": "w268",
+  "day": 46,
+  "word": "a economisi",
+  "transcription": "а економиси",
+  "translation": "копить, экономить",
+  "examples": [
+   {
+    "ro": "Economisesc bani.",
+    "transcription": "економисеск бань",
+    "ru": "Я коплю деньги."
+   },
+   {
+    "ro": "Vreau să economisesc.",
+    "transcription": "вряу сэ економисеск",
+    "ru": "Я хочу копить."
+   }
+  ]
+ },
+ {
+  "id": "w269",
+  "day": 46,
+  "word": "a vinde",
+  "transcription": "а винде",
+  "translation": "продавать",
+  "examples": [
+   {
+    "ro": "Vindem casa.",
+    "transcription": "виндем каса",
+    "ru": "Мы продаём дом."
+   },
+   {
+    "ro": "Aici se vinde pâine.",
+    "transcription": "айчь се винде пыйне",
+    "ru": "Здесь продаётся хлеб."
+   }
+  ]
+ },
+ {
+  "id": "w270",
+  "day": 46,
+  "word": "a alege",
+  "transcription": "а алеже",
+  "translation": "выбирать",
+  "examples": [
+   {
+    "ro": "Alege tu.",
+    "transcription": "алеже ту",
+    "ru": "Выбирай ты."
+   },
+   {
+    "ro": "Ce alegi?",
+    "transcription": "че алежь",
+    "ru": "Что ты выбираешь?"
+   }
+  ]
+ },
+ {
+  "id": "w271",
+  "day": 46,
+  "word": "a pleca",
+  "transcription": "а плека",
+  "translation": "уходить, уезжать",
+  "examples": [
+   {
+    "ro": "Plec acasă.",
+    "transcription": "плек акасэ",
+    "ru": "Я иду домой."
+   },
+   {
+    "ro": "Când pleci?",
+    "transcription": "кынд плечь",
+    "ru": "Когда ты уезжаешь?"
+   }
+  ]
+ },
+ {
+  "id": "w272",
+  "day": 46,
+  "word": "a ajunge",
+  "transcription": "а ажунже",
+  "translation": "прибывать, добираться",
+  "examples": [
+   {
+    "ro": "Ajung la ora opt.",
+    "transcription": "ажунг ла ора опт",
+    "ru": "Я приезжаю в восемь."
+   },
+   {
+    "ro": "Am ajuns!",
+    "transcription": "ам ажунс",
+    "ru": "Я добрался!"
+   }
+  ]
+ },
+ {
+  "id": "w273",
+  "day": 47,
+  "word": "a intra",
+  "transcription": "а интра",
+  "translation": "входить",
+  "examples": [
+   {
+    "ro": "Intru în casă.",
+    "transcription": "интру ын касэ",
+    "ru": "Я вхожу в дом."
+   },
+   {
+    "ro": "Intrați, vă rog.",
+    "transcription": "интраць вэ рог",
+    "ru": "Входите, пожалуйста."
+   }
+  ]
+ },
+ {
+  "id": "w274",
+  "day": 47,
+  "word": "a ieși",
+  "transcription": "а йеши",
+  "translation": "выходить",
+  "examples": [
+   {
+    "ro": "Ies din casă.",
+    "transcription": "иес дин касэ",
+    "ru": "Я выхожу из дома."
+   },
+   {
+    "ro": "Ieșim în oraș.",
+    "transcription": "иешим ын ораш",
+    "ru": "Мы выходим в город."
+   }
+  ]
+ },
+ {
+  "id": "w275",
+  "day": 47,
+  "word": "a urca",
+  "transcription": "а урка",
+  "translation": "подниматься, садиться (в транспорт)",
+  "examples": [
+   {
+    "ro": "Urc scările.",
+    "transcription": "урк скэриле",
+    "ru": "Я поднимаюсь по лестнице."
+   },
+   {
+    "ro": "Urcă în autobuz.",
+    "transcription": "уркэ ын аутобуз",
+    "ru": "Он садится в автобус."
+   }
+  ]
+ },
+ {
+  "id": "w276",
+  "day": 47,
+  "word": "a coborî",
+  "transcription": "а коборы",
+  "translation": "спускаться, выходить",
+  "examples": [
+   {
+    "ro": "Cobor la stația următoare.",
+    "transcription": "кобор ла стациа урмэтоаре",
+    "ru": "Я выхожу на следующей остановке."
+   },
+   {
+    "ro": "Coborâm scările.",
+    "transcription": "коборым скэриле",
+    "ru": "Мы спускаемся по лестнице."
+   }
+  ]
+ },
+ {
+  "id": "w277",
+  "day": 47,
+  "word": "a sta",
+  "transcription": "а ста",
+  "translation": "сидеть, стоять, находиться",
+  "examples": [
+   {
+    "ro": "Stai aici.",
+    "transcription": "стай айчь",
+    "ru": "Оставайся здесь."
+   },
+   {
+    "ro": "Stau acasă.",
+    "transcription": "стау акасэ",
+    "ru": "Я остаюсь дома."
+   }
+  ]
+ },
+ {
+  "id": "w278",
+  "day": 47,
+  "word": "a alerga",
+  "transcription": "а алерга",
+  "translation": "бегать",
+  "examples": [
+   {
+    "ro": "Alerg în parc.",
+    "transcription": "алерг ын парк",
+    "ru": "Я бегаю в парке."
+   },
+   {
+    "ro": "Alergăm dimineața.",
+    "transcription": "алергэм диминяца",
+    "ru": "Мы бегаем по утрам."
+   }
+  ]
+ },
+ {
+  "id": "w279",
+  "day": 47,
+  "word": "a se plimba",
+  "transcription": "а се плимба",
+  "translation": "гулять",
+  "examples": [
+   {
+    "ro": "Mă plimb prin oraș.",
+    "transcription": "мэ плимб прин ораш",
+    "ru": "Я гуляю по городу."
+   },
+   {
+    "ro": "Ne plimbăm seara.",
+    "transcription": "не плимбэм сяра",
+    "ru": "Мы гуляем по вечерам."
+   }
+  ]
+ },
+ {
+  "id": "w280",
+  "day": 47,
+  "word": "a se întoarce",
+  "transcription": "а се ынтоарче",
+  "translation": "возвращаться",
+  "examples": [
+   {
+    "ro": "Mă întorc la ora cinci.",
+    "transcription": "мэ ынторк ла ора чинчь",
+    "ru": "Я возвращаюсь в пять."
+   },
+   {
+    "ro": "Ne întoarcem mâine.",
+    "transcription": "не ынтоарчем мыйне",
+    "ru": "Мы возвращаемся завтра."
+   }
+  ]
+ },
+ {
+  "id": "w281",
+  "day": 47,
+  "word": "film",
+  "transcription": "филм",
+  "translation": "фильм",
+  "examples": [
+   {
+    "ro": "Un film bun.",
+    "transcription": "ун филм бун",
+    "ru": "Хороший фильм."
+   },
+   {
+    "ro": "Vedem un film diseară.",
+    "transcription": "ведем ун филм дисерэ",
+    "ru": "Посмотрим фильм сегодня вечером."
+   }
+  ]
+ },
+ {
+  "id": "w282",
+  "day": 47,
+  "word": "muzică",
+  "transcription": "музикэ",
+  "translation": "музыка",
+  "examples": [
+   {
+    "ro": "Muzica românească.",
+    "transcription": "музика ромыняскэ",
+    "ru": "Румынская музыка."
+   },
+   {
+    "ro": "Muzica este tare.",
+    "transcription": "музика есте таре",
+    "ru": "Музыка громкая."
+   }
+  ]
+ },
+ {
+  "id": "w283",
+  "day": 48,
+  "word": "sport",
+  "transcription": "спорт",
+  "translation": "спорт",
+  "examples": [
+   {
+    "ro": "Fac sport.",
+    "transcription": "фак спорт",
+    "ru": "Я занимаюсь спортом."
+   },
+   {
+    "ro": "Îmi place sportul.",
+    "transcription": "ыми плаче спортул",
+    "ru": "Мне нравится спорт."
+   }
+  ]
+ },
+ {
+  "id": "w284",
+  "day": 48,
+  "word": "joc",
+  "transcription": "жок",
+  "translation": "игра",
+  "examples": [
+   {
+    "ro": "Jocul este interesant.",
+    "transcription": "жокул есте интересэнт",
+    "ru": "Игра интересная."
+   },
+   {
+    "ro": "Un joc pe telefon.",
+    "transcription": "ун жок пе телефон",
+    "ru": "Игра на телефоне."
+   }
+  ]
+ },
+ {
+  "id": "w285",
+  "day": 48,
+  "word": "a cânta",
+  "transcription": "а кынта",
+  "translation": "петь",
+  "examples": [
+   {
+    "ro": "Cânt un cântec.",
+    "transcription": "кынт ун кынтек",
+    "ru": "Я пою песню."
+   },
+   {
+    "ro": "Ea cântă frumos.",
+    "transcription": "еа кынтэ фрумос",
+    "ru": "Она красиво поёт."
+   }
+  ]
+ },
+ {
+  "id": "w286",
+  "day": 48,
+  "word": "a dansa",
+  "transcription": "а данса",
+  "translation": "танцевать",
+  "examples": [
+   {
+    "ro": "Dansăm toată seara.",
+    "transcription": "дансэм тоатэ сяра",
+    "ru": "Мы танцуем весь вечер."
+   },
+   {
+    "ro": "Îmi place să dansez.",
+    "transcription": "ыми плаче сэ дансез",
+    "ru": "Мне нравится танцевать."
+   }
+  ]
+ },
+ {
+  "id": "w287",
+  "day": 48,
+  "word": "a juca",
+  "transcription": "а жука",
+  "translation": "играть",
+  "examples": [
+   {
+    "ro": "Copiii se joacă.",
+    "transcription": "копиий се жоакэ",
+    "ru": "Дети играют."
+   },
+   {
+    "ro": "Jucăm fotbal.",
+    "transcription": "жукэм футбал",
+    "ru": "Мы играем в футбол."
+   }
+  ]
+ },
+ {
+  "id": "w288",
+  "day": 48,
+  "word": "a privi",
+  "transcription": "а приви",
+  "translation": "смотреть",
+  "examples": [
+   {
+    "ro": "Privesc televizorul.",
+    "transcription": "привеск телевизорул",
+    "ru": "Я смотрю телевизор."
+   },
+   {
+    "ro": "Privește pe fereastră.",
+    "transcription": "привеште пе ферястрэ",
+    "ru": "Он смотрит в окно."
+   }
+  ]
+ },
+ {
+  "id": "w289",
+  "day": 48,
+  "word": "a asculta",
+  "transcription": "а аскулта",
+  "translation": "слушать",
+  "examples": [
+   {
+    "ro": "Te ascult.",
+    "transcription": "те аскулт",
+    "ru": "Я тебя слушаю."
+   },
+   {
+    "ro": "Ascult radioul.",
+    "transcription": "аскулт радиоул",
+    "ru": "Я слушаю радио."
+   }
+  ]
+ },
+ {
+  "id": "w290",
+  "day": 48,
+  "word": "teatru",
+  "transcription": "театру",
+  "translation": "театр",
+  "examples": [
+   {
+    "ro": "Mergem la teatru.",
+    "transcription": "мержем ла театру",
+    "ru": "Мы идём в театр."
+   },
+   {
+    "ro": "Teatrul este în centru.",
+    "transcription": "театрул есте ын чентру",
+    "ru": "Театр в центре."
+   }
+  ]
+ },
+ {
+  "id": "w292",
+  "day": 48,
+  "word": "răspuns",
+  "transcription": "рэспунс",
+  "translation": "ответ",
+  "examples": [
+   {
+    "ro": "Aștept un răspuns.",
+    "transcription": "аштепт ун рэспунс",
+    "ru": "Я жду ответа."
+   },
+   {
+    "ro": "Răspunsul este corect.",
+    "transcription": "рэспунсул есте корект",
+    "ru": "Ответ правильный."
+   }
+  ]
+ },
+ {
+  "id": "w293",
+  "day": 48,
+  "word": "întrebare",
+  "transcription": "ынтребаре",
+  "translation": "вопрос",
+  "examples": [
+   {
+    "ro": "Am o întrebare.",
+    "transcription": "ам о ынтребаре",
+    "ru": "У меня вопрос."
+   },
+   {
+    "ro": "O întrebare dificilă.",
+    "transcription": "о ынтребаре дифичилэ",
+    "ru": "Трудный вопрос."
+   }
+  ]
+ },
+ {
+  "id": "w294",
+  "day": 49,
+  "word": "exemplu",
+  "transcription": "екземплу",
+  "translation": "пример",
+  "examples": [
+   {
+    "ro": "De exemplu.",
+    "transcription": "де екземплу",
+    "ru": "Например."
+   },
+   {
+    "ro": "Un exemplu bun.",
+    "transcription": "ун екземплу бун",
+    "ru": "Хороший пример."
+   }
+  ]
+ },
+ {
+  "id": "w295",
+  "day": 49,
+  "word": "idee",
+  "transcription": "идее",
+  "translation": "идея",
+  "examples": [
+   {
+    "ro": "O idee bună.",
+    "transcription": "о идее бунэ",
+    "ru": "Хорошая идея."
+   },
+   {
+    "ro": "Am o idee!",
+    "transcription": "ам о идее",
+    "ru": "У меня есть идея!"
+   }
+  ]
+ },
+ {
+  "id": "w297",
+  "day": 49,
+  "word": "lucru",
+  "transcription": "лукру",
+  "translation": "вещь, дело",
+  "examples": [
+   {
+    "ro": "Un lucru important.",
+    "transcription": "ун лукру импортант",
+    "ru": "Важная вещь."
+   },
+   {
+    "ro": "Am multe lucruri de făcut.",
+    "transcription": "ам мулте лукрурь де фэкут",
+    "ru": "У меня много дел."
+   }
+  ]
+ },
+ {
+  "id": "w298",
+  "day": 49,
+  "word": "nevoie",
+  "transcription": "невойе",
+  "translation": "нужда, потребность",
+  "examples": [
+   {
+    "ro": "Am nevoie de ajutor.",
+    "transcription": "ам невое де ажутор",
+    "ru": "Мне нужна помощь."
+   },
+   {
+    "ro": "N-am nevoie de nimic.",
+    "transcription": "нам невое де нимик",
+    "ru": "Мне ничего не нужно."
+   }
+  ]
+ },
+ {
+  "id": "w300",
+  "day": 49,
+  "word": "a reuși",
+  "transcription": "а реуши",
+  "translation": "удаваться, получаться",
+  "examples": [
+   {
+    "ro": "Am reușit!",
+    "transcription": "ам реушит",
+    "ru": "У меня получилось!"
+   },
+   {
+    "ro": "Reușești să vii?",
+    "transcription": "реушешть сэ вий",
+    "ru": "Ты сможешь прийти?"
+   }
+  ]
+ },
+ {
+  "id": "w301",
+  "day": 49,
+  "word": "cuvânt",
+  "transcription": "кувынт",
+  "translation": "слово",
+  "examples": [
+   {
+    "ro": "Un cuvânt nou.",
+    "transcription": "ун кувынт ноу",
+    "ru": "Новое слово."
+   },
+   {
+    "ro": "Nu cunosc acest cuvânt.",
+    "transcription": "ну куноск ачест кувынт",
+    "ru": "Я не знаю этого слова."
+   }
+  ]
+ },
+ {
+  "id": "w302",
+  "day": 49,
+  "word": "limbă",
+  "transcription": "лимбэ",
+  "translation": "язык (речь)",
+  "examples": [
+   {
+    "ro": "Limba română.",
+    "transcription": "лимба ромынэ",
+    "ru": "Румынский язык."
+   },
+   {
+    "ro": "Vorbesc două limbi.",
+    "transcription": "ворбеск доуэ лимби",
+    "ru": "Я говорю на двух языках."
+   }
+  ]
+ },
+ {
+  "id": "w303",
+  "day": 49,
+  "word": "a înțelege",
+  "transcription": "а ынцележе",
+  "translation": "понимать",
+  "examples": [
+   {
+    "ro": "Nu înțeleg.",
+    "transcription": "ну ынцелег",
+    "ru": "Я не понимаю."
+   },
+   {
+    "ro": "Înțelegi?",
+    "transcription": "ынцележь",
+    "ru": "Ты понимаешь?"
+   }
+  ]
+ },
+ {
+  "id": "w304",
+  "day": 49,
+  "word": "a uita",
+  "transcription": "а уйта",
+  "translation": "забывать",
+  "examples": [
+   {
+    "ro": "Am uitat cheile.",
+    "transcription": "ам уйтат кейле",
+    "ru": "Я забыл ключи."
+   },
+   {
+    "ro": "Nu uita!",
+    "transcription": "ну уйта",
+    "ru": "Не забудь!"
+   }
+  ]
+ },
+ {
+  "id": "w305",
+  "day": 49,
+  "word": "a repeta",
+  "transcription": "а репета",
+  "translation": "повторять",
+  "examples": [
+   {
+    "ro": "Repetă, te rog.",
+    "transcription": "репетэ те рог",
+    "ru": "Повтори, пожалуйста."
+   },
+   {
+    "ro": "Repet cuvintele seara.",
+    "transcription": "репет кувинтеле сяра",
+    "ru": "Я повторяю слова вечером."
+   }
+  ]
+ },
+ {
+  "id": "w306",
+  "day": 50,
+  "word": "a putea",
+  "transcription": "а путеа",
+  "translation": "мочь",
+  "examples": [
+   {
+    "ro": "Pot să te ajut?",
+    "transcription": "пот сэ те ажут",
+    "ru": "Могу я тебе помочь?"
+   },
+   {
+    "ro": "Nu pot veni azi.",
+    "transcription": "ну пот вени ази",
+    "ru": "Я не могу прийти сегодня."
+   }
+  ]
+ },
+ {
+  "id": "w307",
+  "day": 50,
+  "word": "a trebui",
+  "transcription": "а требуй",
+  "translation": "быть должным, нужно",
+  "examples": [
+   {
+    "ro": "Trebuie să plec.",
+    "transcription": "требуйе сэ плек",
+    "ru": "Мне нужно уйти."
+   },
+   {
+    "ro": "Nu trebuie.",
+    "transcription": "ну требуйе",
+    "ru": "Не нужно."
+   }
+  ]
+ },
+ {
+  "id": "w308",
+  "day": 50,
+  "word": "a întreba",
+  "transcription": "а ынтреба",
+  "translation": "спрашивать",
+  "examples": [
+   {
+    "ro": "Pot să întreb?",
+    "transcription": "пот сэ ынтреб",
+    "ru": "Можно спросить?"
+   },
+   {
+    "ro": "Mă întreabă des.",
+    "transcription": "мэ ынтрябэ дес",
+    "ru": "Он часто меня спрашивает."
+   }
+  ]
+ },
+ {
+  "id": "w309",
+  "day": 50,
+  "word": "a răspunde",
+  "transcription": "а рэспунде",
+  "translation": "отвечать",
+  "examples": [
+   {
+    "ro": "Răspunde la întrebare.",
+    "transcription": "рэспунде ла ынтребаре",
+    "ru": "Он отвечает на вопрос."
+   },
+   {
+    "ro": "Nu răspund la telefon.",
+    "transcription": "ну рэспунд ла телефон",
+    "ru": "Я не отвечаю на телефон."
+   }
+  ]
+ },
+ {
+  "id": "w310",
+  "day": 50,
+  "word": "a ajuta",
+  "transcription": "а ажута",
+  "translation": "помогать",
+  "examples": [
+   {
+    "ro": "Te ajut.",
+    "transcription": "те ажут",
+    "ru": "Я тебе помогаю."
+   },
+   {
+    "ro": "Mă ajuți, te rog?",
+    "transcription": "мэ ажуць те рог",
+    "ru": "Поможешь мне, пожалуйста?"
+   }
+  ]
+ },
+ {
+  "id": "w311",
+  "day": 50,
+  "word": "a începe",
+  "transcription": "а ынчепе",
+  "translation": "начинать",
+  "examples": [
+   {
+    "ro": "Încep la ora nouă.",
+    "transcription": "ынчеп ла ора ноуэ",
+    "ru": "Я начинаю в девять."
+   },
+   {
+    "ro": "Începem acum.",
+    "transcription": "ынчепем акум",
+    "ru": "Мы начинаем сейчас."
+   }
+  ]
+ },
+ {
+  "id": "w312",
+  "day": 50,
+  "word": "a termina",
+  "transcription": "а термина",
+  "translation": "заканчивать",
+  "examples": [
+   {
+    "ro": "Am terminat!",
+    "transcription": "ам терминат",
+    "ru": "Я закончил!"
+   },
+   {
+    "ro": "Termin la ora cinci.",
+    "transcription": "термин ла ора чинчь",
+    "ru": "Я заканчиваю в пять."
+   }
+  ]
+ },
+ {
+  "id": "w313",
+  "day": 50,
+  "word": "sfârșit",
+  "transcription": "сфыршит",
+  "translation": "конец",
+  "examples": [
+   {
+    "ro": "La sfârșit.",
+    "transcription": "ла сфыршит",
+    "ru": "В конце."
+   },
+   {
+    "ro": "Sfârșitul săptămânii.",
+    "transcription": "сфыршитул сэптэмыний",
+    "ru": "Конец недели."
+   }
+  ]
+ },
+ {
+  "id": "w314",
+  "day": 50,
+  "word": "a gândi",
+  "transcription": "а гынди",
+  "translation": "думать",
+  "examples": [
+   {
+    "ro": "La ce te gândești?",
+    "transcription": "ла че те гындешть",
+    "ru": "О чём ты думаешь?"
+   },
+   {
+    "ro": "Mă gândesc la tine.",
+    "transcription": "мэ гындеск ла тине",
+    "ru": "Я думаю о тебе."
+   }
+  ]
+ },
+ {
+  "id": "w315",
+  "day": 50,
+  "word": "a crede",
+  "transcription": "а креде",
+  "translation": "думать, полагать; верить",
+  "examples": [
+   {
+    "ro": "Cred că da.",
+    "transcription": "кред кэ да",
+    "ru": "Думаю, да."
+   },
+   {
+    "ro": "Nu cred.",
+    "transcription": "ну кред",
+    "ru": "Не думаю."
+   }
+  ]
+ }
+]
