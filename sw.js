@@ -1,5 +1,5 @@
 /* Service worker: офлайн-работа приложения. */
-const CACHE = "romanian-daily-v6";
+const CACHE = "romanian-daily-v7";
 
 /* Минимум, без которого приложение не стартует. Есть в репозитории — важно держать список актуальным. */
 const CORE = [
@@ -38,54 +38,50 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("message", (event) => {
-  if (event.data === "SKIP_WAITING") self.skipWaiting();
+  if (event.data && event.data.type === "SKIP_WAITING") self.skipWaiting();
 });
+
+self.addEventListener("fetch", (event) => {
+  const req = event.request;
+  if (req.method !== "GET") return;
+  event.respondWith(handle(req));
+});
+
+async function handle(req) {
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin) return fetch(req);
+  if (req.mode === "navigate") {
+    try {
+      const net = await fetch(req);
+      const c = await caches.open(CACHE);
+      c.put("./index.html", net.clone());
+      return net;
+    } catch {
+      return (await caches.match("./index.html")) || (await caches.match("./")) || Response.error();
+    }
+  }
+  const hit = await caches.match(req);
+  if (hit) {
+    fetch(req).then((res) => {
+      if (res && res.ok) caches.open(CACHE).then((c) => c.put(req, res));
+    }).catch(() => {});
+    return hit;
+  }
+  try {
+    const net = await fetch(req);
+    if (net && net.ok) {
+      const c = await caches.open(CACHE);
+      c.put(req, net.clone());
+    }
+    return net;
+  } catch {
+    return Response.error();
+  }
+}
 
 async function cache(url) {
   const c = await caches.open(CACHE);
-  const res = await fetch(url, { cache: "reload" });
-  if (!res || !res.ok) throw new Error(`Не удалось закэшировать ${url}: ${res?.status}`);
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(url);
   await c.put(url, res);
 }
-
-/** Навигация: сначала сеть (чтобы быстро получать обновления), при офлайне — кэш. */
-async function networkFirst(request) {
-  try {
-    const res = await fetch(request);
-    if (res && res.status === 200) {
-      const c = await caches.open(CACHE);
-      c.put(request, res.clone());
-    }
-    return res;
-  } catch (e) {
-    const cached = await caches.match(request);
-    return cached || (await caches.match("./index.html")) || Response.error();
-  }
-}
-
-/** Ресурсы: отдаём из кэша и параллельно обновляем (stale-while-revalidate). */
-async function staleWhileRevalidate(request) {
-  const c = await caches.open(CACHE);
-  const cached = await c.match(request);
-  const network = fetch(request)
-    .then((res) => {
-      if (res && res.status === 200) c.put(request, res.clone());
-      return res;
-    })
-    .catch(() => null);
-  return cached || (await network) || Response.error();
-}
-
-self.addEventListener("fetch", (event) => {
-  const { request } = event;
-  if (request.method !== "GET") return;
-
-  const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return; // CDN, аналитика и т.п. — мимо
-
-  if (request.mode === "navigate") {
-    event.respondWith(networkFirst(request));
-    return;
-  }
-  event.respondWith(staleWhileRevalidate(request));
-});
