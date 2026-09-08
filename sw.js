@@ -1,11 +1,11 @@
 /* Service worker: офлайн-работа приложения. */
-const CACHE = "romanian-daily-v7";
+const CACHE = "romanian-daily-v8";
 
-/* Минимум, без которого приложение не стартует. Есть в репозитории — важно держать список актуальным. */
 const CORE = [
   "./",
   "./index.html",
   "./app.js",
+  "./app-srs.js",
   "./styles.css",
   "./manifest.json",
   "./icon.svg",
