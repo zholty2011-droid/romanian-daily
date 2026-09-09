@@ -1,0 +1,6 @@
+{
+  "name": "Romanian Daily",
+  "description": "10 Romanian words a day with grammar, phrases, quizzes, and spaced repetition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

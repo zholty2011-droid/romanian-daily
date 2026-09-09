@@ -1,0 +1,31 @@
+package com.aistudio.romaniandaily.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val ParchmentLight = Color(0xFFF4EFE6)
+val PaperLight = Color(0xFFFFFAF3)
+val SurfaceVariantLight = Color(0xFFEBE4D8)
+val SpruceGreenLight = Color(0xFF2F5D50)
+val SpruceSoftLight = Color(0xFFE4EEE9)
+val TerracottaLight = Color(0xFFC45C26)
+val GoodGreenLight = Color(0xFF2F7D4A)
+val GoodGreenSoftLight = Color(0xFFE5F4EA)
+val BadRedLight = Color(0xFFB42318)
+val BadRedSoftLight = Color(0xFFFDE8E6)
+val InkLight = Color(0xFF1C1916)
+val MutedLight = Color(0xFF7A7168)
+val LineLight = Color(0x1A1C1916)
+
+val CharcoalDark = Color(0xFF161412)
+val PaperDark = Color(0xFF1E1B18)
+val SurfaceVariantDark = Color(0xFF2B2723)
+val SpruceGreenDark = Color(0xFF8FBFB0)
+val SpruceSoftDark = Color(0xFF24302C)
+val TerracottaDark = Color(0xFFE89A63)
+val GoodGreenDark = Color(0xFF7DCE9A)
+val GoodGreenSoftDark = Color(0xFF24352B)
+val BadRedDark = Color(0xFFFF8D85)
+val BadRedSoftDark = Color(0xFF3A2422)
+val InkDark = Color(0xFFF3ECE3)
+val MutedDark = Color(0xFFB3A89C)
+val LineDark = Color(0x26F3ECE3)
