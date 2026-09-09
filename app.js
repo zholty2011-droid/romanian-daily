@@ -533,7 +533,7 @@ function cardsView(){
     <div class="muted"><span>Карточка ${state.quizIndex+1}/${state.quiz.length}</span></div>
     <div class="bar light"><i style="width:${((state.quizIndex+1)/state.quiz.length)*100}%"></i></div>
     <div class="flip">
-      <div class="flip-ro">${esc(w.word)} ${speakerBtn(w.word,"spk")}</div>
+      <div class="flip-ro"><span class="flip-text">${esc(w.word)}</span> ${speakerBtn(w.word,"spk")}</div>
       ${state.revealed?`<div class="flip-ru">${esc(w.translation)}<div class="tr">[${esc(w.transcription||"")}]</div></div>`:`<div class="ghost-hint">Сначала вспомни перевод</div>`}
     </div>
     ${dock(state.revealed
@@ -572,7 +572,7 @@ function examplesView(){
     ${(()=>{const st=exampleStatus(w.id, ex.ro); return st?`<div class="ex-mark ${st}">${st==="know"?"Уже отмечал: знаю":"Уже отмечал: не помню"}</div>`:"";})()}
     <div class="bar light"><i style="width:${((state.quizIndex+1)/state.quiz.length)*100}%"></i></div>
     <div class="flip">
-      <div class="flip-ro" style="font-size:26px">${esc(ex.ro)} ${speakerBtn(ex.ro,"spk")}</div>
+      <div class="flip-ro" style="font-size:26px"><span class="flip-text">${esc(ex.ro)}</span> ${speakerBtn(ex.ro,"spk")}</div>
       <p class="tr">[${esc(ex.transcription||w.transcription||"")}]</p>
       ${state.revealed
         ? `<div class="flip-ru">${esc(ex.ru||"")}<div class="tr">${esc(w.word)} — ${esc(w.translation)}</div></div>`
@@ -627,7 +627,7 @@ function letterPad(expect){
   return `<div class="letter-pad">
       <div class="typed">${esc(state.typeAnswer)||'<span class="ghost">слово появится здесь</span>'}</div>
       <div class="bank">${bank}</div>
-      <div class="diac">${dia}<button type="button" data-act="backspace" class="tilech del">⌫</button></div>
+      <div class="diac">${dia}<button type="button" data-act="space" class="tilech space">Пробел</button><button type="button" data-act="backspace" class="tilech del">⌫</button></div>
     </div>`;
 }
 function writeView(){
@@ -696,6 +696,21 @@ function grammarView(){
   }).join("");
   return `<div class="page"><button data-go="home" class="ghost-link">← Назад</button><h2 class="h2">Грамматика</h2><button data-act="gquiz" class="btn btn-blue">Пройти тест</button>${items}</div>`;
 }
+function dayGrammarView(){
+  const day=state.progress.currentDay;
+  const g=grammarFor(day);
+  return `<div class="page day-step-page">
+    <div class="muted"><span>День ${day}</span><span>шаг ${state.dayStep+1}/${state.daySteps.length}</span></div>
+    <div class="bar light"><i style="width:75%"></i></div>
+    <h2 class="h2">Грамматика дня</h2>
+    <div class="gbox day-grammar-box">
+      <h3>${esc(g[0]||"Правило дня")}</h3>
+      <ul>${g.slice(1).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    </div>
+    <p class="hint">Прочитай правило, затем проверь себя в коротком тесте.</p>
+    <button data-act="day-grammar-quiz" class="btn btn-blue">Пройти мини-тест</button>
+  </div>`;
+}
 function startExam(){
   const pool=state.words.filter(w=>w.day<=state.progress.currentDay);
   const list=pool.length>=8?pool:state.words;
@@ -759,10 +774,11 @@ function phraseStudyView(){
   }
   const p=state.quiz[state.quizIndex].phrase;
   return `<div class="page study">
+    ${state.dayFlow?`<h2 class="h2">Фразы дня</h2>`:""}
     <div class="muted"><span>Фраза ${state.quizIndex+1}/${state.quiz.length}</span><span>${p.place==="home"?"дом":"на людях"}</span></div>
     <div class="bar light"><i style="width:${((state.quizIndex+1)/state.quiz.length)*100}%"></i></div>
     <div class="flip">
-      <div class="flip-ro" style="font-size:26px">${esc(p.ro)} ${speakerBtn(p.ro,"spk")}</div>
+      <div class="flip-ro" style="font-size:26px"><span class="flip-text">${esc(p.ro)}</span> ${speakerBtn(p.ro,"spk")}</div>
       ${state.revealed?`<div class="flip-ru">${esc(p.ru)}</div>`:`<div class="ghost-hint">Что это значит?</div>`}
     </div>
     ${dock(state.revealed
@@ -788,7 +804,7 @@ function phraseWriteView(){
     <input id="type-box" class="typebox" value="${esc(state.typeAnswer)}" placeholder="scrie în română" ${state.typeChecked!==null?"disabled":""} autocomplete="off">
     <div class="letter-pad">
       <div class="typed">${esc(state.typeAnswer)||'<span class="ghost">фраза появится здесь</span>'}</div>
-      <div class="diac">${["ă","â","î","ș","ț"].map(ch=>`<button type="button" data-act="dia" data-ch="${ch}">${ch}</button>`).join("")}<button type="button" data-act="backspace" class="tilech del">⌫</button></div>
+      <div class="diac">${["ă","â","î","ș","ț"].map(ch=>`<button type="button" data-act="dia" data-ch="${ch}">${ch}</button>`).join("")}<button type="button" data-act="space" class="tilech space">Пробел</button><button type="button" data-act="backspace" class="tilech del">⌫</button></div>
     </div>
     ${fb}
     ${state.typeChecked===null
@@ -836,6 +852,7 @@ function renderApp(){
   else if(state.view==="examples") main=examplesView();
   else if(state.view==="write") main=writeView();
   else if(state.view==="grammar") main=grammarView();
+  else if(state.view==="day-grammar") main=dayGrammarView();
   else if(state.view==="gquiz") main=gquizView();
   else if(state.view==="phrases") main=phrasesView();
   else if(state.view==="phrase") main=phraseStudyView();
@@ -860,10 +877,9 @@ function toggleLearned(id){
   setProgress({...state.progress, learnedWordIds:ids});
 }
 function startDayFlow(){
-  const mix=Math.random()<0.3;
-  state.daySteps=mix
-    ? shuffle(["words","spell","grammar","phrases"])
-    : ["words","spell","grammar","phrases"];
+  // Фиксированный порядок помогает пройти все части дня и не пропустить
+  // грамматику или фразы.
+  state.daySteps=["words","spell","grammar","phrases"];
   state.dayStep=0;
   state.dayFlow=state.daySteps[0];
   runDayStep();
@@ -879,7 +895,8 @@ function runDayStep(){
     state.spellMode=true; state.quizDir="ru-ro"; startWrite("day"); return;
   }
   if(step==="grammar"){
-    state.gq=dayGrammarQs(); state.gqIndex=0; state.gqPicked=null; state.view="gquiz"; render(); return;
+    // Сначала показываем правило дня, затем запускаем его мини-тест.
+    state.view="day-grammar"; render(); return;
   }
   if(step==="phrases"){
     const list=dayPhrases();
@@ -1038,6 +1055,10 @@ root.addEventListener("click", async (e)=>{
   if(act==="qs-c-6"){ state.quizSet={...state.quizSet,choices:6}; saveProgress({...state.progress,quizSet:state.quizSet}); render(); }
   if(act==="qs-mix"){ state.quizSet={...state.quizSet,mix:!state.quizSet.mix}; saveProgress({...state.progress,quizSet:state.quizSet}); render(); }
   if(act==="gquiz") startGrammarQuiz();
+  if(act==="day-grammar-quiz"){
+    state.gq=dayGrammarQs();
+    state.gqIndex=0; state.gqPicked=null; state.view="gquiz"; render();
+  }
   if(act==="gquiz-day"){
     state.gq=dayGrammarQs();
     state.gqIndex=0; state.gqPicked=null; state.view="gquiz"; render();
@@ -1055,10 +1076,11 @@ root.addEventListener("click", async (e)=>{
   if(act==="pf-home"){ state.phraseFilter="home"; render(); }
   if(act==="pf-out"){ state.phraseFilter="out"; render(); }
   if(act==="phrase-next"){ state.quizIndex+=1; state.revealed=false; state.choice=null; render(); }
-  if(act==="dia" || act==="backspace"){
+  if(act==="dia" || act==="space" || act==="backspace"){
     const box=document.getElementById("type-box");
     if(box && state.typeChecked===null){
       if(act==="backspace") box.value=(box.value||"").slice(0,-1);
+      else if(act==="space") box.value=(box.value||"")+" ";
       else box.value=(box.value||"")+(t.getAttribute("data-ch")||"");
       state.typeAnswer=box.value;
       const preview=document.querySelector(".typed");

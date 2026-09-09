@@ -120,11 +120,25 @@ check(text().includes("День 1"), "Главная: «День 1»");
 check(has("Начать день"), "Главная: кнопка «Начать день»");
 check(!doc.querySelector('script[src*="cdn.tailwindcss.com"]'), "Внешних CDN нет");
 
-// «Начать день» запускает поток дня; порядок шагов иногда перемешивается (фича),
-// поэтому вид после клика не фиксируем
+// «Начать день» запускает поток дня с обязательного шага слов
 click("Начать день");
 const flowView = window.eval("state.view");
-check(flowView !== "home", `«Начать день» запускает шаг дня (${flowView})`);
+check(flowView === "lesson", `«Начать день» начинает со слов (${flowView})`);
+
+// В потоке дня должны быть отдельные правило грамматики и фразы.
+window.eval('state.daySteps=["words","spell","grammar","phrases"]; state.dayStep=2; runDayStep();');
+check(window.eval("state.view") === "day-grammar", "День: после написания открывается грамматика дня");
+check(text().includes("Грамматика дня") && text().includes("Приветствие и вежливость"), "День: показывается правило текущего дня");
+click("Пройти мини-тест");
+check(window.eval("state.view") === "gquiz", "День: у грамматики есть мини-тест");
+window.eval('state.dayStep=3; runDayStep();');
+check(window.eval("state.view") === "phrase" && text().includes("Фразы дня"), "День: после грамматики открываются фразы дня");
+
+// Кнопка «Пробел» доступна в задании на написание.
+window.eval('state.dayFlow=null; state.spellMode=true; state.quiz=[{word:state.words[0]}]; state.quizIndex=0; state.typeAnswer=""; state.typeChecked=null; state.view="write"; render();');
+check(has("Пробел"), "Написание: есть кнопка «Пробел»");
+click("Пробел");
+check(window.eval("state.typeAnswer") === " ", "Написание: кнопка добавляет пробел");
 
 // урок слов открываем детерминированно — кнопкой «+» в нижнем меню
 go("home");

@@ -14,7 +14,12 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (name) => readFile(join(ROOT, name), "utf8");
 const PACK_MAX = 12;
 
-const [html, css, app] = await Promise.all([read("index.html"), read("styles.css"), read("app.js")]);
+const [html, css, app, appSrs] = await Promise.all([
+  read("index.html"),
+  read("styles.css"),
+  read("app.js"),
+  read("app-srs.js"),
+]);
 
 // Склеиваем все паки в один массив
 const words = [];
@@ -54,10 +59,14 @@ const out = html
     '  <script src="./app.js"></script>',
     `  <script>\n${payload}\n  </script>\n  <script>\n${app}\n  </script>`
   )
+  .replace(
+    '  <script src="./app-srs.js"></script>',
+    `  <script>\n${appSrs}\n  </script>`
+  )
   .replace("<!DOCTYPE html>", `${banner}<!DOCTYPE html>`);
 
-if (out.includes('href="./styles.css"') || out.includes('src="./app.js"')) {
-  console.error("Не удалось встроить стили или скрипт — проверьте разметку index.html");
+if (out.includes('href="./styles.css"') || out.includes('src="./app.js"') || out.includes('src="./app-srs.js"')) {
+  console.error("Не удалось встроить стили или скрипты — проверьте разметку index.html");
   process.exit(1);
 }
 

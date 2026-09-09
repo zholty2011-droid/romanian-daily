@@ -1,5 +1,5 @@
 <!--
-  Romanian Daily — офлайн-сборка от 2026-09-08.
+  Romanian Daily — офлайн-сборка от 2026-09-09.
   Сгенерировано scripts/build-offline.mjs: не редактируйте файл вручную,
   правки вносите в index.html / app.js / styles.css / *.json и пересобирайте.
 -->
@@ -36,9 +36,11 @@ html[data-theme="dark"]{
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-rounded,system-ui,-apple-system,"Segoe UI",sans-serif}
+html,body{overflow-x:hidden}
 body{min-height:100vh}
 button,input,textarea,select{font:inherit;color:inherit}
 button{cursor:pointer;border:0;background:none}
+.wrap,main,.page{min-width:0}
 .wrap{min-height:100vh}
 .hdr{position:fixed;top:0;left:0;right:0;z-index:50;background:color-mix(in srgb,var(--bg) 82%, transparent);backdrop-filter:blur(16px);padding:14px 18px}
 .hdr-in{max-width:26rem;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
@@ -63,7 +65,7 @@ html[data-theme="dark"] .nav-plus{color:#161412}
 .bar.light{background:var(--line)}
 .bar>i{display:block;height:100%;background:#e8c9a2}
 .bar.light>i{background:var(--blue)}
-.btn{display:block;width:100%;padding:14px 16px;border-radius:999px;font-weight:700;text-align:center;margin-top:16px}
+.btn{display:block;width:100%;padding:14px 16px;border-radius:999px;font-weight:700;text-align:center;margin-top:16px;white-space:normal;line-height:1.25;overflow-wrap:anywhere}
 .btn-blue{background:var(--bg);color:var(--ink)}
 html[data-theme="dark"] .btn-blue{background:#f3ece3;color:#161412}
 .btn-green{background:#e8c9a2;color:#1c1916}
@@ -91,20 +93,23 @@ textarea,#paste-words,.typebox{width:100%;margin-top:8px;padding:12px 14px;borde
 .links button{flex:1;padding:10px;border-radius:999px;background:var(--bg);font-size:12px;font-weight:700}
 .status{margin-top:8px;font-size:13px;color:var(--good);font-weight:700}
 .err{color:var(--bad)}
-.word{text-align:center;padding:8px 0 4px}
-.word h2,.q{margin:0;font-family:Georgia,"Times New Roman",ui-serif,serif;font-size:42px;font-weight:700;letter-spacing:-.03em}
-.word .tr,.tr{color:var(--muted);font-style:italic;font-size:14px}
-.word .ru{color:var(--blue);font-size:22px;font-weight:700;margin:14px 0 0}
-.row{display:flex;align-items:center;justify-content:center;gap:10px}
-.row2{display:flex;gap:8px;margin-top:14px}
+.word{text-align:center;padding:8px 0 4px;min-width:0}
+.word h2,.q{margin:0;min-width:0;max-width:100%;font-family:Georgia,"Times New Roman",ui-serif,serif;font-size:42px;font-weight:700;letter-spacing:-.03em;overflow-wrap:anywhere;word-break:break-word}
+.word .tr,.tr{color:var(--muted);font-style:italic;font-size:14px;overflow-wrap:anywhere;word-break:break-word}
+.word .ru{color:var(--blue);font-size:22px;font-weight:700;margin:14px 0 0;overflow-wrap:anywhere;word-break:break-word}
+.row{display:flex;align-items:center;justify-content:center;gap:10px;min-width:0;max-width:100%}
+.row>*{min-width:0;max-width:100%}
+.row2{display:flex;gap:8px;margin-top:14px;min-width:0}
+.row2 .pill{min-width:0;white-space:normal;line-height:1.2;overflow-wrap:anywhere}
 .spk{width:42px;height:42px;display:flex;align-items:center;justify-content:center;background:var(--blue-soft);color:var(--blue);border-radius:50%}
 .icon{width:18px;height:18px;display:block}
 .muted{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;display:flex;justify-content:space-between}
 .ex-title{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;text-align:center}
-.ex{padding:14px 16px}
-.ex-top{display:flex;justify-content:space-between;gap:8px}
-.ex .ro{font-weight:700;margin:0}
-.pill{flex:1;padding:12px;border-radius:999px;font-weight:700}
+.ex{padding:14px 16px;min-width:0}
+.ex-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;min-width:0}
+.ex-top .ro{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.ex .ro{font-weight:700;margin:0;overflow-wrap:anywhere;word-break:break-word}
+.pill{flex:1;min-width:0;padding:12px;border-radius:999px;font-weight:700;white-space:normal;line-height:1.2;overflow-wrap:anywhere}
 .good{background:#e5f4ea;color:#215c38}
 .bad{background:#fde8e6;color:#8a1f16}
 html[data-theme="dark"] .good{background:#24352b;color:#b6e3c4}
@@ -113,10 +118,11 @@ html[data-theme="dark"] .bad{background:#3a2422;color:#ffc2bd}
 .opt{padding:14px 16px;text-align:left;font-weight:650;border-radius:18px}
 .opt.right{background:#e5f4ea}
 .opt.wrong{background:#fde8e6}
-.flip{padding:32px 18px;min-height:190px}
-.flip-ro{font-family:Georgia,"Times New Roman",ui-serif,serif;font-size:34px;font-weight:700;display:flex;gap:8px;align-items:center;justify-content:center}
-.flip-ru{margin-top:18px;font-size:20px;font-weight:700;color:var(--blue)}
-.ghost-hint{margin-top:28px;color:var(--muted)}
+.flip{padding:32px 18px;min-height:190px;min-width:0;overflow:hidden}
+.flip-ro{font-family:Georgia,"Times New Roman",ui-serif,serif;font-size:34px;font-weight:700;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;min-width:0;max-width:100%;text-align:center;overflow-wrap:anywhere;word-break:break-word}
+.flip-text{min-width:0;max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+.flip-ru{margin-top:18px;font-size:20px;font-weight:700;color:var(--blue);overflow-wrap:anywhere;word-break:break-word}
+.ghost-hint{margin-top:28px;color:var(--muted);overflow-wrap:anywhere}
 .h2{margin:0;font-family:Georgia,"Times New Roman",ui-serif,serif;font-size:28px;font-weight:700}
 .menu{padding:14px 16px;text-align:left;font-weight:650}
 .dir{display:flex;background:var(--paper);padding:4px;border-radius:999px;box-shadow:var(--shadow)}
@@ -148,42 +154,68 @@ html[data-theme="dark"] .bad{background:#3a2422;color:#ffc2bd}
 .daybtn{padding:9px 0;border-radius:12px;background:var(--paper);font-size:12px;font-weight:750;box-shadow:var(--shadow)}
 .daybtn.on{background:var(--ink);color:var(--bg)}
 .daybtn.done{color:var(--good)}
-
-.page.study{padding-bottom:210px}
-.dock{position:fixed;left:0;right:0;bottom:88px;z-index:60;max-width:26rem;margin:0 auto;padding:8px 18px 10px;background:color-mix(in srgb,var(--bg) 88%, transparent);backdrop-filter:blur(14px)}
+.page.study{padding-bottom:250px}
+.dock{position:fixed;left:0;right:0;bottom:88px;z-index:60;max-width:26rem;margin:0 auto;padding:8px 18px 10px;background:color-mix(in srgb,var(--bg) 88%, transparent);backdrop-filter:blur(14px);max-height:42vh;overflow-y:auto}
 .dock .btn{margin-top:8px}
 .pill.on.good{box-shadow:0 0 0 3px var(--good);transform:scale(1.03)}
 .pill.on.bad{box-shadow:0 0 0 3px var(--bad);transform:scale(1.03)}
-
 .ex-know{box-shadow:inset 3px 0 0 var(--good)}
 .ex-unknow{box-shadow:inset 3px 0 0 var(--bad)}
 .ex-mark{margin-top:8px;font-size:12px;font-weight:700;color:var(--muted)}
 .ex-mark.know{color:var(--good)}
 .ex-mark.unknow{color:var(--bad)}
-
 .diac{display:flex;gap:6px;justify-content:center;margin:8px 0}
 .diac button{width:42px;height:42px;border-radius:12px;background:var(--paper);font-weight:800;box-shadow:var(--shadow)}
 .tabs button.on{background:var(--ink);color:var(--bg)}
-
 .block{background:var(--paper);border-radius:24px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
 .block-h{display:flex;justify-content:space-between;align-items:baseline}
 .block-h h3{margin:0;font-family:Georgia,ui-serif,serif;font-size:20px}
 .block-h span{color:var(--muted);font-size:12px;font-weight:700}
 .mini{display:flex;flex-direction:column;gap:6px;max-height:220px;overflow:auto}
 .home .btn{margin-top:0}
-
 .hints{background:var(--paper);border-radius:20px;padding:12px 14px;box-shadow:var(--shadow)}
 .mask{font-family:Georgia,ui-serif,serif;font-size:22px;letter-spacing:.08em}
 .len{font-size:12px;color:var(--muted);letter-spacing:0;font-family:system-ui,sans-serif}
 .assoc{margin:8px 0 0;color:var(--muted);font-size:13px;line-height:1.4}
 .bank{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .tilech{min-width:36px;height:36px;padding:0 8px;border-radius:10px;background:var(--bg);font-weight:800;box-shadow:var(--shadow)}
-
 .letter-pad{margin-top:10px}
-.typed{min-height:44px;padding:10px 12px;border-radius:14px;background:var(--paper);font-family:Georgia,ui-serif,serif;font-size:28px;font-weight:700;letter-spacing:.02em;word-break:break-word}
-
+.typed{min-height:44px;padding:10px 12px;border-radius:14px;background:var(--paper);font-family:Georgia,ui-serif,serif;font-size:28px;font-weight:700;letter-spacing:.02em;overflow-wrap:anywhere;word-break:break-word}
 .tilech.del{min-width:52px;background:var(--ink);color:var(--bg);font-size:18px}
+.tilech.space{min-width:78px;padding:0 10px;font-size:12px}
+.day-grammar-box{margin-top:2px}
+.day-step-page .btn{margin-top:4px}
 .letter-pad .diac{flex-wrap:wrap}
+.due-line{margin:12px 0 0;font-size:13px;opacity:.8}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:8px}
+.cal i{display:block;aspect-ratio:1;border-radius:6px;background:var(--line)}
+.cal i.on{background:var(--blue)}
+.upd{position:sticky;top:0;z-index:60;display:flex;justify-content:space-between;align-items:center;gap:10px;max-width:26rem;margin:0 auto;padding:8px 14px;background:var(--ink);color:var(--bg);border-radius:0 0 16px 16px;font-size:13px;font-weight:700}
+.upd button{background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 12px}
+select#voice-name,input#voice-rate,input#reminder-time{width:100%;margin-top:8px;padding:10px;border-radius:14px;border:1px solid var(--line);background:var(--bg)}
+.heat{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-top:12px}
+.heat-cell{display:block;aspect-ratio:1;border-radius:4px;background:var(--line)}
+.heat-cell.future{opacity:.35}
+.heat-cell.l1{background:#cfe3da}
+.heat-cell.l2{background:#8fbfb0}
+.heat-cell.l3{background:var(--blue)}
+html[data-theme="dark"] .heat-cell.l1{background:#2b3a34}
+html[data-theme="dark"] .heat-cell.l2{background:#3c5a50}
+html[data-theme="dark"] .heat-cell.l3{background:#8fbfb0}
+.links button.on{background:var(--ink);color:var(--bg)}
+.links input[type="time"]{flex:1;padding:10px;border-radius:999px;background:var(--bg);border:1px solid var(--line);font-weight:700}
+.imp select.filebtn{background:var(--bg);color:var(--ink);text-align:left}
+#speech-rate{width:100%;margin-top:6px}
+.update-bar{position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:var(--blue);color:#fff;font-size:13px;font-weight:700;box-shadow:var(--shadow)}
+.update-bar button{background:#fff;color:var(--blue);padding:6px 14px;border-radius:999px;font-weight:700}
+
+@media (max-width:380px){
+  .page{padding-left:14px;padding-right:14px}
+  .word h2,.q{font-size:34px}
+  .flip-ro{font-size:28px}
+  .flip{padding-left:12px;padding-right:12px}
+  .pill{padding-left:8px;padding-right:8px}
+}
 
   </style>
 </head>
@@ -729,7 +761,7 @@ function cardsView(){
     <div class="muted"><span>Карточка ${state.quizIndex+1}/${state.quiz.length}</span></div>
     <div class="bar light"><i style="width:${((state.quizIndex+1)/state.quiz.length)*100}%"></i></div>
     <div class="flip">
-      <div class="flip-ro">${esc(w.word)} ${speakerBtn(w.word,"spk")}</div>
+      <div class="flip-ro"><span class="flip-text">${esc(w.word)}</span> ${speakerBtn(w.word,"spk")}</div>
       ${state.revealed?`<div class="flip-ru">${esc(w.translation)}<div class="tr">[${esc(w.transcription||"")}]</div></div>`:`<div class="ghost-hint">Сначала вспомни перевод</div>`}
     </div>
     ${dock(state.revealed
@@ -768,7 +800,7 @@ function examplesView(){
     ${(()=>{const st=exampleStatus(w.id, ex.ro); return st?`<div class="ex-mark ${st}">${st==="know"?"Уже отмечал: знаю":"Уже отмечал: не помню"}</div>`:"";})()}
     <div class="bar light"><i style="width:${((state.quizIndex+1)/state.quiz.length)*100}%"></i></div>
     <div class="flip">
-      <div class="flip-ro" style="font-size:26px">${esc(ex.ro)} ${speakerBtn(ex.ro,"spk")}</div>
+      <div class="flip-ro" style="font-size:26px"><span class="flip-text">${esc(ex.ro)}</span> ${speakerBtn(ex.ro,"spk")}</div>
       <p class="tr">[${esc(ex.transcription||w.transcription||"")}]</p>
       ${state.revealed
         ? `<div class="flip-ru">${esc(ex.ru||"")}<div class="tr">${esc(w.word)} — ${esc(w.translation)}</div></div>`
@@ -823,7 +855,7 @@ function letterPad(expect){
   return `<div class="letter-pad">
       <div class="typed">${esc(state.typeAnswer)||'<span class="ghost">слово появится здесь</span>'}</div>
       <div class="bank">${bank}</div>
-      <div class="diac">${dia}<button type="button" data-act="backspace" class="tilech del">⌫</button></div>
+      <div class="diac">${dia}<button type="button" data-act="space" class="tilech space">Пробел</button><button type="button" data-act="backspace" class="tilech del">⌫</button></div>
     </div>`;
 }
 function writeView(){
@@ -892,6 +924,21 @@ function grammarView(){
   }).join("");
   return `<div class="page"><button data-go="home" class="ghost-link">← Назад</button><h2 class="h2">Грамматика</h2><button data-act="gquiz" class="btn btn-blue">Пройти тест</button>${items}</div>`;
 }
+function dayGrammarView(){
+  const day=state.progress.currentDay;
+  const g=grammarFor(day);
+  return `<div class="page day-step-page">
+    <div class="muted"><span>День ${day}</span><span>шаг ${state.dayStep+1}/${state.daySteps.length}</span></div>
+    <div class="bar light"><i style="width:75%"></i></div>
+    <h2 class="h2">Грамматика дня</h2>
+    <div class="gbox day-grammar-box">
+      <h3>${esc(g[0]||"Правило дня")}</h3>
+      <ul>${g.slice(1).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    </div>
+    <p class="hint">Прочитай правило, затем проверь себя в коротком тесте.</p>
+    <button data-act="day-grammar-quiz" class="btn btn-blue">Пройти мини-тест</button>
+  </div>`;
+}
 function startExam(){
   const pool=state.words.filter(w=>w.day<=state.progress.currentDay);
   const list=pool.length>=8?pool:state.words;
@@ -955,10 +1002,11 @@ function phraseStudyView(){
   }
   const p=state.quiz[state.quizIndex].phrase;
   return `<div class="page study">
+    ${state.dayFlow?`<h2 class="h2">Фразы дня</h2>`:""}
     <div class="muted"><span>Фраза ${state.quizIndex+1}/${state.quiz.length}</span><span>${p.place==="home"?"дом":"на людях"}</span></div>
     <div class="bar light"><i style="width:${((state.quizIndex+1)/state.quiz.length)*100}%"></i></div>
     <div class="flip">
-      <div class="flip-ro" style="font-size:26px">${esc(p.ro)} ${speakerBtn(p.ro,"spk")}</div>
+      <div class="flip-ro" style="font-size:26px"><span class="flip-text">${esc(p.ro)}</span> ${speakerBtn(p.ro,"spk")}</div>
       ${state.revealed?`<div class="flip-ru">${esc(p.ru)}</div>`:`<div class="ghost-hint">Что это значит?</div>`}
     </div>
     ${dock(state.revealed
@@ -984,7 +1032,7 @@ function phraseWriteView(){
     <input id="type-box" class="typebox" value="${esc(state.typeAnswer)}" placeholder="scrie în română" ${state.typeChecked!==null?"disabled":""} autocomplete="off">
     <div class="letter-pad">
       <div class="typed">${esc(state.typeAnswer)||'<span class="ghost">фраза появится здесь</span>'}</div>
-      <div class="diac">${["ă","â","î","ș","ț"].map(ch=>`<button type="button" data-act="dia" data-ch="${ch}">${ch}</button>`).join("")}<button type="button" data-act="backspace" class="tilech del">⌫</button></div>
+      <div class="diac">${["ă","â","î","ș","ț"].map(ch=>`<button type="button" data-act="dia" data-ch="${ch}">${ch}</button>`).join("")}<button type="button" data-act="space" class="tilech space">Пробел</button><button type="button" data-act="backspace" class="tilech del">⌫</button></div>
     </div>
     ${fb}
     ${state.typeChecked===null
@@ -1032,6 +1080,7 @@ function renderApp(){
   else if(state.view==="examples") main=examplesView();
   else if(state.view==="write") main=writeView();
   else if(state.view==="grammar") main=grammarView();
+  else if(state.view==="day-grammar") main=dayGrammarView();
   else if(state.view==="gquiz") main=gquizView();
   else if(state.view==="phrases") main=phrasesView();
   else if(state.view==="phrase") main=phraseStudyView();
@@ -1056,10 +1105,9 @@ function toggleLearned(id){
   setProgress({...state.progress, learnedWordIds:ids});
 }
 function startDayFlow(){
-  const mix=Math.random()<0.3;
-  state.daySteps=mix
-    ? shuffle(["words","spell","grammar","phrases"])
-    : ["words","spell","grammar","phrases"];
+  // Фиксированный порядок помогает пройти все части дня и не пропустить
+  // грамматику или фразы.
+  state.daySteps=["words","spell","grammar","phrases"];
   state.dayStep=0;
   state.dayFlow=state.daySteps[0];
   runDayStep();
@@ -1075,7 +1123,8 @@ function runDayStep(){
     state.spellMode=true; state.quizDir="ru-ro"; startWrite("day"); return;
   }
   if(step==="grammar"){
-    state.gq=dayGrammarQs(); state.gqIndex=0; state.gqPicked=null; state.view="gquiz"; render(); return;
+    // Сначала показываем правило дня, затем запускаем его мини-тест.
+    state.view="day-grammar"; render(); return;
   }
   if(step==="phrases"){
     const list=dayPhrases();
@@ -1234,6 +1283,10 @@ root.addEventListener("click", async (e)=>{
   if(act==="qs-c-6"){ state.quizSet={...state.quizSet,choices:6}; saveProgress({...state.progress,quizSet:state.quizSet}); render(); }
   if(act==="qs-mix"){ state.quizSet={...state.quizSet,mix:!state.quizSet.mix}; saveProgress({...state.progress,quizSet:state.quizSet}); render(); }
   if(act==="gquiz") startGrammarQuiz();
+  if(act==="day-grammar-quiz"){
+    state.gq=dayGrammarQs();
+    state.gqIndex=0; state.gqPicked=null; state.view="gquiz"; render();
+  }
   if(act==="gquiz-day"){
     state.gq=dayGrammarQs();
     state.gqIndex=0; state.gqPicked=null; state.view="gquiz"; render();
@@ -1251,10 +1304,11 @@ root.addEventListener("click", async (e)=>{
   if(act==="pf-home"){ state.phraseFilter="home"; render(); }
   if(act==="pf-out"){ state.phraseFilter="out"; render(); }
   if(act==="phrase-next"){ state.quizIndex+=1; state.revealed=false; state.choice=null; render(); }
-  if(act==="dia" || act==="backspace"){
+  if(act==="dia" || act==="space" || act==="backspace"){
     const box=document.getElementById("type-box");
     if(box && state.typeChecked===null){
       if(act==="backspace") box.value=(box.value||"").slice(0,-1);
+      else if(act==="space") box.value=(box.value||"")+" ";
       else box.value=(box.value||"")+(t.getAttribute("data-ch")||"");
       state.typeAnswer=box.value;
       const preview=document.querySelector(".typed");
@@ -1781,6 +1835,193 @@ root.addEventListener("click",(e)=>{
   }
   state.words = loadSavedWords() || WORDS;
   render();
+})();
+
+  </script>
+  <script>
+/* SRS extension loaded after app.js */
+(function () {
+  const SETTINGS_KEY = "romanian_daily_settings";
+  const SRS_BOXES = [1, 3, 7, 14, 30, 60];
+  function todayISO() { return new Date().toISOString().split("T")[0]; }
+  function addDaysISO(iso, n) {
+    const d = new Date((iso || todayISO()) + "T12:00:00");
+    d.setDate(d.getDate() + n);
+    return d.toISOString().split("T")[0];
+  }
+  function loadSettings() {
+    try {
+      const raw = localStorage.getItem(SETTINGS_KEY);
+      if (raw) {
+        const s = JSON.parse(raw);
+        return { voiceRate: typeof s.voiceRate === "number" ? s.voiceRate : 0.85, voiceName: s.voiceName || "", reminder: s.reminder || "" };
+      }
+    } catch (e) {}
+    return { voiceRate: 0.85, voiceName: "", reminder: "" };
+  }
+  function saveSettings(s) { localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); }
+  state.settings = state.settings || loadSettings();
+  state.updateReady = !!state.updateReady;
+  if (!state.progress.srs) state.progress.srs = {};
+  if (!state.progress.hardStreak) state.progress.hardStreak = {};
+  if (!state.progress.studyDays) state.progress.studyDays = [];
+  window.dueSrsWords = function () {
+    const today = todayISO();
+    return state.words.filter(function (w) {
+      const e = (state.progress.srs || {})[w.id];
+      return e && e.due && e.due <= today;
+    });
+  };
+  function applySrs(id, ok) {
+    const srs = Object.assign({}, state.progress.srs || {});
+    const cur = srs[id] || { box: 0, due: todayISO() };
+    let box = cur.box || 0;
+    if (ok) box = Math.min(SRS_BOXES.length, box + 1);
+    else box = Math.max(0, box - 1);
+    const interval = box === 0 ? 0 : SRS_BOXES[box - 1];
+    srs[id] = { box: box, due: addDaysISO(todayISO(), interval) };
+    return srs;
+  }
+  function noteStudyDay(p) {
+    const today = todayISO();
+    const days = Array.isArray(p.studyDays) ? p.studyDays.slice() : [];
+    if (days.indexOf(today) < 0) days.push(today);
+    return days.slice(-400);
+  }
+  markResult = function (id, ok) {
+    const p = state.progress;
+    const stats = { attempts: (p.stats.attempts || 0) + 1, correct: (p.stats.correct || 0) + (ok ? 1 : 0) };
+    let wrong = p.wrongIds.filter(function (x) { return x !== id; });
+    let learned = p.learnedWordIds.slice();
+    const hard = Object.assign({}, p.hardStreak || {});
+    if (ok) {
+      if (learned.indexOf(id) < 0) learned.push(id);
+      hard[id] = (hard[id] || 0) + 1;
+      if (hard[id] >= 3) { wrong = wrong.filter(function (x) { return x !== id; }); delete hard[id]; }
+    } else {
+      if (wrong.indexOf(id) < 0) wrong.push(id);
+      hard[id] = 0;
+    }
+    setProgress(Object.assign({}, p, { stats: stats, wrongIds: wrong, learnedWordIds: learned, srs: applySrs(id, ok), hardStreak: hard, studyDays: noteStudyDay(p) }));
+  };
+  reviewWords = function () {
+    const ids = new Set(state.progress.wrongIds);
+    const due = new Set(dueSrsWords().map(function (w) { return w.id; }));
+    let pool = state.words.filter(function (w) {
+      return ids.has(w.id) || due.has(w.id) || (!state.progress.learnedWordIds.includes(w.id) && w.day <= state.progress.currentDay);
+    });
+    if (pool.length < 4) pool = state.words.filter(function (w) { return w.day <= state.progress.currentDay; });
+    return pool.sort(function () { return 0.5 - Math.random(); }).slice(0, 10);
+  };
+  const _home = homeView;
+  homeView = function () {
+    const html = _home();
+    const due = dueSrsWords().length;
+    const line = '<p class="due-line">' + (due ? "Сегодня к повторению: " + due : "Повторений на сегодня нет") + "</p>";
+    return html.replace('<button data-act="start-day" class="btn btn-blue">Начать день</button>', line + '<button data-act="start-day" class="btn btn-blue">Начать день</button>').replace('<button data-go="import">Свои слова</button>', '<button data-go="import">Свои слова</button><button data-go="stats">Статистика</button><button data-go="settings">Настройки</button>');
+  };
+  window.statsView = function () {
+    const p = state.progress;
+    const days = new Set(p.studyDays || []);
+    const cells = [];
+    const start = new Date();
+    start.setDate(start.getDate() - 55);
+    start.setHours(12, 0, 0, 0);
+    for (let i = 0; i < 56; i++) {
+      const d = new Date(start);
+      d.setDate(start.getDate() + i);
+      const iso = d.toISOString().split("T")[0];
+      cells.push('<i class="' + (days.has(iso) ? "on" : "") + '" title="' + iso + '"></i>');
+    }
+    return '<div class="page"><button data-go="home" class="ghost-link">← Назад</button><h2 class="h2">Статистика</h2><div class="stats3"><div class="card"><div class="n">' + p.learnedWordIds.length + '</div><div class="l">выучено</div></div><div class="card"><div class="n">' + (state.words.length || 1) + '</div><div class="l">всего</div></div><div class="card"><div class="n">' + acc() + '%</div><div class="l">точность</div></div></div><div class="block"><div class="block-h"><h3>Повторения</h3><span>' + dueSrsWords().length + ' сегодня</span></div><p class="hint">Интервалы: 1 → 3 → 7 → 14 → 30 → 60. Трудное слово уходит после 3 верных ответов.</p></div><div class="block"><div class="block-h"><h3>Календарь</h3><span>8 недель</span></div><div class="cal">' + cells.join("") + '</div><p class="hint">Серия: ' + p.streak + ' дн.</p></div></div>';
+  };
+  window.settingsView = function () {
+    const s = state.settings || loadSettings();
+    const voices = (window.speechSynthesis ? window.speechSynthesis.getVoices() : []).filter(function (v) { return v.lang; });
+    const opts = ['<option value="">Авто</option>'].concat(voices.slice(0, 24).map(function (v) {
+      return '<option value="' + esc(v.name) + '"' + (s.voiceName === v.name ? " selected" : "") + '>' + esc(v.name) + '</option>';
+    }));
+    return '<div class="page"><button data-go="home" class="ghost-link">← Назад</button><h2 class="h2">Настройки</h2><div class="block"><div class="block-h"><h3>Озвучка</h3></div><label class="hint">Скорость</label><input id="voice-rate" type="range" min="0.6" max="1.2" step="0.05" value="' + s.voiceRate + '"><select id="voice-name">' + opts.join("") + '</select></div><div class="block"><div class="block-h"><h3>Напоминание</h3></div><input id="reminder-time" type="time" value="' + esc(s.reminder || "") + '"></div><div class="block"><div class="block-h"><h3>Резервная копия</h3></div><button class="filebtn" data-act="export-backup">Скачать JSON</button><input id="backup-file" class="filebtn" type="file" accept="application/json,.json"></div></div>';
+  };
+  const _renderApp = renderApp;
+  renderApp = function () {
+    if (state.view === "stats" || state.view === "settings") {
+      document.documentElement.setAttribute("data-theme", state.theme);
+      const main = state.view === "stats" ? statsView() : settingsView();
+      root.innerHTML = '<div class="wrap">' + header() + '<main>' + main + '</main>' + nav() + '</div>';
+      return;
+    }
+    _renderApp();
+    const page = root.querySelector(".study .word, .flip");
+    if (page && !page.dataset.swipeBound) {
+      page.dataset.swipeBound = "1";
+      var x0 = null;
+      page.addEventListener("touchstart", function (ev) { x0 = ev.changedTouches[0].clientX; }, { passive: true });
+      page.addEventListener("touchend", function (ev) {
+        if (x0 == null) return;
+        const dx = ev.changedTouches[0].clientX - x0;
+        x0 = null;
+        if (Math.abs(dx) < 60) return;
+        if (dx > 0) document.querySelector("[data-act=know]") && document.querySelector("[data-act=know]").click();
+        else document.querySelector("[data-act=unknow]") && document.querySelector("[data-act=unknow]").click();
+      }, { passive: true });
+    }
+  };
+  function exportBackup() {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify({ progress: state.progress, settings: state.settings, theme: state.theme }, null, 2)], { type: "application/json" }));
+    a.download = "romanian-daily-backup.json";
+    a.click();
+  }
+  function importBackup(file) {
+    const reader = new FileReader();
+    reader.onload = function () {
+      try {
+        const data = JSON.parse(reader.result);
+        if (data.progress) setProgress(Object.assign({}, state.progress, data.progress));
+        if (data.settings) { state.settings = Object.assign({}, loadSettings(), data.settings); saveSettings(state.settings); }
+        if (data.theme) { state.theme = data.theme; localStorage.setItem("romanian_daily_theme", state.theme); }
+        state.view = "home"; render();
+      } catch (err) { alert("Не удалось прочитать файл"); }
+    };
+    reader.readAsText(file);
+  }
+  speakRomanian = function (text) {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+    const pref = state.settings && state.settings.voiceName;
+    const voice = (pref && voices.find(function (v) { return v.name === pref; })) || voices.find(function (v) { return v.lang && v.lang.indexOf("ro") === 0; }) || voices.find(function (v) { return /romanian/i.test(v.name); });
+    if (voice) u.voice = voice;
+    u.lang = "ro-RO";
+    u.rate = (state.settings && state.settings.voiceRate) || 0.85;
+    window.speechSynthesis.speak(u);
+  };
+  root.addEventListener("click", function (e) {
+    const el = e.target.closest("[data-act]");
+    const act = el && el.getAttribute("data-act");
+    if (act === "export-backup") exportBackup();
+    if (act === "apply-update") location.reload();
+  });
+  root.addEventListener("change", function (e) {
+    if (e.target.id === "backup-file" && e.target.files && e.target.files[0]) importBackup(e.target.files[0]);
+    if (e.target.id === "voice-name") { state.settings = Object.assign({}, state.settings, { voiceName: e.target.value }); saveSettings(state.settings); }
+    if (e.target.id === "reminder-time") { state.settings = Object.assign({}, state.settings, { reminder: e.target.value }); saveSettings(state.settings); }
+  });
+  root.addEventListener("input", function (e) {
+    if (e.target.id === "voice-rate") { state.settings = Object.assign({}, state.settings, { voiceRate: parseFloat(e.target.value) }); saveSettings(state.settings); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.code === "Space" && ["INPUT", "TEXTAREA", "SELECT"].indexOf((e.target && e.target.tagName) || "") < 0) {
+      const btn = document.querySelector("[data-act=next-word],[data-act=quiz-next],[data-act=reveal]");
+      if (btn) { e.preventDefault(); btn.click(); }
+    }
+    if (/^[1-9]$/.test(e.key)) {
+      const btn = document.querySelectorAll("[data-pick],[data-gopt]")[parseInt(e.key, 10) - 1];
+      if (btn) btn.click();
+    }
+  });
 })();
 
   </script>
